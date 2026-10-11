@@ -18,7 +18,43 @@ tingkat A1 menuju A2.
 | Catatan Qur'an vs MSA | 18 kata, 5 catatan pemakaian, 10 soal |
 | Total kartu | 332 |
 | Lembar kerja tertulis | 12 lembar + 12 kunci jawaban |
-| Pengujian otomatis | 184 |
+| Pengujian otomatis | 190 |
+
+## Dua cara memakai
+
+### 1. Aplikasi kartu di browser
+
+**<https://hivana98.github.io/Bahasa-Arab/>** &mdash; tidak perlu memasang apa pun.
+
+Lima modul dalam bentuk kartu bolak-balik: kosakata (dua arah), tata bahasa dan
+Qur'an vs MSA (pilihan ganda), akar kata, serta membaca tanpa harakat. Sakelar
+"Sembunyikan harakat" mengubah kartu kosakata mana pun menjadi latihan membaca
+gundul. Progres memakai lima kotak Leitner yang sama dengan versi terminal dan
+tersimpan di `localStorage` peramban Anda sendiri.
+
+Pintasan papan ketik: `Spasi` balik kartu &middot; `&larr;` `&rarr;` navigasi
+&middot; `1`&ndash;`4` pilih jawaban &middot; `H` sudah hafal &middot; `B` belum
+hafal &middot; `S` acak &middot; `T` alih huruf &middot; `/` cari.
+
+Untuk menjalankannya di komputer sendiri, cukup peladen statis apa pun:
+
+```bash
+python -m http.server 8765
+```
+
+lalu buka <http://localhost:8765>. Berkas `index.html` juga bisa dibuka langsung
+(`file://`) karena datanya dimuat lewat tag `<script>`, bukan `fetch()`.
+
+### 2. Latihan di terminal
+
+`python quiz.py` memberi hal yang tidak ada di versi web: jawaban yang **ditulis
+sendiri** (bukan pilihan ganda), sesi berbatas waktu, interleaving antar modul,
+pembatasan materi baru per sesi, dan pengenalan materi menurut urutan tahap.
+Rinciannya ada di bawah.
+
+Progres kedua versi terpisah: aplikasi web memakai `localStorage`, versi terminal
+memakai `progress.json`. Keduanya tidak saling tahu, jadi pilih salah satu untuk
+materi yang sama.
 
 ## Yang TIDAK ada di sini
 
@@ -273,7 +309,7 @@ tidak saling tahu, sehingga satu kartu akan dijadwalkan oleh dua sistem sekaligu
 python -m pytest
 ```
 
-184 pengujian. Yang diperiksa:
+190 pengujian. Yang diperiksa:
 
 | Berkas | Isi |
 |:-------|:----|
@@ -284,7 +320,7 @@ python -m pytest
 | `test_leitner.py` | Kenaikan dan penurunan kotak, jeda sesuai tabel, jatuh tempo, simpan dan muat ulang, berkas rusak tidak merusak pemuatan, penulisan atomik. |
 | `test_session.py` | Batas kartu baru, ulangan tidak tergeser habis oleh materi baru, kartu belum jatuh tempo tidak muncul, interleaving mencampur mode, satu kata dilatih dua arah, materi baru masuk menurut urutan tahap, sesi dapat diulang dengan seed sama. |
 | `test_translit.py` | Kasus alih huruf yang dipatok, lam syamsiyah dileburkan, tidak ada huruf Arab yang tertinggal. |
-| `test_exports.py` | Semua hasil ekspor mutakhir terhadap data, kolom kunci sesuai, format Anki benar. |
+| `test_exports.py` | Semua hasil ekspor mutakhir terhadap data (CSV, Anki, lembar kerja, dan `webdata.js`), kolom kunci sesuai, format Anki benar, kunci soal di `webdata.js` sama dengan di `data/`, dan aplikasi web tidak memakai `fetch()` sehingga tetap jalan di `file://`. |
 | `test_worksheets.py` | Kunci berada di berkas terpisah, semua bagian ada, soal membaca disajikan tanpa harakat sedangkan kuncinya berharakat penuh, dan setiap butir berasal dari data. |
 | `test_sources.py` | Tidak ada rujukan ayat di Modul 1-4, `quran_examples` kosong selama `sources/` kosong, setiap akar yang dikosongkan memiliki penjelasan, `NEEDS_REVIEW.md` ada dan id yang disebutnya benar-benar ada. |
 
@@ -317,7 +353,8 @@ dan didaftar di `data/NEEDS_REVIEW.md`.
 python -m pytest                      # 2. pastikan data masih sah
 python tools/build_exports.py         # 3. buat ulang CSV dan Anki
 python tools/build_worksheets.py      # 4. buat ulang lembar kerja
-python -m pytest                      # 5. pastikan ekspor mutakhir
+python tools/build_web.py             # 5. buat ulang data aplikasi web
+python -m pytest                      # 6. pastikan semua hasil mutakhir
 ```
 
 Pengujian `test_exports.py` akan gagal bila data sudah berubah tetapi ekspornya
@@ -355,6 +392,11 @@ Perkecualian yang diizinkan validator, beserta alasannya:
 ## Struktur folder
 
 ```
+index.html            aplikasi kartu di browser (GitHub Pages)
+style.css             tiga tema: qirtas, lail, zaytun
+app.js                kartu, saringan, Leitner di localStorage
+webdata.js            data aplikasi web (dibuat ulang)
+.nojekyll             agar GitHub Pages tidak memproses berkas lewat Jekyll
 data/                 sumber data JSON + NEEDS_REVIEW.md
   csv/                ekspor CSV (dibuat ulang)
 arabdrill/            paket inti
@@ -365,7 +407,7 @@ arabdrill/            paket inti
   questions.py        pembuat soal per mode
   session.py          penyusun sesi (jatuh tempo, materi baru, interleaving)
 quiz.py               antarmuka baris perintah
-tools/                build_exports.py, build_worksheets.py
+tools/                build_exports.py, build_worksheets.py, build_web.py
 anki/                 ekspor Anki (dibuat ulang) + pemetaan field
 worksheets/           lembar kerja (dibuat ulang)
   answers/            kunci jawaban

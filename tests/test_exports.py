@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import csv
 import os
+import re
 
 import pytest
 
@@ -161,3 +162,85 @@ def test_anki_jumlah_kolom_seragam_per_berkas():
             rows = [r for r in csv.reader(f) if r and not r[0].startswith("#")]
         lebar = {len(r) for r in rows}
         assert len(lebar) == 1, f"{nama}: jumlah kolom tidak seragam {lebar}"
+
+
+# ------------------------------------------------- aplikasi kartu di web ---
+
+def test_webdata_mutakhir(tmp_path):
+    """webdata.js harus sama dengan hasil pembuatan ulang dari data/*.json."""
+    mod = load_tool("build_web")
+    tujuan = tmp_path / "webdata.js"
+    mod.OUT = str(tujuan)
+    mod.main()
+    baru = tujuan.read_text(encoding="utf-8")
+    lama = open(os.path.join(ROOT, "webdata.js"), encoding="utf-8").read()
+    assert baru == lama, (
+        "webdata.js tidak mutakhir; jalankan python tools/build_web.py"
+    )
+
+
+def test_webdata_hanya_ascii():
+    """Teks Arab ditulis sebagai escape Unicode agar bebas dari charset peladen."""
+    isi = open(os.path.join(ROOT, "webdata.js"), encoding="utf-8").read()
+    bukan_ascii = {c for c in isi if ord(c) > 127}
+    assert not bukan_ascii, f"ada karakter non-ASCII: {sorted(bukan_ascii)[:10]}"
+
+
+def test_webdata_memuat_semua_modul():
+    import json
+    import re
+
+    isi = open(os.path.join(ROOT, "webdata.js"), encoding="utf-8").read()
+    m = re.search(r"const ARAB_DATA = (\{.*\});\s*$", isi, flags=re.S)
+    assert m, "tidak menemukan ARAB_DATA di webdata.js"
+    data = json.loads(m.group(1))
+
+    from arabdrill import dataio
+
+    assert len(data["kosakata"]) == len(dataio.vocab_entries())
+    assert len(data["tatabahasa"]) == len(dataio.grammar_items())
+    assert len(data["topik"]) == len(dataio.grammar_topics())
+    assert len(data["pola"]) == len(dataio.root_patterns())
+    assert len(data["quran"]) == len(dataio.quran_entries())
+    assert len(data["baca"]) == len(dataio.reading_passages()) + len(dataio.reading_items())
+    assert len(data["akar"]) == sum(len(f["members"]) for f in dataio.root_families())
+
+
+def test_webdata_kunci_soal_konsisten():
+    """Kunci jawaban di webdata.js harus sama dengan kunci di data/*.json."""
+    import json
+    import re
+
+    isi = open(os.path.join(ROOT, "webdata.js"), encoding="utf-8").read()
+    data = json.loads(re.search(r"const ARAB_DATA = (\{.*\});\s*$", isi, flags=re.S).group(1))
+
+    from arabdrill import dataio
+
+    kunci = {i["id"]: i["options"][i["answer"]] for i in dataio.grammar_items()}
+    for x in data["tatabahasa"]:
+        assert x["options"][x["answer"]] == kunci[x["id"]], x["id"]
+
+    kunci = {i["id"]: i["options"][i["answer"]] for i in dataio.reading_items()}
+    for x in data["baca"]:
+        if x["kind"] == "soal":
+            assert x["options"][x["answer"]] == kunci[x["id"]], x["id"]
+
+
+def test_berkas_situs_web_ada():
+    for nama in ("index.html", "style.css", "app.js", "webdata.js", ".nojekyll"):
+        assert os.path.exists(os.path.join(ROOT, nama)), f"{nama} tidak ada"
+
+
+def test_index_html_memuat_skripnya():
+    html = open(os.path.join(ROOT, "index.html"), encoding="utf-8").read()
+    assert 'src="webdata.js"' in html
+    assert 'src="app.js"' in html
+    assert 'href="style.css"' in html
+    # Data dimuat lewat <script>, bukan permintaan jaringan, supaya aplikasi
+    # juga jalan ketika index.html dibuka langsung dari berkas (file://).
+    # Pola di bawah mencari panggilan sungguhan (fetch dengan argumen), bukan
+    # kata "fetch()" yang muncul di dalam komentar.
+    app = open(os.path.join(ROOT, "app.js"), encoding="utf-8").read()
+    panggilan = re.search(r"fetch\s*\(\s*[\"'`a-zA-Z_$]", app)
+    assert not panggilan, f"app.js memanggil fetch(): {panggilan.group(0)!r}"
+    assert "XMLHttpRequest" not in app

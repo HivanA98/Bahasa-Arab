@@ -1,0 +1,13 @@
+id,stage,level,ar_level1,ar_level3,gloss,keep
+rp01,1,1,الْبَيْتُ كَبِيرٌ وَالْحَدِيقَةُ جَمِيلَةٌ.,البيت كبير والحديقة جميلة.,Rumah itu besar dan tamannya indah.,0
+rp02,1,1,أَبِي مُهَنْدِسٌ وَأُمِّي مُدَرِّسَةٌ.,أبي مهندس وأمي مدرسة.,Ayah saya insinyur dan ibu saya guru.,0; 2
+rp03,2,1,الطَّالِبُ يَقْرَأُ كِتَابًا جَدِيدًا فِي الْمَكْتَبَةِ.,الطالب يقرأ كتابا جديدا في المكتبة.,Pelajar itu membaca sebuah buku baru di perpustakaan.,0; 1
+rp04,2,1,فِي الْغُرْفَةِ سَرِيرٌ وَكُرْسِيٌّ وَمَكْتَبٌ.,في الغرفة سرير وكرسي ومكتب.,"Di dalam kamar itu ada tempat tidur, kursi, dan meja tulis.",1
+rp05,3,2,ذَهَبْتُ إِلَى السُّوقِ مَعَ أُمِّي أَمْسِ.,ذهبت إلى السوق مع أمي أمس.,Saya pergi ke pasar bersama ibu saya kemarin.,0; 4
+rp06,3,2,الْمُدَرِّسُ يَسْأَلُ وَالطُّلَّابُ يَفْهَمُونَ.,المدرس يسأل والطلاب يفهمون.,Guru itu bertanya dan para pelajar memahami.,0; 2
+rp07,4,2,عِنْدِي ثَلَاثَةُ كُتُبٍ وَقَلَمٌ وَاحِدٌ.,عندي ثلاثة كتب وقلم واحد.,Saya punya tiga buku dan satu pulpen.,1; 2
+rp08,4,2,الْمَطَارُ بَعِيدٌ عَنِ الْمَدِينَةِ.,المطار بعيد عن المدينة.,Bandara itu jauh dari kota.,2
+rp09,5,3,فَتَحَ الْوَلَدُ الْبَابَ وَخَرَجَ مِنَ الْبَيْتِ.,فتح الولد الباب وخرج من البيت.,Anak itu membuka pintu lalu keluar dari rumah.,0; 3
+rp10,5,3,نَحْنُ نَدْرُسُ الْعَرَبِيَّةَ فِي الْجَامِعَةِ.,نحن ندرس العربية في الجامعة.,Kami belajar bahasa Arab di universitas.,1
+rp11,6,3,الطَّعَامُ عَلَى الطَّاوِلَةِ وَالْمَاءُ فِي الْكُوبِ.,الطعام على الطاولة والماء في الكوب.,Makanan itu di atas meja dan airnya di dalam gelas.,
+rp12,6,3,سَأَلَ الطَّالِبُ الْمُدَرِّسَ عَنِ الدَّرْسِ الْجَدِيدِ.,سأل الطالب المدرس عن الدرس الجديد.,Pelajar itu bertanya kepada guru tentang pelajaran yang baru.,0

@@ -1,0 +1,189 @@
+id,ar,translit,gloss,alt,pos,gender,fem,plural,mudhari,root,root_note,example_ar,example_gloss,cat,stage,note
+v001,أَنَا,ʾanā,saya,aku,dhamir,,,,,,,أَنَا طَالِبٌ.,Saya seorang pelajar.,dhamir,1,"Dhamir munfashil (kata ganti terpisah), orang pertama tunggal, sama untuk lelaki dan perempuan."
+v002,أَنْتَ,ʾanta,kamu (lelaki),engkau (lk); anda (lk),dhamir,m,,,,,,أَنْتَ مُدَرِّسٌ.,Kamu seorang guru.,dhamir,1,Perhatikan fathah pada ta': أَنْتَ untuk lelaki.
+v003,أَنْتِ,ʾanti,kamu (perempuan),engkau (pr); anda (pr),dhamir,f,,,,,,أَنْتِ طَالِبَةٌ.,Kamu seorang pelajar (perempuan).,dhamir,1,Hanya harakat terakhir yang membedakan dari أَنْتَ: kasrah = perempuan.
+v004,هُوَ,huwa,dia (lelaki),ia (lk),dhamir,m,,,,,,هُوَ طَبِيبٌ.,Dia seorang dokter.,dhamir,1,
+v005,هِيَ,hiya,dia (perempuan),ia (pr),dhamir,f,,,,,,هِيَ مُدَرِّسَةٌ.,Dia seorang guru (perempuan).,dhamir,1,
+v006,نَحْنُ,naḥnu,"kami, kita",kami; kita,dhamir,,,,,,,نَحْنُ طُلَّابٌ.,Kami para pelajar.,dhamir,1,Bahasa Arab tidak membedakan 'kami' (eksklusif) dan 'kita' (inklusif).
+v007,أَنْتُمْ,ʾantum,kalian (lelaki),kamu sekalian (lk),dhamir,m,,,,,,أَنْتُمْ مُهَنْدِسُونَ.,Kalian para insinyur.,dhamir,1,Dipakai juga untuk kelompok campuran lelaki dan perempuan.
+v008,أَنْتُنَّ,ʾantunna,kalian (perempuan),kamu sekalian (pr),dhamir,f,,,,,,أَنْتُنَّ طَالِبَاتٌ.,Kalian para pelajar (perempuan).,dhamir,1,Nun bersyaddah: أَنْتُنَّ.
+v009,هُمْ,hum,mereka (lelaki),,dhamir,m,,,,,,هُمْ طُلَّابٌ.,Mereka para pelajar.,dhamir,1,
+v010,هُنَّ,hunna,mereka (perempuan),,dhamir,f,,,,,,هُنَّ مُدَرِّسَاتٌ.,Mereka para guru (perempuan).,dhamir,1,
+v011,أَنْتُمَا,ʾantumā,kamu berdua,kalian berdua,dhamir,,,,,,,أَنْتُمَا صَدِيقَانِ.,Kamu berdua adalah dua orang teman.,dhamir,1,"Bentuk mutsanna (dual). Bahasa Arab punya bentuk khusus untuk 'dua', berbeda dari jamak."
+v012,هُمَا,humā,mereka berdua,,dhamir,,,,,,,هُمَا أَخَوَانِ.,Mereka berdua adalah dua saudara.,dhamir,1,Dipakai untuk dua lelaki maupun dua perempuan.
+v013,هَذَا,hadhā,ini (lelaki),ini (mudzakkar),isyarah,m,,,,,,هَذَا بَابٌ.,Ini pintu.,isyarah,1,"Ditulis tanpa alif setelah ha' (هَذَا), tetapi dibaca panjang: haadzaa."
+v014,هَذِهِ,hadhihi,ini (perempuan),ini (mu'annats),isyarah,f,,,,,,هَذِهِ نَافِذَةٌ.,Ini jendela.,isyarah,1,"Dibaca haadzihi, ha' terakhir berharakat kasrah."
+v015,ذَلِكَ,dhalika,itu (lelaki),itu (mudzakkar),isyarah,m,,,,,,ذَلِكَ رَجُلٌ.,Itu seorang lelaki.,isyarah,1,Dibaca dzaalika; alif panjang tidak ditulis.
+v016,تِلْكَ,tilka,itu (perempuan),itu (mu'annats),isyarah,f,,,,,,تِلْكَ مَدِينَةٌ كَبِيرَةٌ.,Itu kota yang besar.,isyarah,1,
+v017,هَؤُلَاءِ,haʾulāʾi,"mereka ini, ini (jamak)",ini semua,isyarah,,,,,,,هَؤُلَاءِ طُلَّابٌ.,Mereka ini para pelajar.,isyarah,1,Umumnya dipakai untuk jamak manusia.
+v018,أُولَئِكَ,ʾūlaʾika,"mereka itu, itu (jamak)",itu semua,isyarah,,,,,,,أُولَئِكَ مُدَرِّسُونَ.,Mereka itu para guru.,isyarah,1,Waw pada أُولَئِكَ ditulis tetapi tidak dibaca (ejaan khas).
+v019,مَا,mā,apa (diikuti kata benda),apa,istifham,,,,,,,مَا هَذَا؟,Apa ini?,istifham,1,"مَا bertanya tentang benda dan biasanya diikuti kata benda atau kata ganti. Untuk pertanyaan ya/tidak dipakai هَلْ, bukan مَا."
+v020,مَاذَا,mādhā,apa (diikuti kata kerja),apa yang,istifham,,,,,,,مَاذَا تَقْرَأُ؟,Apa yang kamu baca?,istifham,1,"Kecenderungan umum: مَاذَا + kata kerja, مَا + kata benda. Keduanya bisa bertukar dalam pemakaian tertentu."
+v021,مَنْ,man,siapa,,istifham,,,,,,,مَنْ هَذَا؟,Siapa ini?,istifham,1,Jangan tertukar dengan مِنْ (dari) yang berharakat kasrah.
+v022,أَيْنَ,ʾayna,di mana,mana,istifham,,,,,,,أَيْنَ الْكِتَابُ؟,Di mana buku itu?,istifham,1,
+v023,كَيْفَ,kayfa,bagaimana,,istifham,,,,,,,كَيْفَ حَالُكَ؟,Bagaimana keadaanmu?,istifham,1,حَال = keadaan. كَيْفَ حَالُكِ؟ untuk perempuan.
+v024,مَتَى,matā,kapan,bila,istifham,,,,,,,مَتَى الدَّرْسُ؟,Kapan pelajarannya?,istifham,1,Ditulis dengan alif maqshurah (ى) dan dibaca mataa.
+v025,لِمَاذَا,limādhā,mengapa,kenapa,istifham,,,,,,,لِمَاذَا تَذْهَبُ؟,Mengapa kamu pergi?,istifham,1,Gabungan لِ (untuk) + مَاذَا (apa).
+v026,كَمْ,kam,berapa,berapa banyak,istifham,,,,,,,كَمْ كِتَابًا عِنْدَكَ؟,Berapa buku yang kamu punya?,istifham,1,"Pada كَمْ istifhamiyyah, kata yang ditanyakan umumnya tunggal dan manshub (kitaaban, bukan kutuban)."
+v027,أَيُّ,ʾayyu,yang mana,mana,istifham,,,,,,,أَيُّ كِتَابٍ تَقْرَأُ؟,Buku yang mana kamu baca?,istifham,1,"أَيُّ selalu menjadi mudhaf, jadi kata sesudahnya majrur (berharakat kasrah/tanwin kasrah)."
+v028,هَلْ,hal,apakah,,istifham,,,,,,,هَلْ أَنْتَ طَالِبٌ؟,Apakah kamu seorang pelajar?,istifham,1,Untuk pertanyaan ya/tidak. Jawaban: نَعَمْ (ya) atau لَا (tidak).
+v029,نَعَمْ,naʿam,ya,iya; benar,harf jawab,,,,,,,نَعَمْ، هَذَا كِتَابِي.,"Ya, ini buku saya.",istifham,1,Lawannya: لَا (tidak).
+v030,وَاحِد,wāḥid,satu,1,adad,m,وَاحِدَة,,,و ح د,,عِنْدِي كِتَابٌ وَاحِدٌ.,Saya punya satu buku.,adad,2,Angka 1 dan 2 diletakkan SESUDAH kata benda dan mengikuti gendernya: كِتَابٌ وَاحِدٌ، سَاعَةٌ وَاحِدَةٌ.
+v031,اِثْنَانِ,ithnāni,dua,2,adad,m,اِثْنَتَانِ,,,ث ن ي,"Hamzah pada اِثْنَانِ adalah hamzah washal, bukan bagian akar.",عِنْدِي كِتَابَانِ.,Saya punya dua buku.,adad,2,Untuk 'dua' biasanya cukup bentuk mutsanna (كِتَابَانِ); اِثْنَانِ dipakai untuk penegasan atau berdiri sendiri saat berhitung.
+v032,ثَلَاثَة,thalāthah,tiga,3,adad,m,ثَلَاث,,,ث ل ث,,عِنْدِي ثَلَاثَةُ كُتُبٍ.,Saya punya tiga buku.,adad,2,"Angka 3-10 berlawanan gender dengan benda yang dihitung: benda mudzakkar memakai bentuk ber-ta' (ثَلَاثَةُ كُتُبٍ), benda mu'annats memakai bentuk tanpa ta' (ثَلَاثُ بَنَاتٍ). Istilah nahwunya: mukhalafah / 'polaritas'."
+v033,أَرْبَعَة,ʾarbaʿah,empat,4,adad,m,أَرْبَع,,,ر ب ع,,عِنْدِي أَرْبَعَةُ أَقْلَامٍ.,Saya punya empat pulpen.,adad,2,
+v034,خَمْسَة,khamsah,lima,5,adad,m,خَمْس,,,خ م س,,فِي الْبَيْتِ خَمْسَةُ أَبْوَابٍ.,Di rumah itu ada lima pintu.,adad,2,
+v035,سِتَّة,sittah,enam,6,adad,m,سِتّ,,,س د س,Akar asalnya س د س; dal berubah lalu melebur menjadi ta' bersyaddah. Bandingkan سَادِس (keenam) dan أَسْدَاس.,عِنْدِي سِتَّةُ أَقْلَامٍ.,Saya punya enam pulpen.,adad,2,
+v036,سَبْعَة,sabʿah,tujuh,7,adad,m,سَبْع,,,س ب ع,,فِي الْأُسْبُوعِ سَبْعَةُ أَيَّامٍ.,Dalam satu pekan ada tujuh hari.,adad,2,
+v037,ثَمَانِيَة,thamāniyah,delapan,8,adad,m,ثَمَانٍ,,,ث م ن,,عِنْدِي ثَمَانِيَةُ كُتُبٍ.,Saya punya delapan buku.,adad,2,Bentuk mu'annats ثَمَانٍ termasuk isim manqush; perubahan harakat akhirnya mengikuti aturan khusus isim manqush.
+v038,تِسْعَة,tisʿah,sembilan,9,adad,m,تِسْع,,,ت س ع,,فِي الْغُرْفَةِ تِسْعَةُ رِجَالٍ.,Di dalam kamar itu ada sembilan lelaki.,adad,2,
+v039,عَشَرَة,ʿasharah,sepuluh,10,adad,m,عَشْر,,,ع ش ر,,عِنْدِي عَشَرَةُ أَقْلَامٍ.,Saya punya sepuluh pulpen.,adad,2,"Perhatikan perbedaan harakat: عَشَرَة (sepuluh, mudzakkar) dan عَشْر (mu'annats)."
+v040,أَب,ʾab,ayah,bapak,ism,m,,آبَاء,,أ ب و,"Huruf ketiga (waw) tidak muncul pada bentuk أَب, tetapi tampak pada أَبُوهُ dan أُبُوَّة.",أَبِي مُهَنْدِسٌ.,Ayah saya seorang insinyur.,usrah,2,Termasuk al-asma' al-khamsah: saat disambung ke kata lain menjadi أَبُو / أَبَا / أَبِي sesuai kedudukan i'rabnya.
+v041,أُمّ,ʾumm,ibu,emak,ism,f,,أُمَّهَات,,أ م م,,أُمِّي مُدَرِّسَةٌ.,Ibu saya seorang guru.,usrah,2,Mu'annats walaupun tanpa ta' marbuthah.
+v042,اِبْن,ibn,anak lelaki,putra,ism,m,,أَبْنَاء,,ب ن و,Hamzah pada اِبْن adalah hamzah washal; akarnya ب ن و (bandingkan بَنُون، بُنُوَّة).,هَذَا ابْنِي.,Ini anak lelaki saya.,usrah,2,"Karena hamzahnya hamzah washal, saat di tengah kalimat ia tidak dibaca: haadzab-nii."
+v043,بِنْت,bint,anak perempuan,putri,ism,f,,بَنَات,,ب ن و,Seakar dengan اِبْن.,بِنْتُهَا صَغِيرَةٌ.,Anak perempuannya masih kecil.,usrah,2,"Mu'annats meski ditulis dengan ta' maftuhah (ت), bukan ta' marbuthah."
+v044,أَخ,ʾakh,saudara lelaki,kakak lelaki; adik lelaki,ism,m,,إِخْوَة,,أ خ و,Waw tampak pada أَخُوهُ dan أُخُوَّة.,أَخِي طَالِبٌ.,Saudara lelaki saya seorang pelajar.,usrah,2,Bahasa Arab tidak membedakan kakak dan adik pada kata dasarnya; dipakai أَخٌ أَكْبَر / أَخٌ أَصْغَر bila perlu.
+v045,أُخْت,ʾukht,saudara perempuan,kakak perempuan; adik perempuan,ism,f,,أَخَوَات,,أ خ و,Seakar dengan أَخ.,أُخْتِي فِي الْمَدْرَسَةِ.,Saudara perempuan saya ada di sekolah.,usrah,2,
+v046,جَدّ,jadd,kakek,,ism,m,,أَجْدَاد,,ج د د,,جَدِّي فِي الْقَرْيَةِ.,Kakek saya ada di desa.,usrah,2,Akar ج د د juga menurunkan جَدِيد (baru) — hubungan maknanya tidak selalu langsung terasa.
+v047,جَدَّة,jaddah,nenek,,ism,f,,جَدَّات,,ج د د,,هَذِهِ جَدَّتِي.,Ini nenek saya.,usrah,2,
+v048,زَوْج,zawj,suami,pasangan (lk),ism,m,,أَزْوَاج,,ز و ج,,زَوْجُهَا طَبِيبٌ.,Suaminya seorang dokter.,usrah,2,Makna dasar akar ز و ج adalah 'pasangan'.
+v049,زَوْجَة,zawjah,istri,pasangan (pr),ism,f,,زَوْجَات,,ز و ج,,زَوْجَتُهُ مُدَرِّسَةٌ.,Istrinya seorang guru.,usrah,2,"Dalam bahasa Arab klasik, زَوْج juga dipakai untuk 'istri'; زَوْجَة lebih umum dalam pemakaian modern."
+v050,عَمّ,ʿamm,paman (dari pihak ayah),om (pihak ayah),ism,m,,أَعْمَام,,ع م م,,عَمِّي فِي الْمَدِينَةِ.,Paman saya (dari pihak ayah) ada di kota.,usrah,2,Bahasa Arab memisahkan kerabat pihak ayah (عَمّ، عَمَّة) dan pihak ibu (خَال، خَالَة).
+v051,عَمَّة,ʿammah,bibi (dari pihak ayah),tante (pihak ayah),ism,f,,عَمَّات,,ع م م,,عَمَّتِي فِي الْقَرْيَةِ.,Bibi saya (dari pihak ayah) ada di desa.,usrah,2,
+v052,خَال,khāl,paman (dari pihak ibu),om (pihak ibu),ism,m,,أَخْوَال,,خ و ل,,خَالِي رَجُلٌ طَوِيلٌ.,Paman saya (dari pihak ibu) seorang lelaki yang tinggi.,usrah,2,
+v053,خَالَة,khālah,bibi (dari pihak ibu),tante (pihak ibu),ism,f,,خَالَات,,خ و ل,,خَالَتِي فِي الْبَيْتِ.,Bibi saya (dari pihak ibu) ada di rumah.,usrah,2,
+v054,أُسْرَة,ʾusrah,keluarga,,ism,f,,أُسَر,,أ س ر,,أُسْرَتِي كَبِيرَةٌ.,Keluarga saya besar.,usrah,2,Sinonim yang juga umum: عَائِلَة.
+v055,وَالِد,wālid,ayah (bentuk resmi),orang tua (ayah),ism,m,وَالِدَة,,,و ل د,,وَالِدِي فِي الْمَكْتَبِ.,Ayah saya ada di kantor.,usrah,2,وَالِدَة = ibu. Bentuk mutsanna وَالِدَانِ berarti 'kedua orang tua'. Pola فَاعِل di sini bermakna 'yang melahirkan'.
+v056,كِتَاب,kitāb,buku,,ism,m,,كُتُب,,ك ت ب,,الْكِتَابُ عَلَى الْمَكْتَبِ.,Buku itu ada di atas meja.,asyya,2,Pola فِعَال di sini adalah mashdar yang menjadi kata benda konkret.
+v057,قَلَم,qalam,"pulpen, pena",pena; bolpoin,ism,m,,أَقْلَام,,ق ل م,,هَذَا قَلَمٌ جَدِيدٌ.,Ini pulpen baru.,asyya,2,
+v058,بَاب,bāb,pintu,,ism,m,,أَبْوَاب,,ب و ب,Waw akar tampak pada jamaknya أَبْوَاب.,الْبَابُ مَفْتُوحٌ.,Pintu itu terbuka.,asyya,2,
+v059,نَافِذَة,nāfidhah,jendela,,ism,f,,نَوَافِذ,,ن ف ذ,,النَّافِذَةُ صَغِيرَةٌ.,Jendela itu kecil.,asyya,2,Jamaknya نَوَافِذ termasuk jamak taksir pola فَوَاعِل.
+v060,كُرْسِيّ,kursiyy,kursi,,ism,m,,كَرَاسِيّ,,ك ر س,,الْكُرْسِيُّ جَدِيدٌ.,Kursi itu baru.,asyya,2,Ya' bersyaddah di akhir: kursiyy. Kata Indonesia 'kursi' berasal dari kata ini.
+v061,رَجُل,rajul,lelaki,laki-laki; pria,ism,m,,رِجَال,,ر ج ل,,الرَّجُلُ فِي السُّوقِ.,Lelaki itu ada di pasar.,nas,3,Seakar dengan رِجْل (kaki).
+v062,اِمْرَأَة,imraʾah,perempuan,wanita,ism,f,,نِسَاء,,م ر أ,Hamzah awal adalah hamzah washal; akarnya م ر أ (bandingkan مَرْء = orang).,الْمَرْأَةُ مُدَرِّسَةٌ.,Perempuan itu seorang guru.,nas,3,"Bila diberi ال, bentuknya menjadi الْمَرْأَة (hamzah washal hilang dari tulisan). Jamaknya نِسَاء tidak seakar dengan bentuk tunggalnya."
+v063,وَلَد,walad,anak (lelaki),anak,ism,m,,أَوْلَاد,,و ل د,,الْوَلَدُ يَلْعَبُ.,Anak itu bermain.,nas,3,Seakar dengan وَالِد (ayah) dan وِلَادَة (kelahiran).
+v064,طِفْل,ṭifl,"anak kecil, balita",bayi; anak kecil,ism,m,طِفْلَة,أَطْفَال,,ط ف ل,,الطِّفْلُ يَنَامُ.,Anak kecil itu tidur.,nas,3,
+v065,طَالِب,ṭālib,"pelajar (lelaki), mahasiswa",murid; siswa; mahasiswa,ism,m,طَالِبَة,طُلَّاب,,ط ل ب,,الطَّالِبُ يَقْرَأُ.,Pelajar itu sedang membaca.,nas,3,Pola فَاعِل = pelaku. Makna harfiahnya 'orang yang menuntut/mencari' (طَلَبَ = mencari). Jamak lain yang juga dipakai: طَلَبَة.
+v066,طَالِبَة,ṭālibah,pelajar (perempuan),murid (pr); siswi; mahasiswi,ism,f,,طَالِبَات,,ط ل ب,,الطَّالِبَةُ فِي الْجَامِعَةِ.,Pelajar perempuan itu ada di universitas.,nas,3,Jamaknya طَالِبَات adalah jamak mu'annats salim (akhiran ـَات).
+v067,مُدَرِّس,mudarris,"guru (lelaki), pengajar",pengajar; guru,ism,m,مُدَرِّسَة,مُدَرِّسُون,,د ر س,,الْمُدَرِّسُ فِي الْمَدْرَسَةِ.,Guru itu ada di sekolah.,nas,3,Pola مُفَعِّل: pelaku dari wazan II (دَرَّسَ = mengajar). Seakar dengan مَدْرَسَة dan دَرْس.
+v068,مُدَرِّسَة,mudarrisah,guru (perempuan),pengajar (pr),ism,f,,مُدَرِّسَات,,د ر س,,مُدَرِّسَتُنَا جَدِيدَةٌ.,Guru perempuan kami adalah guru baru.,nas,3,
+v069,مُهَنْدِس,muhandis,insinyur,,ism,m,مُهَنْدِسَة,مُهَنْدِسُون,,ه ن د س,"Akar empat huruf (ruba'i), bukan tiga; berasal dari kata serapan Persia.",أَخِي مُهَنْدِسٌ.,Saudara lelaki saya seorang insinyur.,nas,3,Contoh kata dengan akar empat huruf — tidak semua kata Arab berakar tiga huruf.
+v070,طَبِيب,ṭabīb,dokter,tabib,ism,m,طَبِيبَة,أَطِبَّاء,,ط ب ب,,الطَّبِيبُ فِي الْمُسْتَشْفَى.,Dokter itu ada di rumah sakit.,nas,3,Akar ط ب ب berhuruf kedua dan ketiga sama (mudha'af).
+v071,صَدِيق,ṣadīq,"teman, sahabat",sahabat; kawan,ism,m,صَدِيقَة,أَصْدِقَاء,,ص د ق,,صَدِيقِي طَالِبٌ.,Teman saya seorang pelajar.,nas,3,Seakar dengan صِدْق (kejujuran) dan صَادِق (jujur).
+v072,مُدِير,mudīr,"direktur, kepala",pimpinan; manajer; kepala,ism,m,مُدِيرَة,مُدِيرُون,,د و ر,"Dari wazan IV أَدَارَ (mengelola, memutar); waw akar tidak tampak di permukaan.",الْمُدِيرُ فِي مَكْتَبِهِ.,Direktur itu ada di kantornya.,nas,3,"Seakar dengan دَار (rumah) dan دَائِرَة (lingkaran, departemen)."
+v073,اِسْم,ism,nama,,ism,m,,أَسْمَاء,,,"Akarnya diperdebatkan: ulama Bashrah menyebut س م و (bandingkan سَمَا = tinggi, أَسْمَاء), ulama Kufah menyebut و س م (bandingkan وَسْم = tanda). Tidak dicantumkan satu pun sebagai keputusan.",مَا اسْمُكَ؟,Siapa namamu?,nas,3,"Hamzahnya hamzah washal: di tengah kalimat dibaca mas-muka, bukan maa ismuka. Dalam istilah nahwu, اِسْم juga berarti 'kata benda'."
+v074,مَكْتَب,maktab,"meja tulis, kantor",kantor; meja tulis,ism,m,,مَكَاتِب,,ك ت ب,,مَكْتَبُ الْمُدِيرِ كَبِيرٌ.,Kantor direktur itu besar.,asyya,3,Pola مَفْعَل = tempat melakukan sesuatu; di sini 'tempat menulis'.
+v075,طَاوِلَة,ṭāwilah,meja,,ism,f,,طَاوِلَات,,,"Kata serapan (bandingkan tavola/tabula), karena itu tidak diberi akar tiga huruf.",الطَّاوِلَةُ نَظِيفَةٌ.,Meja itu bersih.,asyya,3,Tidak semua kata Arab berakar; kata serapan tidak memiliki jidr (akar).
+v076,مِفْتَاح,miftāḥ,kunci,,ism,m,,مَفَاتِيح,,ف ت ح,,أَيْنَ الْمِفْتَاحُ؟,Di mana kuncinya?,asyya,3,Pola مِفْعَال = alat. Bandingkan فَتَحَ (membuka): kunci = alat pembuka.
+v077,سَاعَة,sāʿah,jam (alat dan satuan waktu),jam; arloji,ism,f,,سَاعَات,,س و ع,,هَذِهِ سَاعَتِي.,Ini jam saya.,asyya,3,Satu kata untuk dua makna: alat penunjuk waktu dan satuan 'jam' (60 menit).
+v078,هَاتِف,hātif,telepon,ponsel; hp,ism,m,,هَوَاتِف,,ه ت ف,,هَاتِفِي جَدِيدٌ.,Telepon saya baru.,asyya,3,Dalam bahasa Arab klasik هَاتِف berarti 'penyeru yang suaranya terdengar tanpa terlihat'. Makna 'telepon' adalah pemakaian modern — lihat Modul 5.
+v079,سَيَّارَة,sayyārah,mobil,kendaraan; auto,ism,f,,سَيَّارَات,,س ي ر,,سَيَّارَةُ أَبِي كَبِيرَةٌ.,Mobil ayah saya besar.,asyya,3,Dari akar س ي ر (berjalan). Dalam bahasa Arab klasik سَيَّارَة bermakna 'kafilah/rombongan yang berjalan' — lihat Modul 5.
+v080,حَاسُوب,ḥāsūb,komputer,komputer,ism,m,,حَوَاسِيب,,ح س ب,,الْحَاسُوبُ عَلَى الطَّاوِلَةِ.,Komputer itu ada di atas meja.,asyya,3,Kata buatan modern dari akar ح س ب (menghitung). Alternatif yang juga dipakai: كُمْبِيُوتَر.
+v081,وَرَقَة,waraqah,"lembar kertas, daun",kertas; daun; lembaran,ism,f,,أَوْرَاق,,و ر ق,,عَلَى الْمَكْتَبِ وَرَقَةٌ.,Di atas meja ada selembar kertas.,asyya,3,وَرَق (tanpa ta') adalah bentuk kolektif: 'kertas' atau 'dedaunan' secara umum.
+v082,كُوب,kūb,"gelas, cangkir",cangkir; gelas,ism,m,,أَكْوَاب,,ك و ب,,فِي الْكُوبِ مَاءٌ.,Di dalam gelas ada air.,asyya,3,
+v083,مَاء,māʾ,air,,ism,m,,مِيَاه,,م و ه,"Akar م و ه tidak tampak pada bentuk مَاء, tetapi muncul pada jamaknya مِيَاه dan pada bentuk تَصْغِير مُوَيْه.",الْمَاءُ بَارِدٌ.,Airnya dingin.,asyya,3,Contoh kata berakar lemah yang bentuk permukaannya jauh dari akarnya.
+v084,خُبْز,khubz,roti,,ism,m,,,,خ ب ز,,الْخُبْزُ عَلَى الطَّاوِلَةِ.,Roti itu ada di atas meja.,asyya,3,Kata kolektif; tidak lazim dijamakkan dalam pemakaian sehari-hari.
+v085,طَعَام,ṭaʿām,makanan,hidangan,ism,m,,أَطْعِمَة,,ط ع م,,أَكَلْتُ الطَّعَامَ.,Saya memakan makanan itu.,asyya,3,Seakar dengan مَطْعَم (restoran) dan طَعْم (rasa).
+v086,فِي,fī,"di, di dalam",dalam; pada,harf jar,,,,,,,أَنَا فِي الْبَيْتِ.,Saya di rumah.,huruf,3,"Kata sesudah huruf jar selalu majrur: الْبَيْتِ (kasrah), bukan الْبَيْتُ."
+v087,مِنْ,min,dari,daripada,harf jar,,,,,,,خَرَجْتُ مِنَ الْمَدْرَسَةِ.,Saya keluar dari sekolah.,huruf,3,"Saat bertemu ال, sukun pada nun berubah menjadi fathah: مِنَ الْ... Jangan tertukar dengan مَنْ (siapa)."
+v088,إِلَى,ʾilā,"ke, kepada",kepada; menuju,harf jar,,,,,,,ذَهَبْتُ إِلَى السُّوقِ.,Saya pergi ke pasar.,huruf,3,"Ditulis dengan alif maqshurah (ى). Bila disambung dengan kata ganti, berubah menjadi إِلَيْهِ، إِلَيْكَ."
+v089,عَلَى,ʿalā,"di atas, atas",atas; pada,harf jar,,,,,,,الْكِتَابُ عَلَى الطَّاوِلَةِ.,Buku itu ada di atas meja.,huruf,3,Bila disambung dengan kata ganti menjadi عَلَيْهِ، عَلَيْكَ.
+v090,مَعَ,maʿa,"bersama, dengan",dengan; beserta,zarf,,,,,,,ذَهَبْتُ مَعَ أَبِي.,Saya pergi bersama ayah saya.,huruf,3,"Secara teknis مَعَ digolongkan zharf (keterangan), bukan huruf jar, meski pengaruhnya ke kata berikutnya sama: majrur."
+v091,عِنْدَ,ʿinda,"di (tempat), pada, punya",pada; di sisi,zarf,,,,,,,عِنْدِي كِتَابٌ.,Saya punya sebuah buku.,huruf,3,"Bahasa Arab tidak memiliki kata kerja yang berarti 'memiliki'; dipakai عِنْدَ + kata ganti: عِنْدِي (saya punya), عِنْدَكَ (kamu punya), عِنْدَهُ (dia punya)."
+v092,حَقِيبَة,ḥaqībah,tas,koper; ransel,ism,f,,حَقَائِب,,ح ق ب,,أَيْنَ حَقِيبَتُكِ؟,Di mana tasmu (kepada perempuan)?,asyya,4,Jamaknya حَقَائِب berpola فَعَائِل.
+v093,سَرِير,sarīr,tempat tidur,kasur; ranjang,ism,m,,أَسِرَّة,,س ر ر,,الطِّفْلُ عَلَى السَّرِيرِ.,Anak kecil itu ada di atas tempat tidur.,asyya,4,
+v094,قَهْوَة,qahwah,kopi,,ism,f,,,,ق ه و,,أَشْرَبُ الْقَهْوَةَ فِي الصَّبَاحِ.,Saya minum kopi pada pagi hari.,asyya,4,Kata Indonesia 'kopi' dan Inggris 'coffee' sama-sama berasal dari قَهْوَة.
+v095,لَبَن,laban,susu,susu,ism,m,,أَلْبَان,,ل ب ن,,اللَّبَنُ فِي الْكُوبِ.,Susu itu ada di dalam gelas.,asyya,4,"Di sebagian negara Arab لَبَن berarti yogurt/susu asam, sedangkan susu segar disebut حَلِيب. Perbedaan ini bersifat kedaerahan."
+v096,مِصْبَاح,miṣbāḥ,lampu,pelita; lentera,ism,m,,مَصَابِيح,,ص ب ح,,الْمِصْبَاحُ فَوْقَ الطَّاوِلَةِ.,Lampu itu ada di atas meja.,asyya,4,"Pola مِفْعَال (alat), seakar dengan صَبَاح (pagi) — makna dasar akarnya terkait cahaya."
+v097,بَيْت,bayt,rumah,kediaman,ism,m,,بُيُوت,,ب ي ت,,بَيْتِي قَرِيبٌ.,Rumah saya dekat.,makan,4,
+v098,مَدْرَسَة,madrasah,sekolah,,ism,f,,مَدَارِس,,د ر س,,الْمَدْرَسَةُ كَبِيرَةٌ.,Sekolah itu besar.,makan,4,Pola مَفْعَلَة = tempat; 'tempat belajar'. Seakar dengan دَرَسَ، دَرْس، مُدَرِّس.
+v099,جَامِعَة,jāmiʿah,universitas,perguruan tinggi; kampus,ism,f,,جَامِعَات,,ج م ع,,أَدْرُسُ فِي الْجَامِعَةِ.,Saya belajar di universitas.,makan,4,Dari akar ج م ع (mengumpulkan). Bedakan dari جَامِع yang berarti masjid besar.
+v100,سُوق,sūq,pasar,pasar,ism,m/f,,أَسْوَاق,,س و ق,,أُمِّي فِي السُّوقِ.,Ibu saya ada di pasar.,makan,4,Termasuk kata yang boleh diperlakukan mudzakkar maupun mu'annats; keduanya terpakai dalam bahasa baku.
+v101,مَسْجِد,masjid,masjid,,ism,m,,مَسَاجِد,,س ج د,,الْمَسْجِدُ قَرِيبٌ مِنْ بَيْتِي.,Masjid itu dekat dari rumah saya.,makan,4,"Pola مَفْعِل (tempat), dari سَجَدَ: 'tempat bersujud'."
+v102,مَدِينَة,madīnah,kota,,ism,f,,مُدُن,,م د ن,,هَذِهِ مَدِينَةٌ قَدِيمَةٌ.,Ini kota yang tua.,makan,4,"Jamaknya مُدُن, bukan مَدِينَات."
+v103,قَرْيَة,qaryah,"desa, kampung",kampung; dusun,ism,f,,قُرَى,,ق ر ي,,جَدِّي فِي الْقَرْيَةِ.,Kakek saya ada di desa.,makan,4,Jamaknya قُرَى berakhiran alif maqshurah.
+v104,بَلَد,balad,"negeri, negara",negara; negeri,ism,m,,بِلَاد,,ب ل د,,بَلَدِي جَمِيلٌ.,Negeri saya indah.,makan,4,Jamak lain yang juga dipakai: بُلْدَان. Sebagian pemakaian memperlakukan بَلَد sebagai mu'annats; yang lazim mudzakkar.
+v105,شَارِع,shāriʿ,jalan (raya),jalan,ism,m,,شَوَارِع,,ش ر ع,,الشَّارِعُ طَوِيلٌ.,Jalan itu panjang.,makan,4,Seakar dengan شَرِيعَة dan شَرْع — makna dasar akarnya berkaitan dengan 'jalan/aturan yang dilalui'.
+v106,مَطْعَم,maṭʿam,"restoran, rumah makan",restoran; warung,ism,m,,مَطَاعِم,,ط ع م,,أَكَلْنَا فِي الْمَطْعَمِ.,Kami makan di restoran.,makan,4,Pola مَفْعَل (tempat) dari akar ط ع م: 'tempat makan'. Seakar dengan طَعَام.
+v107,مَكْتَبَة,maktabah,"perpustakaan, toko buku",perpustakaan; toko buku,ism,f,,مَكْتَبَات,,ك ت ب,,فِي الْمَكْتَبَةِ كُتُبٌ كَثِيرَةٌ.,Di perpustakaan itu ada banyak buku.,makan,4,Satu kata untuk dua makna; konteks yang menentukan. Bandingkan مَكْتَب (kantor/meja).
+v108,مُسْتَشْفَى,mustashfā,rumah sakit,hospital,ism,m,,مُسْتَشْفَيَات,,ش ف ي,,الْمُسْتَشْفَى بَعِيدٌ.,Rumah sakit itu jauh.,makan,4,Dari wazan X (اِسْتَشْفَى = mencari kesembuhan). Termasuk isim maqshur: huruf akhirnya ى dan harakat i'rabnya tidak tampak.
+v109,غُرْفَة,ghurfah,"kamar, ruangan",ruangan; ruang,ism,f,,غُرَف,,غ ر ف,,غُرْفَتِي صَغِيرَةٌ.,Kamar saya kecil.,makan,4,
+v110,مَطَار,maṭār,bandara,bandar udara; lapangan terbang,ism,m,,مَطَارَات,,ط ي ر,,الْمَطَارُ بَعِيدٌ.,Bandara itu jauh.,makan,4,Dari akar ط ي ر (terbang). Seakar dengan طَائِرَة (pesawat) dan طَيْر (burung).
+v111,مَتْجَر,matjar,toko,kedai; gerai,ism,m,,مَتَاجِر,,ت ج ر,,هَذَا مَتْجَرٌ جَدِيدٌ.,Ini toko baru.,makan,4,Seakar dengan تَاجِر (pedagang) dan تِجَارَة (perdagangan). Kata lain yang umum: دُكَّان.
+v112,مَطْبَخ,maṭbakh,dapur,,ism,m,,مَطَابِخ,,ط ب خ,,أُمِّي فِي الْمَطْبَخِ.,Ibu saya ada di dapur.,makan,4,Pola مَفْعَل (tempat) dari طَبَخَ (memasak).
+v113,حَدِيقَة,ḥadīqah,"taman, kebun",kebun; taman,ism,f,,حَدَائِق,,ح د ق,,الْأَطْفَالُ فِي الْحَدِيقَةِ.,Anak-anak itu ada di taman.,makan,4,
+v114,مَكَان,makān,tempat,lokasi,ism,m,,أَمْكِنَة,,ك و ن,Dari akar ك و ن (kata kerja كَانَ); waw tidak tampak pada bentuk مَكَان.,هَذَا مَكَانٌ جَمِيلٌ.,Ini tempat yang indah.,makan,4,Jamak lain yang juga dipakai: أَمَاكِن.
+v115,عَنْ,ʿan,"tentang, dari",mengenai; perihal,harf jar,,,,,,,سَأَلْتُ عَنِ الدَّرْسِ.,Saya bertanya tentang pelajaran itu.,huruf,4,"Saat bertemu ال, nun berharakat kasrah: عَنِ الْ..."
+v116,بَيْنَ,bayna,"antara, di antara",di antara,zarf,,,,,ب ي ن,"Seakar dengan بَانَ (jelas, terpisah) dan تَبَايُن (perbedaan).",الْمَسْجِدُ بَيْنَ الْبَيْتِ وَالْمَدْرَسَةِ.,Masjid itu berada di antara rumah dan sekolah.,huruf,4,
+v117,أَمَامَ,ʾamāma,di depan,depan,zarf,,,,,,,السَّيَّارَةُ أَمَامَ الْبَيْتِ.,Mobil itu ada di depan rumah.,huruf,4,
+v118,خَلْفَ,khalfa,di belakang,belakang,zarf,,,,,خ ل ف,Seakar dengan خَلَفَ (menggantikan) dan خَلِيفَة.,الْحَدِيقَةُ خَلْفَ الْبَيْتِ.,Taman itu ada di belakang rumah.,huruf,4,Kata lain dengan makna serupa: وَرَاءَ.
+v119,تَحْتَ,taḥta,di bawah,bawah,zarf,,,,,,,الْحَقِيبَةُ تَحْتَ الْمَكْتَبِ.,Tas itu ada di bawah meja.,huruf,4,
+v120,فَوْقَ,fawqa,di atas,atas,zarf,,,,,ف و ق,Seakar dengan تَفَوَّقَ (unggul).,الْمِصْبَاحُ فَوْقَ الطَّاوِلَةِ.,Lampu itu ada di atas meja.,huruf,4,Berbeda dari عَلَى: فَوْقَ lebih menekankan posisi 'di atas' tanpa harus menyentuh.
+v121,قَبْلَ,qabla,sebelum,sebelum,zarf,,,,,ق ب ل,,أَقْرَأُ قَبْلَ النَّوْمِ.,Saya membaca sebelum tidur.,huruf,4,
+v122,بَعْدَ,baʿda,"sesudah, setelah",setelah; sesudah,zarf,,,,,ب ع د,,نَأْكُلُ بَعْدَ الدَّرْسِ.,Kami makan setelah pelajaran.,huruf,4,Seakar dengan بَعِيد (jauh).
+v123,يَوْم,yawm,hari,,ism,m,,أَيَّام,,ي و م,,الْيَوْمُ طَوِيلٌ.,Hari ini panjang.,zaman,5,Jamaknya أَيَّام (dengan ya' bersyaddah).
+v124,لَيْلَة,laylah,satu malam,malam,ism,f,,لَيَالٍ,,ل ي ل,,هَذِهِ لَيْلَةٌ بَارِدَةٌ.,Ini malam yang dingin.,zaman,5,لَيْلَة = satu malam (dapat dihitung); لَيْل = waktu malam secara umum. Jamaknya لَيَالٍ termasuk isim manqush.
+v125,لَيْل,layl,malam (waktu malam),malam,ism,m,,,,ل ي ل,,فِي اللَّيْلِ أَنَامُ.,Pada waktu malam saya tidur.,zaman,5,"Bentuk kolektif, lawannya نَهَار (waktu siang)."
+v126,صَبَاح,ṣabāḥ,pagi,,ism,m,,,,ص ب ح,,فِي الصَّبَاحِ أَشْرَبُ الْقَهْوَةَ.,Pada pagi hari saya minum kopi.,zaman,5,Salam: صَبَاحَ الْخَيْرِ (selamat pagi). Bentuk jamaknya tidak dicantumkan karena belum dipastikan.
+v127,مَسَاء,masāʾ,"sore, petang",senja; petang,ism,m,,,,,Akarnya tidak dicantumkan karena belum diyakini sepenuhnya (berkaitan dengan أَمْسَى/يُمْسِي). Lihat data/NEEDS_REVIEW.md.,فِي الْمَسَاءِ أَقْرَأُ.,Pada sore hari saya membaca.,zaman,5,Salam: مَسَاءَ الْخَيْرِ (selamat sore/malam).
+v128,أُسْبُوع,ʾusbūʿ,"pekan, minggu",minggu; pekan,ism,m,,أَسَابِيع,,س ب ع,,فِي الْأُسْبُوعِ سَبْعَةُ أَيَّامٍ.,Dalam satu pekan ada tujuh hari.,zaman,5,Dari akar س ب ع (tujuh) — 'satuan tujuh hari'.
+v129,شَهْر,shahr,bulan (kalender),bulan,ism,m,,شُهُور,,ش ه ر,,هَذَا الشَّهْرُ قَصِيرٌ.,Bulan ini pendek.,zaman,5,Jamak lain yang juga dipakai: أَشْهُر. Untuk bulan di langit dipakai قَمَر.
+v130,سَنَة,sanah,tahun,,ism,f,,سَنَوَات,,س ن و,Sebagian kamus mencatat س ن ه sebagai akar alternatif (bandingkan سُنَيْهَة).,هَذِهِ سَنَةٌ جَدِيدَةٌ.,Ini tahun yang baru.,zaman,5,Jamak lain: سِنُون / سِنِين.
+v131,عَام,ʿām,tahun,,ism,m,,أَعْوَام,,ع و م,,هَذَا عَامٌ جَدِيدٌ.,Ini tahun yang baru.,zaman,5,"Bersinonim dengan سَنَة. Para ahli bahasa mencatat nuansa pemakaian yang berbeda di antara keduanya, tetapi di sini keduanya diajarkan sebagai sinonim praktis."
+v132,وَقْت,waqt,waktu,,ism,m,,أَوْقَات,,و ق ت,,هَذَا وَقْتُ الدَّرْسِ.,Ini waktu pelajaran.,zaman,5,"Untuk menanyakan jam, yang lazim dipakai كَمِ السَّاعَةُ الْآنَ؟, bukan مَا الْوَقْتُ؟"
+v133,دَقِيقَة,daqīqah,menit,,ism,f,,دَقَائِق,,د ق ق,,فِي السَّاعَةِ سِتُّونَ دَقِيقَةً.,Dalam satu jam ada enam puluh menit.,zaman,5,"Seakar dengan دَقِيق (halus, tepat)."
+v134,الْآن,al-ʾān,sekarang,kini; saat ini,zarf,,,,,,Tidak diberi akar; bentuknya memang selalu memakai ال.,أَنَا فِي الْبَيْتِ الْآنَ.,Saya di rumah sekarang.,zaman,5,Selalu memakai ال dan umumnya manshub: الْآنَ.
+v135,أَمْسِ,ʾamsi,kemarin,,zarf,,,,,,,أَمْسِ ذَهَبْتُ إِلَى السُّوقِ.,Kemarin saya pergi ke pasar.,zaman,5,Umumnya tetap berakhiran kasrah (mabni 'ala al-kasr) ketika bermakna 'kemarin' secara langsung.
+v136,غَدًا,ghadan,besok,esok,zarf,,,,,غ د و,,غَدًا أَذْهَبُ إِلَى الْمَدْرَسَةِ.,Besok saya pergi ke sekolah.,zaman,5,Bentuk dasarnya غَد; sebagai keterangan waktu hampir selalu manshub: غَدًا.
+v137,الْيَوْم,al-yawm,hari ini,hari ini,zarf,,,,,ي و م,,الْيَوْمَ أَدْرُسُ الْعَرَبِيَّةَ.,Hari ini saya belajar bahasa Arab.,zaman,5,Kata yang sama (يَوْم) berarti 'hari'; dengan ال dan manshub (الْيَوْمَ) berarti 'hari ini'.
+v138,بِ,bi,"dengan, memakai",dengan,harf jar,,,,,,,كَتَبْتُ بِالْقَلَمِ.,Saya menulis dengan pulpen.,huruf,5,Huruf jar yang selalu menempel pada kata sesudahnya.
+v139,لِ,li,"untuk, milik",bagi; kepada,harf jar,,,,,,,هَذَا الْكِتَابُ لِأَخِي.,Buku ini milik saudara lelaki saya.,huruf,5,Menyatakan kepemilikan atau tujuan.
+v140,كَ,ka,"seperti, sebagai",seperti,harf jar,,,,,,,بَيْتُهُ كَبَيْتِي.,Rumahnya seperti rumah saya.,huruf,5,Bentuk yang lebih panjang dan sering dipakai: مِثْلَ.
+v141,وَ,wa,dan,dan,harf athf,,,,,,,أَبِي وَأُمِّي فِي الْبَيْتِ.,Ayah dan ibu saya ada di rumah.,huruf,5,"Selalu ditulis menempel pada kata sesudahnya, tanpa spasi."
+v142,لَا,lā,tidak (untuk kata kerja mudhari'),tidak,harf nafi,,,,,,,لَا أَفْهَمُ.,Saya tidak paham.,huruf,5,Untuk menafikan kata kerja bentuk sekarang. Penafian bentuk lampau memakai مَا atau لَمْ — lihat Modul 2.
+v143,كَتَبَ,kataba,menulis,dia menulis; tulis,fi'l,,,,يَكْتُبُ,ك ت ب,,كَتَبَ الطَّالِبُ الدَّرْسَ.,Pelajar itu menulis pelajaran.,fi'l,5,"Wazan I. Bentuk kamus kata kerja Arab adalah madhi orang ketiga tunggal lelaki, jadi كَتَبَ secara harfiah berarti 'dia (lk) telah menulis'."
+v144,قَرَأَ,qaraʾa,membaca,baca,fi'l,,,,يَقْرَأُ,ق ر أ,,أَقْرَأُ كِتَابًا.,Saya membaca sebuah buku.,fi'l,5,Huruf ketiga akarnya adalah hamzah. Seakar dengan قِرَاءَة (bacaan) dan قَارِئ (pembaca).
+v145,ذَهَبَ,dhahaba,pergi,berangkat,fi'l,,,,يَذْهَبُ,ذ ه ب,,ذَهَبْتُ إِلَى الْمَسْجِدِ.,Saya pergi ke masjid.,fi'l,5,Biasanya diikuti إِلَى.
+v146,أَكَلَ,ʾakala,makan,memakan,fi'l,,,,يَأْكُلُ,أ ك ل,,أَكَلَ الْوَلَدُ الْخُبْزَ.,Anak itu memakan roti.,fi'l,5,"Huruf pertama akarnya hamzah, sehingga mudhari'-nya يَأْكُلُ dengan hamzah bersukun."
+v147,شَرِبَ,shariba,minum,meminum,fi'l,,,,يَشْرَبُ,ش ر ب,,شَرِبْتُ الْمَاءَ.,Saya meminum air itu.,fi'l,5,"Pola madhi-nya فَعِلَ (dengan kasrah), mudhari'-nya يَفْعَلُ (dengan fathah)."
+v148,سَكَنَ,sakana,"tinggal, berdiam",bermukim; menetap,fi'l,,,,يَسْكُنُ,س ك ن,,أَسْكُنُ فِي الْمَدِينَةِ.,Saya tinggal di kota.,fi'l,5,Seakar dengan سُكُون (diam) dan سَاكِن (penduduk; juga 'huruf bersukun').
+v149,دَرَسَ,darasa,"belajar, mempelajari",mempelajari; belajar,fi'l,,,,يَدْرُسُ,د ر س,,دَرَسْتُ الْعَرَبِيَّةَ.,Saya belajar bahasa Arab.,fi'l,5,Wazan I = belajar. Wazan II دَرَّسَ = mengajar. Perhatikan bedanya hanya pada syaddah.
+v150,فَتَحَ,fataḥa,membuka,buka,fi'l,,,,يَفْتَحُ,ف ت ح,,فَتَحَ الْبَابَ.,Dia membuka pintu itu.,fi'l,5,Seakar dengan مِفْتَاح (kunci) dan مَفْتُوح (terbuka).
+v151,جَلَسَ,jalasa,duduk,bersila; duduk,fi'l,,,,يَجْلِسُ,ج ل س,,جَلَسْتُ عَلَى الْكُرْسِيِّ.,Saya duduk di atas kursi.,fi'l,5,Mudhari'-nya berharakat kasrah: يَجْلِسُ (bukan يَجْلُسُ).
+v152,نَظَرَ,naẓara,"memandang, melihat ke",memandang; menatap,fi'l,,,,يَنْظُرُ,ن ظ ر,,نَظَرْتُ إِلَى النَّافِذَةِ.,Saya memandang ke jendela.,fi'l,5,Memerlukan إِلَى untuk objeknya: نَظَرَ إِلَى. Bandingkan رَأَى yang langsung ke objek.
+v153,عَمِلَ,ʿamila,"bekerja, melakukan",bekerja; mengerjakan,fi'l,,,,يَعْمَلُ,ع م ل,,يَعْمَلُ أَبِي فِي الْمَكْتَبِ.,Ayah saya bekerja di kantor.,fi'l,5,Seakar dengan عَمَل (pekerjaan) dan عَامِل (pekerja).
+v154,سَمِعَ,samiʿa,mendengar,dengar,fi'l,,,,يَسْمَعُ,س م ع,,أَسْمَعُ الْمُدَرِّسَ.,Saya mendengar guru itu.,fi'l,5,سَمِعَ = mendengar (tanpa sengaja atau umum); اِسْتَمَعَ = menyimak dengan sengaja.
+v155,فَهِمَ,fahima,"memahami, mengerti",mengerti; paham,fi'l,,,,يَفْهَمُ,ف ه م,,فَهِمْتُ الدَّرْسَ.,Saya memahami pelajaran itu.,fi'l,5,
+v156,خَرَجَ,kharaja,keluar,pergi keluar,fi'l,,,,يَخْرُجُ,خ ر ج,,خَرَجَ مِنَ الْبَيْتِ.,Dia keluar dari rumah.,fi'l,6,Biasanya diikuti مِنْ. Lawannya دَخَلَ.
+v157,دَخَلَ,dakhala,masuk,memasuki,fi'l,,,,يَدْخُلُ,د خ ل,,دَخَلْتُ الْغُرْفَةَ.,Saya memasuki kamar itu.,fi'l,6,"Dapat langsung diikuti objek (manshub) tanpa huruf jar, atau dengan فِي / إِلَى."
+v158,سَأَلَ,saʾala,bertanya,menanyakan; tanya,fi'l,,,,يَسْأَلُ,س أ ل,,سَأَلَ الطَّالِبُ الْمُدَرِّسَ.,Pelajar itu bertanya kepada guru.,fi'l,6,Hamzah menjadi huruf akar kedua. Seakar dengan سُؤَال (pertanyaan).
+v159,كَانَ,kāna,"adalah, dahulu adalah",adalah,fi'l,,,,يَكُونُ,ك و ن,"Waw akar tidak tampak pada bentuk كَانَ, tetapi muncul pada يَكُونُ dan كَوْن.",كَانَ الْبَيْتُ كَبِيرًا.,Rumah itu dahulu besar.,fi'l,6,"كَانَ membuat khabar menjadi manshub: كَبِيرًا, bukan كَبِيرٌ. Lihat Modul 2."
+v160,قَالَ,qāla,"berkata, mengatakan",mengatakan; berkata,fi'l,,,,يَقُولُ,ق و ل,Akar lemah tengah (mu'tall al-'ain); waw muncul pada يَقُولُ dan قَوْل.,مَاذَا قَالَ أَبُوكَ؟,Apa yang ayahmu katakan?,fi'l,6,Pada contoh ini أَب menjadi أَبُو karena berkedudukan marfu' dan disambung ke kata ganti (al-asma' al-khamsah).
+v161,رَأَى,raʾā,melihat,lihat; memandang,fi'l,,,,يَرَى,ر أ ي,Akarnya mengandung hamzah dan ya'; pada يَرَى hamzah hilang dari tulisan dan bacaan.,رَأَيْتُ صَدِيقِي.,Saya melihat teman saya.,fi'l,6,Seakar dengan رَأْي (pendapat) dan مِرْآة (cermin).
+v162,أَخَذَ,ʾakhadha,mengambil,ambil,fi'l,,,,يَأْخُذُ,أ خ ذ,,أَخَذْتُ الْمِفْتَاحَ.,Saya mengambil kunci itu.,fi'l,6,
+v163,وَجَدَ,wajada,"menemukan, mendapati",mendapati; menemukan,fi'l,,,,يَجِدُ,و ج د,"Waw di awal akar hilang pada bentuk mudhari': يَجِدُ, bukan يَوْجِدُ.",وَجَدْتُ الْقَلَمَ.,Saya menemukan pulpen itu.,fi'l,6,Contoh kata kerja mitsal (huruf akar pertamanya waw) yang waw-nya luruh di bentuk mudhari'.
+v164,عَرَفَ,ʿarafa,"mengetahui, mengenal",tahu; mengenal,fi'l,,,,يَعْرِفُ,ع ر ف,,أَعْرِفُ هَذَا الرَّجُلَ.,Saya mengenal lelaki ini.,fi'l,6,"Seakar dengan مَعْرِفَة (pengetahuan) dan مَعْرُوف (yang dikenal, kebaikan)."
+v165,لَعِبَ,laʿiba,bermain,main,fi'l,,,,يَلْعَبُ,ل ع ب,,يَلْعَبُ الْأَطْفَالُ فِي الْحَدِيقَةِ.,Anak-anak bermain di taman.,fi'l,6,Seakar dengan لُعْبَة (permainan) dan مَلْعَب (lapangan).
+v166,نَامَ,nāma,tidur,beristirahat,fi'l,,,,يَنَامُ,ن و م,Akar lemah tengah; waw muncul pada نَوْم (tidur).,نَامَ الطِّفْلُ.,Anak kecil itu tidur.,fi'l,6,
+v167,تَكَلَّمَ,takallama,berbicara,bicara; berkata-kata,fi'l,,,,يَتَكَلَّمُ,ك ل م,,أَتَكَلَّمُ الْعَرَبِيَّةَ قَلِيلًا.,Saya berbicara bahasa Arab sedikit.,fi'l,6,Wazan V (تَفَعَّلَ). Seakar dengan كَلِمَة (kata) dan كَلَام (ucapan).
+v168,اِسْتَمَعَ,istamaʿa,"menyimak, mendengarkan",mendengarkan; menyimak,fi'l,,,,يَسْتَمِعُ,س م ع,,اِسْتَمَعْتُ إِلَى الْمُدَرِّسِ.,Saya menyimak guru itu.,fi'l,6,Wazan VIII (اِفْتَعَلَ). Diikuti إِلَى. Bandingkan سَمِعَ (wazan I).
+v169,دَرَّسَ,darrasa,mengajar,mengajarkan,fi'l,,,,يُدَرِّسُ,د ر س,,يُدَرِّسُ الْعَرَبِيَّةَ فِي الْجَامِعَةِ.,Dia mengajar bahasa Arab di universitas.,fi'l,6,Wazan II (فَعَّلَ): menggandakan huruf tengah sering mengubah makna menjadi 'membuat orang lain melakukan'. دَرَسَ (belajar) menjadi دَرَّسَ (mengajar). Perhatikan ya' berharakat dhammah pada يُدَرِّسُ.
+v170,كَبِير,kabīr,"besar, tua (usia)",besar,sifah,,كَبِيرَة,كِبَار,,ك ب ر,,الْبَيْتُ كَبِيرٌ.,Rumah itu besar.,sifah,6,"Pola فَعِيل, pola kata sifat yang sangat umum."
+v171,صَغِير,ṣaghīr,"kecil, muda (usia)",kecil,sifah,,صَغِيرَة,صِغَار,,ص غ ر,,الْغُرْفَةُ صَغِيرَةٌ.,Kamar itu kecil.,sifah,6,
+v172,جَدِيد,jadīd,baru,,sifah,,جَدِيدَة,جُدُد,,ج د د,,هَذَا قَلَمٌ جَدِيدٌ.,Ini pulpen baru.,sifah,6,"Jamak جُدُد dipakai untuk manusia. Untuk benda bukan manusia, jamaknya diperlakukan seperti mu'annats tunggal: كُتُبٌ جَدِيدَةٌ."
+v173,قَدِيم,qadīm,"lama, kuno",tua (barang); kuno,sifah,,قَدِيمَة,قُدَمَاء,,ق د م,,الْمَدِينَةُ قَدِيمَةٌ.,Kota itu tua.,sifah,6,"Untuk benda dipakai قَدِيم; untuk orang yang tua usianya dipakai كَبِير (فِي السِّنّ), bukan قَدِيم."
+v174,جَمِيل,jamīl,"indah, cantik, bagus",cantik; indah,sifah,,جَمِيلَة,,,ج م ل,,الْحَدِيقَةُ جَمِيلَةٌ.,Taman itu indah.,sifah,6,Seakar dengan جَمَال (keindahan).
+v175,طَوِيل,ṭawīl,"panjang, tinggi",panjang; tinggi,sifah,,طَوِيلَة,طِوَال,,ط و ل,,الشَّارِعُ طَوِيلٌ.,Jalan itu panjang.,sifah,6,Satu kata untuk 'panjang' (benda) dan 'tinggi' (orang).
+v176,قَصِير,qaṣīr,pendek,singkat; pendek,sifah,,قَصِيرَة,قِصَار,,ق ص ر,,هَذَا دَرْسٌ قَصِيرٌ.,Ini pelajaran yang singkat.,sifah,6,
+v177,سَهْل,sahl,mudah,gampang; mudah,sifah,,سَهْلَة,,,س ه ل,,الدَّرْسُ سَهْلٌ.,Pelajaran itu mudah.,sifah,6,Makna dasar akarnya 'datar/rata' (bandingkan سَهْل = dataran).
+v178,صَعْب,ṣaʿb,"sulit, sukar",susah; sukar,sifah,,صَعْبَة,,,ص ع ب,,الدَّرْسُ صَعْبٌ.,Pelajaran itu sulit.,sifah,6,
+v179,كَثِير,kathīr,banyak,banyak,sifah,,كَثِيرَة,,,ك ث ر,,فِي الْمَكْتَبَةِ كُتُبٌ كَثِيرَةٌ.,Di perpustakaan itu ada banyak buku.,sifah,6,Perhatikan: كُتُب (jamak benda bukan manusia) disifati dengan كَثِيرَةٌ (mu'annats tunggal).
+v180,قَلِيل,qalīl,sedikit,sedikit,sifah,,قَلِيلَة,,,ق ل ل,,فِي الْكُوبِ مَاءٌ قَلِيلٌ.,Di dalam gelas itu ada sedikit air.,sifah,6,
+v181,بَعِيد,baʿīd,jauh,jauh,sifah,,بَعِيدَة,,,ب ع د,,الْمَطَارُ بَعِيدٌ.,Bandara itu jauh.,sifah,6,Seakar dengan بَعْدَ (sesudah).
+v182,قَرِيب,qarīb,dekat,dekat,sifah,,قَرِيبَة,,,ق ر ب,,الْمَسْجِدُ قَرِيبٌ.,Masjid itu dekat.,sifah,6,Dipakai juga untuk 'kerabat': أَقْرِبَاء = kerabat.
+v183,نَظِيف,naẓīf,bersih,bersih,sifah,,نَظِيفَة,,,ن ظ ف,,الْغُرْفَةُ نَظِيفَةٌ.,Kamar itu bersih.,sifah,6,
+v184,سَرِيع,sarīʿ,cepat,cepat; laju,sifah,,سَرِيعَة,,,س ر ع,,السَّيَّارَةُ سَرِيعَةٌ.,Mobil itu cepat.,sifah,6,
+v185,جَيِّد,jayyid,"baik, bagus",bagus; baik,sifah,,جَيِّدَة,,,ج و د,Waw akar berubah menjadi ya' bersyaddah pada bentuk جَيِّد; bandingkan جَوْدَة (mutu).,هَذَا كِتَابٌ جَيِّدٌ.,Ini buku yang bagus.,sifah,6,
+v186,بَارِد,bārid,"dingin, sejuk",dingin,sifah,,بَارِدَة,,,ب ر د,,الْمَاءُ بَارِدٌ.,Airnya dingin.,sifah,6,"Pola فَاعِل yang di sini bermakna sifat, bukan pelaku."
+v187,حَارّ,ḥārr,panas,panas,sifah,,حَارَّة,,,ح ر ر,,الْيَوْمُ حَارٌّ.,Hari ini panas.,sifah,6,"Akar mudha'af (huruf kedua dan ketiga sama), sehingga ra' bersyaddah: حَارّ. Seakar dengan حَرَارَة (suhu, panas)."
+v188,مَشْغُول,mashghūl,sibuk,sibuk; repot,sifah,,مَشْغُولَة,,,ش غ ل,,الْمُدِيرُ مَشْغُولٌ.,Direktur itu sibuk.,sifah,6,Pola مَفْعُول (isim maf'ul): 'yang dikenai perbuatan'. Harfiah: 'yang disibukkan'.

@@ -1,0 +1,4165 @@
+{
+  "module": 1,
+  "title": "Kosakata inti",
+  "description": "Kosakata dasar Bahasa Arab Fusha (MSA) untuk tingkat A1-A2, disusun bertahap.",
+  "schema": {
+    "id": "pengenal unik (v###)",
+    "ar": "lema berharakat, bentuk waqf (huruf terakhir boleh tanpa harakat)",
+    "gloss": "arti utama dalam Bahasa Indonesia",
+    "alt": "arti lain yang diterima saat menjawab dengan menaip",
+    "pos": "kelas kata",
+    "gender": "m | f | m/f | null (wajib untuk pos=ism)",
+    "fem": "bentuk mu'annats (kata sifat, angka, sebagian kata benda) atau null",
+    "plural": "jamak yang umum atau null bila tidak dicantumkan",
+    "mudhari": "bentuk mudhari' (hanya untuk pos=fi'l)",
+    "root": "akar tiga huruf dipisah spasi, atau null bila tidak diyakini/tidak ada",
+    "root_note": "catatan bila hubungan akar-kata tidak kasatmata",
+    "example": "contoh kalimat pendek, berharakat penuh termasuk i'rab",
+    "cat": "kategori tematik",
+    "stage": "tahap 1-6"
+  },
+  "entries": [
+    {
+      "id": "v001",
+      "ar": "أَنَا",
+      "gloss": "saya",
+      "alt": [
+        "aku"
+      ],
+      "pos": "dhamir",
+      "gender": null,
+      "fem": null,
+      "plural": null,
+      "mudhari": null,
+      "root": null,
+      "root_note": null,
+      "cat": "dhamir",
+      "stage": 1,
+      "example": {
+        "ar": "أَنَا طَالِبٌ.",
+        "gloss": "Saya seorang pelajar."
+      },
+      "note": "Dhamir munfashil (kata ganti terpisah), orang pertama tunggal, sama untuk lelaki dan perempuan."
+    },
+    {
+      "id": "v002",
+      "ar": "أَنْتَ",
+      "gloss": "kamu (lelaki)",
+      "alt": [
+        "engkau (lk)",
+        "anda (lk)"
+      ],
+      "pos": "dhamir",
+      "gender": "m",
+      "fem": null,
+      "plural": null,
+      "mudhari": null,
+      "root": null,
+      "root_note": null,
+      "cat": "dhamir",
+      "stage": 1,
+      "example": {
+        "ar": "أَنْتَ مُدَرِّسٌ.",
+        "gloss": "Kamu seorang guru."
+      },
+      "note": "Perhatikan fathah pada ta': أَنْتَ untuk lelaki."
+    },
+    {
+      "id": "v003",
+      "ar": "أَنْتِ",
+      "gloss": "kamu (perempuan)",
+      "alt": [
+        "engkau (pr)",
+        "anda (pr)"
+      ],
+      "pos": "dhamir",
+      "gender": "f",
+      "fem": null,
+      "plural": null,
+      "mudhari": null,
+      "root": null,
+      "root_note": null,
+      "cat": "dhamir",
+      "stage": 1,
+      "example": {
+        "ar": "أَنْتِ طَالِبَةٌ.",
+        "gloss": "Kamu seorang pelajar (perempuan)."
+      },
+      "note": "Hanya harakat terakhir yang membedakan dari أَنْتَ: kasrah = perempuan."
+    },
+    {
+      "id": "v004",
+      "ar": "هُوَ",
+      "gloss": "dia (lelaki)",
+      "alt": [
+        "ia (lk)"
+      ],
+      "pos": "dhamir",
+      "gender": "m",
+      "fem": null,
+      "plural": null,
+      "mudhari": null,
+      "root": null,
+      "root_note": null,
+      "cat": "dhamir",
+      "stage": 1,
+      "example": {
+        "ar": "هُوَ طَبِيبٌ.",
+        "gloss": "Dia seorang dokter."
+      },
+      "note": null
+    },
+    {
+      "id": "v005",
+      "ar": "هِيَ",
+      "gloss": "dia (perempuan)",
+      "alt": [
+        "ia (pr)"
+      ],
+      "pos": "dhamir",
+      "gender": "f",
+      "fem": null,
+      "plural": null,
+      "mudhari": null,
+      "root": null,
+      "root_note": null,
+      "cat": "dhamir",
+      "stage": 1,
+      "example": {
+        "ar": "هِيَ مُدَرِّسَةٌ.",
+        "gloss": "Dia seorang guru (perempuan)."
+      },
+      "note": null
+    },
+    {
+      "id": "v006",
+      "ar": "نَحْنُ",
+      "gloss": "kami, kita",
+      "alt": [
+        "kami",
+        "kita"
+      ],
+      "pos": "dhamir",
+      "gender": null,
+      "fem": null,
+      "plural": null,
+      "mudhari": null,
+      "root": null,
+      "root_note": null,
+      "cat": "dhamir",
+      "stage": 1,
+      "example": {
+        "ar": "نَحْنُ طُلَّابٌ.",
+        "gloss": "Kami para pelajar."
+      },
+      "note": "Bahasa Arab tidak membedakan 'kami' (eksklusif) dan 'kita' (inklusif)."
+    },
+    {
+      "id": "v007",
+      "ar": "أَنْتُمْ",
+      "gloss": "kalian (lelaki)",
+      "alt": [
+        "kamu sekalian (lk)"
+      ],
+      "pos": "dhamir",
+      "gender": "m",
+      "fem": null,
+      "plural": null,
+      "mudhari": null,
+      "root": null,
+      "root_note": null,
+      "cat": "dhamir",
+      "stage": 1,
+      "example": {
+        "ar": "أَنْتُمْ مُهَنْدِسُونَ.",
+        "gloss": "Kalian para insinyur."
+      },
+      "note": "Dipakai juga untuk kelompok campuran lelaki dan perempuan."
+    },
+    {
+      "id": "v008",
+      "ar": "أَنْتُنَّ",
+      "gloss": "kalian (perempuan)",
+      "alt": [
+        "kamu sekalian (pr)"
+      ],
+      "pos": "dhamir",
+      "gender": "f",
+      "fem": null,
+      "plural": null,
+      "mudhari": null,
+      "root": null,
+      "root_note": null,
+      "cat": "dhamir",
+      "stage": 1,
+      "example": {
+        "ar": "أَنْتُنَّ طَالِبَاتٌ.",
+        "gloss": "Kalian para pelajar (perempuan)."
+      },
+      "note": "Nun bersyaddah: أَنْتُنَّ."
+    },
+    {
+      "id": "v009",
+      "ar": "هُمْ",
+      "gloss": "mereka (lelaki)",
+      "alt": [],
+      "pos": "dhamir",
+      "gender": "m",
+      "fem": null,
+      "plural": null,
+      "mudhari": null,
+      "root": null,
+      "root_note": null,
+      "cat": "dhamir",
+      "stage": 1,
+      "example": {
+        "ar": "هُمْ طُلَّابٌ.",
+        "gloss": "Mereka para pelajar."
+      },
+      "note": null
+    },
+    {
+      "id": "v010",
+      "ar": "هُنَّ",
+      "gloss": "mereka (perempuan)",
+      "alt": [],
+      "pos": "dhamir",
+      "gender": "f",
+      "fem": null,
+      "plural": null,
+      "mudhari": null,
+      "root": null,
+      "root_note": null,
+      "cat": "dhamir",
+      "stage": 1,
+      "example": {
+        "ar": "هُنَّ مُدَرِّسَاتٌ.",
+        "gloss": "Mereka para guru (perempuan)."
+      },
+      "note": null
+    },
+    {
+      "id": "v011",
+      "ar": "أَنْتُمَا",
+      "gloss": "kamu berdua",
+      "alt": [
+        "kalian berdua"
+      ],
+      "pos": "dhamir",
+      "gender": null,
+      "fem": null,
+      "plural": null,
+      "mudhari": null,
+      "root": null,
+      "root_note": null,
+      "cat": "dhamir",
+      "stage": 1,
+      "example": {
+        "ar": "أَنْتُمَا صَدِيقَانِ.",
+        "gloss": "Kamu berdua adalah dua orang teman."
+      },
+      "note": "Bentuk mutsanna (dual). Bahasa Arab punya bentuk khusus untuk 'dua', berbeda dari jamak."
+    },
+    {
+      "id": "v012",
+      "ar": "هُمَا",
+      "gloss": "mereka berdua",
+      "alt": [],
+      "pos": "dhamir",
+      "gender": null,
+      "fem": null,
+      "plural": null,
+      "mudhari": null,
+      "root": null,
+      "root_note": null,
+      "cat": "dhamir",
+      "stage": 1,
+      "example": {
+        "ar": "هُمَا أَخَوَانِ.",
+        "gloss": "Mereka berdua adalah dua saudara."
+      },
+      "note": "Dipakai untuk dua lelaki maupun dua perempuan."
+    },
+    {
+      "id": "v013",
+      "ar": "هَذَا",
+      "gloss": "ini (lelaki)",
+      "alt": [
+        "ini (mudzakkar)"
+      ],
+      "pos": "isyarah",
+      "gender": "m",
+      "fem": null,
+      "plural": null,
+      "mudhari": null,
+      "root": null,
+      "root_note": null,
+      "cat": "isyarah",
+      "stage": 1,
+      "example": {
+        "ar": "هَذَا بَابٌ.",
+        "gloss": "Ini pintu."
+      },
+      "note": "Ditulis tanpa alif setelah ha' (هَذَا), tetapi dibaca panjang: haadzaa."
+    },
+    {
+      "id": "v014",
+      "ar": "هَذِهِ",
+      "gloss": "ini (perempuan)",
+      "alt": [
+        "ini (mu'annats)"
+      ],
+      "pos": "isyarah",
+      "gender": "f",
+      "fem": null,
+      "plural": null,
+      "mudhari": null,
+      "root": null,
+      "root_note": null,
+      "cat": "isyarah",
+      "stage": 1,
+      "example": {
+        "ar": "هَذِهِ نَافِذَةٌ.",
+        "gloss": "Ini jendela."
+      },
+      "note": "Dibaca haadzihi, ha' terakhir berharakat kasrah."
+    },
+    {
+      "id": "v015",
+      "ar": "ذَلِكَ",
+      "gloss": "itu (lelaki)",
+      "alt": [
+        "itu (mudzakkar)"
+      ],
+      "pos": "isyarah",
+      "gender": "m",
+      "fem": null,
+      "plural": null,
+      "mudhari": null,
+      "root": null,
+      "root_note": null,
+      "cat": "isyarah",
+      "stage": 1,
+      "example": {
+        "ar": "ذَلِكَ رَجُلٌ.",
+        "gloss": "Itu seorang lelaki."
+      },
+      "note": "Dibaca dzaalika; alif panjang tidak ditulis."
+    },
+    {
+      "id": "v016",
+      "ar": "تِلْكَ",
+      "gloss": "itu (perempuan)",
+      "alt": [
+        "itu (mu'annats)"
+      ],
+      "pos": "isyarah",
+      "gender": "f",
+      "fem": null,
+      "plural": null,
+      "mudhari": null,
+      "root": null,
+      "root_note": null,
+      "cat": "isyarah",
+      "stage": 1,
+      "example": {
+        "ar": "تِلْكَ مَدِينَةٌ كَبِيرَةٌ.",
+        "gloss": "Itu kota yang besar."
+      },
+      "note": null
+    },
+    {
+      "id": "v017",
+      "ar": "هَؤُلَاءِ",
+      "gloss": "mereka ini, ini (jamak)",
+      "alt": [
+        "ini semua"
+      ],
+      "pos": "isyarah",
+      "gender": null,
+      "fem": null,
+      "plural": null,
+      "mudhari": null,
+      "root": null,
+      "root_note": null,
+      "cat": "isyarah",
+      "stage": 1,
+      "example": {
+        "ar": "هَؤُلَاءِ طُلَّابٌ.",
+        "gloss": "Mereka ini para pelajar."
+      },
+      "note": "Umumnya dipakai untuk jamak manusia."
+    },
+    {
+      "id": "v018",
+      "ar": "أُولَئِكَ",
+      "gloss": "mereka itu, itu (jamak)",
+      "alt": [
+        "itu semua"
+      ],
+      "pos": "isyarah",
+      "gender": null,
+      "fem": null,
+      "plural": null,
+      "mudhari": null,
+      "root": null,
+      "root_note": null,
+      "cat": "isyarah",
+      "stage": 1,
+      "example": {
+        "ar": "أُولَئِكَ مُدَرِّسُونَ.",
+        "gloss": "Mereka itu para guru."
+      },
+      "note": "Waw pada أُولَئِكَ ditulis tetapi tidak dibaca (ejaan khas)."
+    },
+    {
+      "id": "v019",
+      "ar": "مَا",
+      "gloss": "apa (diikuti kata benda)",
+      "alt": [
+        "apa"
+      ],
+      "pos": "istifham",
+      "gender": null,
+      "fem": null,
+      "plural": null,
+      "mudhari": null,
+      "root": null,
+      "root_note": null,
+      "cat": "istifham",
+      "stage": 1,
+      "example": {
+        "ar": "مَا هَذَا؟",
+        "gloss": "Apa ini?"
+      },
+      "note": "مَا bertanya tentang benda dan biasanya diikuti kata benda atau kata ganti. Untuk pertanyaan ya/tidak dipakai هَلْ, bukan مَا."
+    },
+    {
+      "id": "v020",
+      "ar": "مَاذَا",
+      "gloss": "apa (diikuti kata kerja)",
+      "alt": [
+        "apa yang"
+      ],
+      "pos": "istifham",
+      "gender": null,
+      "fem": null,
+      "plural": null,
+      "mudhari": null,
+      "root": null,
+      "root_note": null,
+      "cat": "istifham",
+      "stage": 1,
+      "example": {
+        "ar": "مَاذَا تَقْرَأُ؟",
+        "gloss": "Apa yang kamu baca?"
+      },
+      "note": "Kecenderungan umum: مَاذَا + kata kerja, مَا + kata benda. Keduanya bisa bertukar dalam pemakaian tertentu."
+    },
+    {
+      "id": "v021",
+      "ar": "مَنْ",
+      "gloss": "siapa",
+      "alt": [],
+      "pos": "istifham",
+      "gender": null,
+      "fem": null,
+      "plural": null,
+      "mudhari": null,
+      "root": null,
+      "root_note": null,
+      "cat": "istifham",
+      "stage": 1,
+      "example": {
+        "ar": "مَنْ هَذَا؟",
+        "gloss": "Siapa ini?"
+      },
+      "note": "Jangan tertukar dengan مِنْ (dari) yang berharakat kasrah."
+    },
+    {
+      "id": "v022",
+      "ar": "أَيْنَ",
+      "gloss": "di mana",
+      "alt": [
+        "mana"
+      ],
+      "pos": "istifham",
+      "gender": null,
+      "fem": null,
+      "plural": null,
+      "mudhari": null,
+      "root": null,
+      "root_note": null,
+      "cat": "istifham",
+      "stage": 1,
+      "example": {
+        "ar": "أَيْنَ الْكِتَابُ؟",
+        "gloss": "Di mana buku itu?"
+      },
+      "note": null
+    },
+    {
+      "id": "v023",
+      "ar": "كَيْفَ",
+      "gloss": "bagaimana",
+      "alt": [],
+      "pos": "istifham",
+      "gender": null,
+      "fem": null,
+      "plural": null,
+      "mudhari": null,
+      "root": null,
+      "root_note": null,
+      "cat": "istifham",
+      "stage": 1,
+      "example": {
+        "ar": "كَيْفَ حَالُكَ؟",
+        "gloss": "Bagaimana keadaanmu?"
+      },
+      "note": "حَال = keadaan. كَيْفَ حَالُكِ؟ untuk perempuan."
+    },
+    {
+      "id": "v024",
+      "ar": "مَتَى",
+      "gloss": "kapan",
+      "alt": [
+        "bila"
+      ],
+      "pos": "istifham",
+      "gender": null,
+      "fem": null,
+      "plural": null,
+      "mudhari": null,
+      "root": null,
+      "root_note": null,
+      "cat": "istifham",
+      "stage": 1,
+      "example": {
+        "ar": "مَتَى الدَّرْسُ؟",
+        "gloss": "Kapan pelajarannya?"
+      },
+      "note": "Ditulis dengan alif maqshurah (ى) dan dibaca mataa."
+    },
+    {
+      "id": "v025",
+      "ar": "لِمَاذَا",
+      "gloss": "mengapa",
+      "alt": [
+        "kenapa"
+      ],
+      "pos": "istifham",
+      "gender": null,
+      "fem": null,
+      "plural": null,
+      "mudhari": null,
+      "root": null,
+      "root_note": null,
+      "cat": "istifham",
+      "stage": 1,
+      "example": {
+        "ar": "لِمَاذَا تَذْهَبُ؟",
+        "gloss": "Mengapa kamu pergi?"
+      },
+      "note": "Gabungan لِ (untuk) + مَاذَا (apa)."
+    },
+    {
+      "id": "v026",
+      "ar": "كَمْ",
+      "gloss": "berapa",
+      "alt": [
+        "berapa banyak"
+      ],
+      "pos": "istifham",
+      "gender": null,
+      "fem": null,
+      "plural": null,
+      "mudhari": null,
+      "root": null,
+      "root_note": null,
+      "cat": "istifham",
+      "stage": 1,
+      "example": {
+        "ar": "كَمْ كِتَابًا عِنْدَكَ؟",
+        "gloss": "Berapa buku yang kamu punya?"
+      },
+      "note": "Pada كَمْ istifhamiyyah, kata yang ditanyakan umumnya tunggal dan manshub (kitaaban, bukan kutuban)."
+    },
+    {
+      "id": "v027",
+      "ar": "أَيُّ",
+      "gloss": "yang mana",
+      "alt": [
+        "mana"
+      ],
+      "pos": "istifham",
+      "gender": null,
+      "fem": null,
+      "plural": null,
+      "mudhari": null,
+      "root": null,
+      "root_note": null,
+      "cat": "istifham",
+      "stage": 1,
+      "example": {
+        "ar": "أَيُّ كِتَابٍ تَقْرَأُ؟",
+        "gloss": "Buku yang mana kamu baca?"
+      },
+      "note": "أَيُّ selalu menjadi mudhaf, jadi kata sesudahnya majrur (berharakat kasrah/tanwin kasrah)."
+    },
+    {
+      "id": "v028",
+      "ar": "هَلْ",
+      "gloss": "apakah",
+      "alt": [],
+      "pos": "istifham",
+      "gender": null,
+      "fem": null,
+      "plural": null,
+      "mudhari": null,
+      "root": null,
+      "root_note": null,
+      "cat": "istifham",
+      "stage": 1,
+      "example": {
+        "ar": "هَلْ أَنْتَ طَالِبٌ؟",
+        "gloss": "Apakah kamu seorang pelajar?"
+      },
+      "note": "Untuk pertanyaan ya/tidak. Jawaban: نَعَمْ (ya) atau لَا (tidak)."
+    },
+    {
+      "id": "v029",
+      "ar": "نَعَمْ",
+      "gloss": "ya",
+      "alt": [
+        "iya",
+        "benar"
+      ],
+      "pos": "harf jawab",
+      "gender": null,
+      "fem": null,
+      "plural": null,
+      "mudhari": null,
+      "root": null,
+      "root_note": null,
+      "cat": "istifham",
+      "stage": 1,
+      "example": {
+        "ar": "نَعَمْ، هَذَا كِتَابِي.",
+        "gloss": "Ya, ini buku saya."
+      },
+      "note": "Lawannya: لَا (tidak)."
+    },
+    {
+      "id": "v030",
+      "ar": "وَاحِد",
+      "gloss": "satu",
+      "alt": [
+        "1"
+      ],
+      "pos": "adad",
+      "gender": "m",
+      "fem": "وَاحِدَة",
+      "plural": null,
+      "mudhari": null,
+      "root": "و ح د",
+      "root_note": null,
+      "cat": "adad",
+      "stage": 2,
+      "example": {
+        "ar": "عِنْدِي كِتَابٌ وَاحِدٌ.",
+        "gloss": "Saya punya satu buku."
+      },
+      "note": "Angka 1 dan 2 diletakkan SESUDAH kata benda dan mengikuti gendernya: كِتَابٌ وَاحِدٌ، سَاعَةٌ وَاحِدَةٌ."
+    },
+    {
+      "id": "v031",
+      "ar": "اِثْنَانِ",
+      "gloss": "dua",
+      "alt": [
+        "2"
+      ],
+      "pos": "adad",
+      "gender": "m",
+      "fem": "اِثْنَتَانِ",
+      "plural": null,
+      "mudhari": null,
+      "root": "ث ن ي",
+      "root_note": "Hamzah pada اِثْنَانِ adalah hamzah washal, bukan bagian akar.",
+      "cat": "adad",
+      "stage": 2,
+      "example": {
+        "ar": "عِنْدِي كِتَابَانِ.",
+        "gloss": "Saya punya dua buku."
+      },
+      "note": "Untuk 'dua' biasanya cukup bentuk mutsanna (كِتَابَانِ); اِثْنَانِ dipakai untuk penegasan atau berdiri sendiri saat berhitung."
+    },
+    {
+      "id": "v032",
+      "ar": "ثَلَاثَة",
+      "gloss": "tiga",
+      "alt": [
+        "3"
+      ],
+      "pos": "adad",
+      "gender": "m",
+      "fem": "ثَلَاث",
+      "plural": null,
+      "mudhari": null,
+      "root": "ث ل ث",
+      "root_note": null,
+      "cat": "adad",
+      "stage": 2,
+      "example": {
+        "ar": "عِنْدِي ثَلَاثَةُ كُتُبٍ.",
+        "gloss": "Saya punya tiga buku."
+      },
+      "note": "Angka 3-10 berlawanan gender dengan benda yang dihitung: benda mudzakkar memakai bentuk ber-ta' (ثَلَاثَةُ كُتُبٍ), benda mu'annats memakai bentuk tanpa ta' (ثَلَاثُ بَنَاتٍ). Istilah nahwunya: mukhalafah / 'polaritas'."
+    },
+    {
+      "id": "v033",
+      "ar": "أَرْبَعَة",
+      "gloss": "empat",
+      "alt": [
+        "4"
+      ],
+      "pos": "adad",
+      "gender": "m",
+      "fem": "أَرْبَع",
+      "plural": null,
+      "mudhari": null,
+      "root": "ر ب ع",
+      "root_note": null,
+      "cat": "adad",
+      "stage": 2,
+      "example": {
+        "ar": "عِنْدِي أَرْبَعَةُ أَقْلَامٍ.",
+        "gloss": "Saya punya empat pulpen."
+      },
+      "note": null
+    },
+    {
+      "id": "v034",
+      "ar": "خَمْسَة",
+      "gloss": "lima",
+      "alt": [
+        "5"
+      ],
+      "pos": "adad",
+      "gender": "m",
+      "fem": "خَمْس",
+      "plural": null,
+      "mudhari": null,
+      "root": "خ م س",
+      "root_note": null,
+      "cat": "adad",
+      "stage": 2,
+      "example": {
+        "ar": "فِي الْبَيْتِ خَمْسَةُ أَبْوَابٍ.",
+        "gloss": "Di rumah itu ada lima pintu."
+      },
+      "note": null
+    },
+    {
+      "id": "v035",
+      "ar": "سِتَّة",
+      "gloss": "enam",
+      "alt": [
+        "6"
+      ],
+      "pos": "adad",
+      "gender": "m",
+      "fem": "سِتّ",
+      "plural": null,
+      "mudhari": null,
+      "root": "س د س",
+      "root_note": "Akar asalnya س د س; dal berubah lalu melebur menjadi ta' bersyaddah. Bandingkan سَادِس (keenam) dan أَسْدَاس.",
+      "cat": "adad",
+      "stage": 2,
+      "example": {
+        "ar": "عِنْدِي سِتَّةُ أَقْلَامٍ.",
+        "gloss": "Saya punya enam pulpen."
+      },
+      "note": null
+    },
+    {
+      "id": "v036",
+      "ar": "سَبْعَة",
+      "gloss": "tujuh",
+      "alt": [
+        "7"
+      ],
+      "pos": "adad",
+      "gender": "m",
+      "fem": "سَبْع",
+      "plural": null,
+      "mudhari": null,
+      "root": "س ب ع",
+      "root_note": null,
+      "cat": "adad",
+      "stage": 2,
+      "example": {
+        "ar": "فِي الْأُسْبُوعِ سَبْعَةُ أَيَّامٍ.",
+        "gloss": "Dalam satu pekan ada tujuh hari."
+      },
+      "note": null
+    },
+    {
+      "id": "v037",
+      "ar": "ثَمَانِيَة",
+      "gloss": "delapan",
+      "alt": [
+        "8"
+      ],
+      "pos": "adad",
+      "gender": "m",
+      "fem": "ثَمَانٍ",
+      "plural": null,
+      "mudhari": null,
+      "root": "ث م ن",
+      "root_note": null,
+      "cat": "adad",
+      "stage": 2,
+      "example": {
+        "ar": "عِنْدِي ثَمَانِيَةُ كُتُبٍ.",
+        "gloss": "Saya punya delapan buku."
+      },
+      "note": "Bentuk mu'annats ثَمَانٍ termasuk isim manqush; perubahan harakat akhirnya mengikuti aturan khusus isim manqush."
+    },
+    {
+      "id": "v038",
+      "ar": "تِسْعَة",
+      "gloss": "sembilan",
+      "alt": [
+        "9"
+      ],
+      "pos": "adad",
+      "gender": "m",
+      "fem": "تِسْع",
+      "plural": null,
+      "mudhari": null,
+      "root": "ت س ع",
+      "root_note": null,
+      "cat": "adad",
+      "stage": 2,
+      "example": {
+        "ar": "فِي الْغُرْفَةِ تِسْعَةُ رِجَالٍ.",
+        "gloss": "Di dalam kamar itu ada sembilan lelaki."
+      },
+      "note": null
+    },
+    {
+      "id": "v039",
+      "ar": "عَشَرَة",
+      "gloss": "sepuluh",
+      "alt": [
+        "10"
+      ],
+      "pos": "adad",
+      "gender": "m",
+      "fem": "عَشْر",
+      "plural": null,
+      "mudhari": null,
+      "root": "ع ش ر",
+      "root_note": null,
+      "cat": "adad",
+      "stage": 2,
+      "example": {
+        "ar": "عِنْدِي عَشَرَةُ أَقْلَامٍ.",
+        "gloss": "Saya punya sepuluh pulpen."
+      },
+      "note": "Perhatikan perbedaan harakat: عَشَرَة (sepuluh, mudzakkar) dan عَشْر (mu'annats)."
+    },
+    {
+      "id": "v040",
+      "ar": "أَب",
+      "gloss": "ayah",
+      "alt": [
+        "bapak"
+      ],
+      "pos": "ism",
+      "gender": "m",
+      "fem": null,
+      "plural": "آبَاء",
+      "mudhari": null,
+      "root": "أ ب و",
+      "root_note": "Huruf ketiga (waw) tidak muncul pada bentuk أَب, tetapi tampak pada أَبُوهُ dan أُبُوَّة.",
+      "cat": "usrah",
+      "stage": 2,
+      "example": {
+        "ar": "أَبِي مُهَنْدِسٌ.",
+        "gloss": "Ayah saya seorang insinyur."
+      },
+      "note": "Termasuk al-asma' al-khamsah: saat disambung ke kata lain menjadi أَبُو / أَبَا / أَبِي sesuai kedudukan i'rabnya."
+    },
+    {
+      "id": "v041",
+      "ar": "أُمّ",
+      "gloss": "ibu",
+      "alt": [
+        "emak"
+      ],
+      "pos": "ism",
+      "gender": "f",
+      "fem": null,
+      "plural": "أُمَّهَات",
+      "mudhari": null,
+      "root": "أ م م",
+      "root_note": null,
+      "cat": "usrah",
+      "stage": 2,
+      "example": {
+        "ar": "أُمِّي مُدَرِّسَةٌ.",
+        "gloss": "Ibu saya seorang guru."
+      },
+      "note": "Mu'annats walaupun tanpa ta' marbuthah."
+    },
+    {
+      "id": "v042",
+      "ar": "اِبْن",
+      "gloss": "anak lelaki",
+      "alt": [
+        "putra"
+      ],
+      "pos": "ism",
+      "gender": "m",
+      "fem": null,
+      "plural": "أَبْنَاء",
+      "mudhari": null,
+      "root": "ب ن و",
+      "root_note": "Hamzah pada اِبْن adalah hamzah washal; akarnya ب ن و (bandingkan بَنُون، بُنُوَّة).",
+      "cat": "usrah",
+      "stage": 2,
+      "example": {
+        "ar": "هَذَا ابْنِي.",
+        "gloss": "Ini anak lelaki saya."
+      },
+      "note": "Karena hamzahnya hamzah washal, saat di tengah kalimat ia tidak dibaca: haadzab-nii."
+    },
+    {
+      "id": "v043",
+      "ar": "بِنْت",
+      "gloss": "anak perempuan",
+      "alt": [
+        "putri"
+      ],
+      "pos": "ism",
+      "gender": "f",
+      "fem": null,
+      "plural": "بَنَات",
+      "mudhari": null,
+      "root": "ب ن و",
+      "root_note": "Seakar dengan اِبْن.",
+      "cat": "usrah",
+      "stage": 2,
+      "example": {
+        "ar": "بِنْتُهَا صَغِيرَةٌ.",
+        "gloss": "Anak perempuannya masih kecil."
+      },
+      "note": "Mu'annats meski ditulis dengan ta' maftuhah (ت), bukan ta' marbuthah."
+    },
+    {
+      "id": "v044",
+      "ar": "أَخ",
+      "gloss": "saudara lelaki",
+      "alt": [
+        "kakak lelaki",
+        "adik lelaki"
+      ],
+      "pos": "ism",
+      "gender": "m",
+      "fem": null,
+      "plural": "إِخْوَة",
+      "mudhari": null,
+      "root": "أ خ و",
+      "root_note": "Waw tampak pada أَخُوهُ dan أُخُوَّة.",
+      "cat": "usrah",
+      "stage": 2,
+      "example": {
+        "ar": "أَخِي طَالِبٌ.",
+        "gloss": "Saudara lelaki saya seorang pelajar."
+      },
+      "note": "Bahasa Arab tidak membedakan kakak dan adik pada kata dasarnya; dipakai أَخٌ أَكْبَر / أَخٌ أَصْغَر bila perlu."
+    },
+    {
+      "id": "v045",
+      "ar": "أُخْت",
+      "gloss": "saudara perempuan",
+      "alt": [
+        "kakak perempuan",
+        "adik perempuan"
+      ],
+      "pos": "ism",
+      "gender": "f",
+      "fem": null,
+      "plural": "أَخَوَات",
+      "mudhari": null,
+      "root": "أ خ و",
+      "root_note": "Seakar dengan أَخ.",
+      "cat": "usrah",
+      "stage": 2,
+      "example": {
+        "ar": "أُخْتِي فِي الْمَدْرَسَةِ.",
+        "gloss": "Saudara perempuan saya ada di sekolah."
+      },
+      "note": null
+    },
+    {
+      "id": "v046",
+      "ar": "جَدّ",
+      "gloss": "kakek",
+      "alt": [],
+      "pos": "ism",
+      "gender": "m",
+      "fem": null,
+      "plural": "أَجْدَاد",
+      "mudhari": null,
+      "root": "ج د د",
+      "root_note": null,
+      "cat": "usrah",
+      "stage": 2,
+      "example": {
+        "ar": "جَدِّي فِي الْقَرْيَةِ.",
+        "gloss": "Kakek saya ada di desa."
+      },
+      "note": "Akar ج د د juga menurunkan جَدِيد (baru) — hubungan maknanya tidak selalu langsung terasa."
+    },
+    {
+      "id": "v047",
+      "ar": "جَدَّة",
+      "gloss": "nenek",
+      "alt": [],
+      "pos": "ism",
+      "gender": "f",
+      "fem": null,
+      "plural": "جَدَّات",
+      "mudhari": null,
+      "root": "ج د د",
+      "root_note": null,
+      "cat": "usrah",
+      "stage": 2,
+      "example": {
+        "ar": "هَذِهِ جَدَّتِي.",
+        "gloss": "Ini nenek saya."
+      },
+      "note": null
+    },
+    {
+      "id": "v048",
+      "ar": "زَوْج",
+      "gloss": "suami",
+      "alt": [
+        "pasangan (lk)"
+      ],
+      "pos": "ism",
+      "gender": "m",
+      "fem": null,
+      "plural": "أَزْوَاج",
+      "mudhari": null,
+      "root": "ز و ج",
+      "root_note": null,
+      "cat": "usrah",
+      "stage": 2,
+      "example": {
+        "ar": "زَوْجُهَا طَبِيبٌ.",
+        "gloss": "Suaminya seorang dokter."
+      },
+      "note": "Makna dasar akar ز و ج adalah 'pasangan'."
+    },
+    {
+      "id": "v049",
+      "ar": "زَوْجَة",
+      "gloss": "istri",
+      "alt": [
+        "pasangan (pr)"
+      ],
+      "pos": "ism",
+      "gender": "f",
+      "fem": null,
+      "plural": "زَوْجَات",
+      "mudhari": null,
+      "root": "ز و ج",
+      "root_note": null,
+      "cat": "usrah",
+      "stage": 2,
+      "example": {
+        "ar": "زَوْجَتُهُ مُدَرِّسَةٌ.",
+        "gloss": "Istrinya seorang guru."
+      },
+      "note": "Dalam bahasa Arab klasik, زَوْج juga dipakai untuk 'istri'; زَوْجَة lebih umum dalam pemakaian modern."
+    },
+    {
+      "id": "v050",
+      "ar": "عَمّ",
+      "gloss": "paman (dari pihak ayah)",
+      "alt": [
+        "om (pihak ayah)"
+      ],
+      "pos": "ism",
+      "gender": "m",
+      "fem": null,
+      "plural": "أَعْمَام",
+      "mudhari": null,
+      "root": "ع م م",
+      "root_note": null,
+      "cat": "usrah",
+      "stage": 2,
+      "example": {
+        "ar": "عَمِّي فِي الْمَدِينَةِ.",
+        "gloss": "Paman saya (dari pihak ayah) ada di kota."
+      },
+      "note": "Bahasa Arab memisahkan kerabat pihak ayah (عَمّ، عَمَّة) dan pihak ibu (خَال، خَالَة)."
+    },
+    {
+      "id": "v051",
+      "ar": "عَمَّة",
+      "gloss": "bibi (dari pihak ayah)",
+      "alt": [
+        "tante (pihak ayah)"
+      ],
+      "pos": "ism",
+      "gender": "f",
+      "fem": null,
+      "plural": "عَمَّات",
+      "mudhari": null,
+      "root": "ع م م",
+      "root_note": null,
+      "cat": "usrah",
+      "stage": 2,
+      "example": {
+        "ar": "عَمَّتِي فِي الْقَرْيَةِ.",
+        "gloss": "Bibi saya (dari pihak ayah) ada di desa."
+      },
+      "note": null
+    },
+    {
+      "id": "v052",
+      "ar": "خَال",
+      "gloss": "paman (dari pihak ibu)",
+      "alt": [
+        "om (pihak ibu)"
+      ],
+      "pos": "ism",
+      "gender": "m",
+      "fem": null,
+      "plural": "أَخْوَال",
+      "mudhari": null,
+      "root": "خ و ل",
+      "root_note": null,
+      "cat": "usrah",
+      "stage": 2,
+      "example": {
+        "ar": "خَالِي رَجُلٌ طَوِيلٌ.",
+        "gloss": "Paman saya (dari pihak ibu) seorang lelaki yang tinggi."
+      },
+      "note": null
+    },
+    {
+      "id": "v053",
+      "ar": "خَالَة",
+      "gloss": "bibi (dari pihak ibu)",
+      "alt": [
+        "tante (pihak ibu)"
+      ],
+      "pos": "ism",
+      "gender": "f",
+      "fem": null,
+      "plural": "خَالَات",
+      "mudhari": null,
+      "root": "خ و ل",
+      "root_note": null,
+      "cat": "usrah",
+      "stage": 2,
+      "example": {
+        "ar": "خَالَتِي فِي الْبَيْتِ.",
+        "gloss": "Bibi saya (dari pihak ibu) ada di rumah."
+      },
+      "note": null
+    },
+    {
+      "id": "v054",
+      "ar": "أُسْرَة",
+      "gloss": "keluarga",
+      "alt": [],
+      "pos": "ism",
+      "gender": "f",
+      "fem": null,
+      "plural": "أُسَر",
+      "mudhari": null,
+      "root": "أ س ر",
+      "root_note": null,
+      "cat": "usrah",
+      "stage": 2,
+      "example": {
+        "ar": "أُسْرَتِي كَبِيرَةٌ.",
+        "gloss": "Keluarga saya besar."
+      },
+      "note": "Sinonim yang juga umum: عَائِلَة."
+    },
+    {
+      "id": "v055",
+      "ar": "وَالِد",
+      "gloss": "ayah (bentuk resmi)",
+      "alt": [
+        "orang tua (ayah)"
+      ],
+      "pos": "ism",
+      "gender": "m",
+      "fem": "وَالِدَة",
+      "plural": null,
+      "mudhari": null,
+      "root": "و ل د",
+      "root_note": null,
+      "cat": "usrah",
+      "stage": 2,
+      "example": {
+        "ar": "وَالِدِي فِي الْمَكْتَبِ.",
+        "gloss": "Ayah saya ada di kantor."
+      },
+      "note": "وَالِدَة = ibu. Bentuk mutsanna وَالِدَانِ berarti 'kedua orang tua'. Pola فَاعِل di sini bermakna 'yang melahirkan'."
+    },
+    {
+      "id": "v056",
+      "ar": "كِتَاب",
+      "gloss": "buku",
+      "alt": [],
+      "pos": "ism",
+      "gender": "m",
+      "fem": null,
+      "plural": "كُتُب",
+      "mudhari": null,
+      "root": "ك ت ب",
+      "root_note": null,
+      "cat": "asyya",
+      "stage": 2,
+      "example": {
+        "ar": "الْكِتَابُ عَلَى الْمَكْتَبِ.",
+        "gloss": "Buku itu ada di atas meja."
+      },
+      "note": "Pola فِعَال di sini adalah mashdar yang menjadi kata benda konkret."
+    },
+    {
+      "id": "v057",
+      "ar": "قَلَم",
+      "gloss": "pulpen, pena",
+      "alt": [
+        "pena",
+        "bolpoin"
+      ],
+      "pos": "ism",
+      "gender": "m",
+      "fem": null,
+      "plural": "أَقْلَام",
+      "mudhari": null,
+      "root": "ق ل م",
+      "root_note": null,
+      "cat": "asyya",
+      "stage": 2,
+      "example": {
+        "ar": "هَذَا قَلَمٌ جَدِيدٌ.",
+        "gloss": "Ini pulpen baru."
+      },
+      "note": null
+    },
+    {
+      "id": "v058",
+      "ar": "بَاب",
+      "gloss": "pintu",
+      "alt": [],
+      "pos": "ism",
+      "gender": "m",
+      "fem": null,
+      "plural": "أَبْوَاب",
+      "mudhari": null,
+      "root": "ب و ب",
+      "root_note": "Waw akar tampak pada jamaknya أَبْوَاب.",
+      "cat": "asyya",
+      "stage": 2,
+      "example": {
+        "ar": "الْبَابُ مَفْتُوحٌ.",
+        "gloss": "Pintu itu terbuka."
+      },
+      "note": null
+    },
+    {
+      "id": "v059",
+      "ar": "نَافِذَة",
+      "gloss": "jendela",
+      "alt": [],
+      "pos": "ism",
+      "gender": "f",
+      "fem": null,
+      "plural": "نَوَافِذ",
+      "mudhari": null,
+      "root": "ن ف ذ",
+      "root_note": null,
+      "cat": "asyya",
+      "stage": 2,
+      "example": {
+        "ar": "النَّافِذَةُ صَغِيرَةٌ.",
+        "gloss": "Jendela itu kecil."
+      },
+      "note": "Jamaknya نَوَافِذ termasuk jamak taksir pola فَوَاعِل."
+    },
+    {
+      "id": "v060",
+      "ar": "كُرْسِيّ",
+      "gloss": "kursi",
+      "alt": [],
+      "pos": "ism",
+      "gender": "m",
+      "fem": null,
+      "plural": "كَرَاسِيّ",
+      "mudhari": null,
+      "root": "ك ر س",
+      "root_note": null,
+      "cat": "asyya",
+      "stage": 2,
+      "example": {
+        "ar": "الْكُرْسِيُّ جَدِيدٌ.",
+        "gloss": "Kursi itu baru."
+      },
+      "note": "Ya' bersyaddah di akhir: kursiyy. Kata Indonesia 'kursi' berasal dari kata ini."
+    },
+    {
+      "id": "v061",
+      "ar": "رَجُل",
+      "gloss": "lelaki",
+      "alt": [
+        "laki-laki",
+        "pria"
+      ],
+      "pos": "ism",
+      "gender": "m",
+      "fem": null,
+      "plural": "رِجَال",
+      "mudhari": null,
+      "root": "ر ج ل",
+      "root_note": null,
+      "cat": "nas",
+      "stage": 3,
+      "example": {
+        "ar": "الرَّجُلُ فِي السُّوقِ.",
+        "gloss": "Lelaki itu ada di pasar."
+      },
+      "note": "Seakar dengan رِجْل (kaki)."
+    },
+    {
+      "id": "v062",
+      "ar": "اِمْرَأَة",
+      "gloss": "perempuan",
+      "alt": [
+        "wanita"
+      ],
+      "pos": "ism",
+      "gender": "f",
+      "fem": null,
+      "plural": "نِسَاء",
+      "mudhari": null,
+      "root": "م ر أ",
+      "root_note": "Hamzah awal adalah hamzah washal; akarnya م ر أ (bandingkan مَرْء = orang).",
+      "cat": "nas",
+      "stage": 3,
+      "example": {
+        "ar": "الْمَرْأَةُ مُدَرِّسَةٌ.",
+        "gloss": "Perempuan itu seorang guru."
+      },
+      "note": "Bila diberi ال, bentuknya menjadi الْمَرْأَة (hamzah washal hilang dari tulisan). Jamaknya نِسَاء tidak seakar dengan bentuk tunggalnya."
+    },
+    {
+      "id": "v063",
+      "ar": "وَلَد",
+      "gloss": "anak (lelaki)",
+      "alt": [
+        "anak"
+      ],
+      "pos": "ism",
+      "gender": "m",
+      "fem": null,
+      "plural": "أَوْلَاد",
+      "mudhari": null,
+      "root": "و ل د",
+      "root_note": null,
+      "cat": "nas",
+      "stage": 3,
+      "example": {
+        "ar": "الْوَلَدُ يَلْعَبُ.",
+        "gloss": "Anak itu bermain."
+      },
+      "note": "Seakar dengan وَالِد (ayah) dan وِلَادَة (kelahiran)."
+    },
+    {
+      "id": "v064",
+      "ar": "طِفْل",
+      "gloss": "anak kecil, balita",
+      "alt": [
+        "bayi",
+        "anak kecil"
+      ],
+      "pos": "ism",
+      "gender": "m",
+      "fem": "طِفْلَة",
+      "plural": "أَطْفَال",
+      "mudhari": null,
+      "root": "ط ف ل",
+      "root_note": null,
+      "cat": "nas",
+      "stage": 3,
+      "example": {
+        "ar": "الطِّفْلُ يَنَامُ.",
+        "gloss": "Anak kecil itu tidur."
+      },
+      "note": null
+    },
+    {
+      "id": "v065",
+      "ar": "طَالِب",
+      "gloss": "pelajar (lelaki), mahasiswa",
+      "alt": [
+        "murid",
+        "siswa",
+        "mahasiswa"
+      ],
+      "pos": "ism",
+      "gender": "m",
+      "fem": "طَالِبَة",
+      "plural": "طُلَّاب",
+      "mudhari": null,
+      "root": "ط ل ب",
+      "root_note": null,
+      "cat": "nas",
+      "stage": 3,
+      "example": {
+        "ar": "الطَّالِبُ يَقْرَأُ.",
+        "gloss": "Pelajar itu sedang membaca."
+      },
+      "note": "Pola فَاعِل = pelaku. Makna harfiahnya 'orang yang menuntut/mencari' (طَلَبَ = mencari). Jamak lain yang juga dipakai: طَلَبَة."
+    },
+    {
+      "id": "v066",
+      "ar": "طَالِبَة",
+      "gloss": "pelajar (perempuan)",
+      "alt": [
+        "murid (pr)",
+        "siswi",
+        "mahasiswi"
+      ],
+      "pos": "ism",
+      "gender": "f",
+      "fem": null,
+      "plural": "طَالِبَات",
+      "mudhari": null,
+      "root": "ط ل ب",
+      "root_note": null,
+      "cat": "nas",
+      "stage": 3,
+      "example": {
+        "ar": "الطَّالِبَةُ فِي الْجَامِعَةِ.",
+        "gloss": "Pelajar perempuan itu ada di universitas."
+      },
+      "note": "Jamaknya طَالِبَات adalah jamak mu'annats salim (akhiran ـَات)."
+    },
+    {
+      "id": "v067",
+      "ar": "مُدَرِّس",
+      "gloss": "guru (lelaki), pengajar",
+      "alt": [
+        "pengajar",
+        "guru"
+      ],
+      "pos": "ism",
+      "gender": "m",
+      "fem": "مُدَرِّسَة",
+      "plural": "مُدَرِّسُون",
+      "mudhari": null,
+      "root": "د ر س",
+      "root_note": null,
+      "cat": "nas",
+      "stage": 3,
+      "example": {
+        "ar": "الْمُدَرِّسُ فِي الْمَدْرَسَةِ.",
+        "gloss": "Guru itu ada di sekolah."
+      },
+      "note": "Pola مُفَعِّل: pelaku dari wazan II (دَرَّسَ = mengajar). Seakar dengan مَدْرَسَة dan دَرْس."
+    },
+    {
+      "id": "v068",
+      "ar": "مُدَرِّسَة",
+      "gloss": "guru (perempuan)",
+      "alt": [
+        "pengajar (pr)"
+      ],
+      "pos": "ism",
+      "gender": "f",
+      "fem": null,
+      "plural": "مُدَرِّسَات",
+      "mudhari": null,
+      "root": "د ر س",
+      "root_note": null,
+      "cat": "nas",
+      "stage": 3,
+      "example": {
+        "ar": "مُدَرِّسَتُنَا جَدِيدَةٌ.",
+        "gloss": "Guru perempuan kami adalah guru baru."
+      },
+      "note": null
+    },
+    {
+      "id": "v069",
+      "ar": "مُهَنْدِس",
+      "gloss": "insinyur",
+      "alt": [],
+      "pos": "ism",
+      "gender": "m",
+      "fem": "مُهَنْدِسَة",
+      "plural": "مُهَنْدِسُون",
+      "mudhari": null,
+      "root": "ه ن د س",
+      "root_note": "Akar empat huruf (ruba'i), bukan tiga; berasal dari kata serapan Persia.",
+      "cat": "nas",
+      "stage": 3,
+      "example": {
+        "ar": "أَخِي مُهَنْدِسٌ.",
+        "gloss": "Saudara lelaki saya seorang insinyur."
+      },
+      "note": "Contoh kata dengan akar empat huruf — tidak semua kata Arab berakar tiga huruf."
+    },
+    {
+      "id": "v070",
+      "ar": "طَبِيب",
+      "gloss": "dokter",
+      "alt": [
+        "tabib"
+      ],
+      "pos": "ism",
+      "gender": "m",
+      "fem": "طَبِيبَة",
+      "plural": "أَطِبَّاء",
+      "mudhari": null,
+      "root": "ط ب ب",
+      "root_note": null,
+      "cat": "nas",
+      "stage": 3,
+      "example": {
+        "ar": "الطَّبِيبُ فِي الْمُسْتَشْفَى.",
+        "gloss": "Dokter itu ada di rumah sakit."
+      },
+      "note": "Akar ط ب ب berhuruf kedua dan ketiga sama (mudha'af)."
+    },
+    {
+      "id": "v071",
+      "ar": "صَدِيق",
+      "gloss": "teman, sahabat",
+      "alt": [
+        "sahabat",
+        "kawan"
+      ],
+      "pos": "ism",
+      "gender": "m",
+      "fem": "صَدِيقَة",
+      "plural": "أَصْدِقَاء",
+      "mudhari": null,
+      "root": "ص د ق",
+      "root_note": null,
+      "cat": "nas",
+      "stage": 3,
+      "example": {
+        "ar": "صَدِيقِي طَالِبٌ.",
+        "gloss": "Teman saya seorang pelajar."
+      },
+      "note": "Seakar dengan صِدْق (kejujuran) dan صَادِق (jujur)."
+    },
+    {
+      "id": "v072",
+      "ar": "مُدِير",
+      "gloss": "direktur, kepala",
+      "alt": [
+        "pimpinan",
+        "manajer",
+        "kepala"
+      ],
+      "pos": "ism",
+      "gender": "m",
+      "fem": "مُدِيرَة",
+      "plural": "مُدِيرُون",
+      "mudhari": null,
+      "root": "د و ر",
+      "root_note": "Dari wazan IV أَدَارَ (mengelola, memutar); waw akar tidak tampak di permukaan.",
+      "cat": "nas",
+      "stage": 3,
+      "example": {
+        "ar": "الْمُدِيرُ فِي مَكْتَبِهِ.",
+        "gloss": "Direktur itu ada di kantornya."
+      },
+      "note": "Seakar dengan دَار (rumah) dan دَائِرَة (lingkaran, departemen)."
+    },
+    {
+      "id": "v073",
+      "ar": "اِسْم",
+      "gloss": "nama",
+      "alt": [],
+      "pos": "ism",
+      "gender": "m",
+      "fem": null,
+      "plural": "أَسْمَاء",
+      "mudhari": null,
+      "root": null,
+      "root_note": "Akarnya diperdebatkan: ulama Bashrah menyebut س م و (bandingkan سَمَا = tinggi, أَسْمَاء), ulama Kufah menyebut و س م (bandingkan وَسْم = tanda). Tidak dicantumkan satu pun sebagai keputusan.",
+      "cat": "nas",
+      "stage": 3,
+      "example": {
+        "ar": "مَا اسْمُكَ؟",
+        "gloss": "Siapa namamu?"
+      },
+      "note": "Hamzahnya hamzah washal: di tengah kalimat dibaca mas-muka, bukan maa ismuka. Dalam istilah nahwu, اِسْم juga berarti 'kata benda'."
+    },
+    {
+      "id": "v074",
+      "ar": "مَكْتَب",
+      "gloss": "meja tulis, kantor",
+      "alt": [
+        "kantor",
+        "meja tulis"
+      ],
+      "pos": "ism",
+      "gender": "m",
+      "fem": null,
+      "plural": "مَكَاتِب",
+      "mudhari": null,
+      "root": "ك ت ب",
+      "root_note": null,
+      "cat": "asyya",
+      "stage": 3,
+      "example": {
+        "ar": "مَكْتَبُ الْمُدِيرِ كَبِيرٌ.",
+        "gloss": "Kantor direktur itu besar."
+      },
+      "note": "Pola مَفْعَل = tempat melakukan sesuatu; di sini 'tempat menulis'."
+    },
+    {
+      "id": "v075",
+      "ar": "طَاوِلَة",
+      "gloss": "meja",
+      "alt": [],
+      "pos": "ism",
+      "gender": "f",
+      "fem": null,
+      "plural": "طَاوِلَات",
+      "mudhari": null,
+      "root": null,
+      "root_note": "Kata serapan (bandingkan tavola/tabula), karena itu tidak diberi akar tiga huruf.",
+      "cat": "asyya",
+      "stage": 3,
+      "example": {
+        "ar": "الطَّاوِلَةُ نَظِيفَةٌ.",
+        "gloss": "Meja itu bersih."
+      },
+      "note": "Tidak semua kata Arab berakar; kata serapan tidak memiliki jidr (akar)."
+    },
+    {
+      "id": "v076",
+      "ar": "مِفْتَاح",
+      "gloss": "kunci",
+      "alt": [],
+      "pos": "ism",
+      "gender": "m",
+      "fem": null,
+      "plural": "مَفَاتِيح",
+      "mudhari": null,
+      "root": "ف ت ح",
+      "root_note": null,
+      "cat": "asyya",
+      "stage": 3,
+      "example": {
+        "ar": "أَيْنَ الْمِفْتَاحُ؟",
+        "gloss": "Di mana kuncinya?"
+      },
+      "note": "Pola مِفْعَال = alat. Bandingkan فَتَحَ (membuka): kunci = alat pembuka."
+    },
+    {
+      "id": "v077",
+      "ar": "سَاعَة",
+      "gloss": "jam (alat dan satuan waktu)",
+      "alt": [
+        "jam",
+        "arloji"
+      ],
+      "pos": "ism",
+      "gender": "f",
+      "fem": null,
+      "plural": "سَاعَات",
+      "mudhari": null,
+      "root": "س و ع",
+      "root_note": null,
+      "cat": "asyya",
+      "stage": 3,
+      "example": {
+        "ar": "هَذِهِ سَاعَتِي.",
+        "gloss": "Ini jam saya."
+      },
+      "note": "Satu kata untuk dua makna: alat penunjuk waktu dan satuan 'jam' (60 menit)."
+    },
+    {
+      "id": "v078",
+      "ar": "هَاتِف",
+      "gloss": "telepon",
+      "alt": [
+        "ponsel",
+        "hp"
+      ],
+      "pos": "ism",
+      "gender": "m",
+      "fem": null,
+      "plural": "هَوَاتِف",
+      "mudhari": null,
+      "root": "ه ت ف",
+      "root_note": null,
+      "cat": "asyya",
+      "stage": 3,
+      "example": {
+        "ar": "هَاتِفِي جَدِيدٌ.",
+        "gloss": "Telepon saya baru."
+      },
+      "note": "Dalam bahasa Arab klasik هَاتِف berarti 'penyeru yang suaranya terdengar tanpa terlihat'. Makna 'telepon' adalah pemakaian modern — lihat Modul 5."
+    },
+    {
+      "id": "v079",
+      "ar": "سَيَّارَة",
+      "gloss": "mobil",
+      "alt": [
+        "kendaraan",
+        "auto"
+      ],
+      "pos": "ism",
+      "gender": "f",
+      "fem": null,
+      "plural": "سَيَّارَات",
+      "mudhari": null,
+      "root": "س ي ر",
+      "root_note": null,
+      "cat": "asyya",
+      "stage": 3,
+      "example": {
+        "ar": "سَيَّارَةُ أَبِي كَبِيرَةٌ.",
+        "gloss": "Mobil ayah saya besar."
+      },
+      "note": "Dari akar س ي ر (berjalan). Dalam bahasa Arab klasik سَيَّارَة bermakna 'kafilah/rombongan yang berjalan' — lihat Modul 5."
+    },
+    {
+      "id": "v080",
+      "ar": "حَاسُوب",
+      "gloss": "komputer",
+      "alt": [
+        "komputer"
+      ],
+      "pos": "ism",
+      "gender": "m",
+      "fem": null,
+      "plural": "حَوَاسِيب",
+      "mudhari": null,
+      "root": "ح س ب",
+      "root_note": null,
+      "cat": "asyya",
+      "stage": 3,
+      "example": {
+        "ar": "الْحَاسُوبُ عَلَى الطَّاوِلَةِ.",
+        "gloss": "Komputer itu ada di atas meja."
+      },
+      "note": "Kata buatan modern dari akar ح س ب (menghitung). Alternatif yang juga dipakai: كُمْبِيُوتَر."
+    },
+    {
+      "id": "v081",
+      "ar": "وَرَقَة",
+      "gloss": "lembar kertas, daun",
+      "alt": [
+        "kertas",
+        "daun",
+        "lembaran"
+      ],
+      "pos": "ism",
+      "gender": "f",
+      "fem": null,
+      "plural": "أَوْرَاق",
+      "mudhari": null,
+      "root": "و ر ق",
+      "root_note": null,
+      "cat": "asyya",
+      "stage": 3,
+      "example": {
+        "ar": "عَلَى الْمَكْتَبِ وَرَقَةٌ.",
+        "gloss": "Di atas meja ada selembar kertas."
+      },
+      "note": "وَرَق (tanpa ta') adalah bentuk kolektif: 'kertas' atau 'dedaunan' secara umum."
+    },
+    {
+      "id": "v082",
+      "ar": "كُوب",
+      "gloss": "gelas, cangkir",
+      "alt": [
+        "cangkir",
+        "gelas"
+      ],
+      "pos": "ism",
+      "gender": "m",
+      "fem": null,
+      "plural": "أَكْوَاب",
+      "mudhari": null,
+      "root": "ك و ب",
+      "root_note": null,
+      "cat": "asyya",
+      "stage": 3,
+      "example": {
+        "ar": "فِي الْكُوبِ مَاءٌ.",
+        "gloss": "Di dalam gelas ada air."
+      },
+      "note": null
+    },
+    {
+      "id": "v083",
+      "ar": "مَاء",
+      "gloss": "air",
+      "alt": [],
+      "pos": "ism",
+      "gender": "m",
+      "fem": null,
+      "plural": "مِيَاه",
+      "mudhari": null,
+      "root": "م و ه",
+      "root_note": "Akar م و ه tidak tampak pada bentuk مَاء, tetapi muncul pada jamaknya مِيَاه dan pada bentuk تَصْغِير مُوَيْه.",
+      "cat": "asyya",
+      "stage": 3,
+      "example": {
+        "ar": "الْمَاءُ بَارِدٌ.",
+        "gloss": "Airnya dingin."
+      },
+      "note": "Contoh kata berakar lemah yang bentuk permukaannya jauh dari akarnya."
+    },
+    {
+      "id": "v084",
+      "ar": "خُبْز",
+      "gloss": "roti",
+      "alt": [],
+      "pos": "ism",
+      "gender": "m",
+      "fem": null,
+      "plural": null,
+      "mudhari": null,
+      "root": "خ ب ز",
+      "root_note": null,
+      "cat": "asyya",
+      "stage": 3,
+      "example": {
+        "ar": "الْخُبْزُ عَلَى الطَّاوِلَةِ.",
+        "gloss": "Roti itu ada di atas meja."
+      },
+      "note": "Kata kolektif; tidak lazim dijamakkan dalam pemakaian sehari-hari."
+    },
+    {
+      "id": "v085",
+      "ar": "طَعَام",
+      "gloss": "makanan",
+      "alt": [
+        "hidangan"
+      ],
+      "pos": "ism",
+      "gender": "m",
+      "fem": null,
+      "plural": "أَطْعِمَة",
+      "mudhari": null,
+      "root": "ط ع م",
+      "root_note": null,
+      "cat": "asyya",
+      "stage": 3,
+      "example": {
+        "ar": "أَكَلْتُ الطَّعَامَ.",
+        "gloss": "Saya memakan makanan itu."
+      },
+      "note": "Seakar dengan مَطْعَم (restoran) dan طَعْم (rasa)."
+    },
+    {
+      "id": "v086",
+      "ar": "فِي",
+      "gloss": "di, di dalam",
+      "alt": [
+        "dalam",
+        "pada"
+      ],
+      "pos": "harf jar",
+      "gender": null,
+      "fem": null,
+      "plural": null,
+      "mudhari": null,
+      "root": null,
+      "root_note": null,
+      "cat": "huruf",
+      "stage": 3,
+      "example": {
+        "ar": "أَنَا فِي الْبَيْتِ.",
+        "gloss": "Saya di rumah."
+      },
+      "note": "Kata sesudah huruf jar selalu majrur: الْبَيْتِ (kasrah), bukan الْبَيْتُ."
+    },
+    {
+      "id": "v087",
+      "ar": "مِنْ",
+      "gloss": "dari",
+      "alt": [
+        "daripada"
+      ],
+      "pos": "harf jar",
+      "gender": null,
+      "fem": null,
+      "plural": null,
+      "mudhari": null,
+      "root": null,
+      "root_note": null,
+      "cat": "huruf",
+      "stage": 3,
+      "example": {
+        "ar": "خَرَجْتُ مِنَ الْمَدْرَسَةِ.",
+        "gloss": "Saya keluar dari sekolah."
+      },
+      "note": "Saat bertemu ال, sukun pada nun berubah menjadi fathah: مِنَ الْ... Jangan tertukar dengan مَنْ (siapa)."
+    },
+    {
+      "id": "v088",
+      "ar": "إِلَى",
+      "gloss": "ke, kepada",
+      "alt": [
+        "kepada",
+        "menuju"
+      ],
+      "pos": "harf jar",
+      "gender": null,
+      "fem": null,
+      "plural": null,
+      "mudhari": null,
+      "root": null,
+      "root_note": null,
+      "cat": "huruf",
+      "stage": 3,
+      "example": {
+        "ar": "ذَهَبْتُ إِلَى السُّوقِ.",
+        "gloss": "Saya pergi ke pasar."
+      },
+      "note": "Ditulis dengan alif maqshurah (ى). Bila disambung dengan kata ganti, berubah menjadi إِلَيْهِ، إِلَيْكَ."
+    },
+    {
+      "id": "v089",
+      "ar": "عَلَى",
+      "gloss": "di atas, atas",
+      "alt": [
+        "atas",
+        "pada"
+      ],
+      "pos": "harf jar",
+      "gender": null,
+      "fem": null,
+      "plural": null,
+      "mudhari": null,
+      "root": null,
+      "root_note": null,
+      "cat": "huruf",
+      "stage": 3,
+      "example": {
+        "ar": "الْكِتَابُ عَلَى الطَّاوِلَةِ.",
+        "gloss": "Buku itu ada di atas meja."
+      },
+      "note": "Bila disambung dengan kata ganti menjadi عَلَيْهِ، عَلَيْكَ."
+    },
+    {
+      "id": "v090",
+      "ar": "مَعَ",
+      "gloss": "bersama, dengan",
+      "alt": [
+        "dengan",
+        "beserta"
+      ],
+      "pos": "zarf",
+      "gender": null,
+      "fem": null,
+      "plural": null,
+      "mudhari": null,
+      "root": null,
+      "root_note": null,
+      "cat": "huruf",
+      "stage": 3,
+      "example": {
+        "ar": "ذَهَبْتُ مَعَ أَبِي.",
+        "gloss": "Saya pergi bersama ayah saya."
+      },
+      "note": "Secara teknis مَعَ digolongkan zharf (keterangan), bukan huruf jar, meski pengaruhnya ke kata berikutnya sama: majrur."
+    },
+    {
+      "id": "v091",
+      "ar": "عِنْدَ",
+      "gloss": "di (tempat), pada, punya",
+      "alt": [
+        "pada",
+        "di sisi"
+      ],
+      "pos": "zarf",
+      "gender": null,
+      "fem": null,
+      "plural": null,
+      "mudhari": null,
+      "root": null,
+      "root_note": null,
+      "cat": "huruf",
+      "stage": 3,
+      "example": {
+        "ar": "عِنْدِي كِتَابٌ.",
+        "gloss": "Saya punya sebuah buku."
+      },
+      "note": "Bahasa Arab tidak memiliki kata kerja yang berarti 'memiliki'; dipakai عِنْدَ + kata ganti: عِنْدِي (saya punya), عِنْدَكَ (kamu punya), عِنْدَهُ (dia punya)."
+    },
+    {
+      "id": "v092",
+      "ar": "حَقِيبَة",
+      "gloss": "tas",
+      "alt": [
+        "koper",
+        "ransel"
+      ],
+      "pos": "ism",
+      "gender": "f",
+      "fem": null,
+      "plural": "حَقَائِب",
+      "mudhari": null,
+      "root": "ح ق ب",
+      "root_note": null,
+      "cat": "asyya",
+      "stage": 4,
+      "example": {
+        "ar": "أَيْنَ حَقِيبَتُكِ؟",
+        "gloss": "Di mana tasmu (kepada perempuan)?"
+      },
+      "note": "Jamaknya حَقَائِب berpola فَعَائِل."
+    },
+    {
+      "id": "v093",
+      "ar": "سَرِير",
+      "gloss": "tempat tidur",
+      "alt": [
+        "kasur",
+        "ranjang"
+      ],
+      "pos": "ism",
+      "gender": "m",
+      "fem": null,
+      "plural": "أَسِرَّة",
+      "mudhari": null,
+      "root": "س ر ر",
+      "root_note": null,
+      "cat": "asyya",
+      "stage": 4,
+      "example": {
+        "ar": "الطِّفْلُ عَلَى السَّرِيرِ.",
+        "gloss": "Anak kecil itu ada di atas tempat tidur."
+      },
+      "note": null
+    },
+    {
+      "id": "v094",
+      "ar": "قَهْوَة",
+      "gloss": "kopi",
+      "alt": [],
+      "pos": "ism",
+      "gender": "f",
+      "fem": null,
+      "plural": null,
+      "mudhari": null,
+      "root": "ق ه و",
+      "root_note": null,
+      "cat": "asyya",
+      "stage": 4,
+      "example": {
+        "ar": "أَشْرَبُ الْقَهْوَةَ فِي الصَّبَاحِ.",
+        "gloss": "Saya minum kopi pada pagi hari."
+      },
+      "note": "Kata Indonesia 'kopi' dan Inggris 'coffee' sama-sama berasal dari قَهْوَة."
+    },
+    {
+      "id": "v095",
+      "ar": "لَبَن",
+      "gloss": "susu",
+      "alt": [
+        "susu"
+      ],
+      "pos": "ism",
+      "gender": "m",
+      "fem": null,
+      "plural": "أَلْبَان",
+      "mudhari": null,
+      "root": "ل ب ن",
+      "root_note": null,
+      "cat": "asyya",
+      "stage": 4,
+      "example": {
+        "ar": "اللَّبَنُ فِي الْكُوبِ.",
+        "gloss": "Susu itu ada di dalam gelas."
+      },
+      "note": "Di sebagian negara Arab لَبَن berarti yogurt/susu asam, sedangkan susu segar disebut حَلِيب. Perbedaan ini bersifat kedaerahan."
+    },
+    {
+      "id": "v096",
+      "ar": "مِصْبَاح",
+      "gloss": "lampu",
+      "alt": [
+        "pelita",
+        "lentera"
+      ],
+      "pos": "ism",
+      "gender": "m",
+      "fem": null,
+      "plural": "مَصَابِيح",
+      "mudhari": null,
+      "root": "ص ب ح",
+      "root_note": null,
+      "cat": "asyya",
+      "stage": 4,
+      "example": {
+        "ar": "الْمِصْبَاحُ فَوْقَ الطَّاوِلَةِ.",
+        "gloss": "Lampu itu ada di atas meja."
+      },
+      "note": "Pola مِفْعَال (alat), seakar dengan صَبَاح (pagi) — makna dasar akarnya terkait cahaya."
+    },
+    {
+      "id": "v097",
+      "ar": "بَيْت",
+      "gloss": "rumah",
+      "alt": [
+        "kediaman"
+      ],
+      "pos": "ism",
+      "gender": "m",
+      "fem": null,
+      "plural": "بُيُوت",
+      "mudhari": null,
+      "root": "ب ي ت",
+      "root_note": null,
+      "cat": "makan",
+      "stage": 4,
+      "example": {
+        "ar": "بَيْتِي قَرِيبٌ.",
+        "gloss": "Rumah saya dekat."
+      },
+      "note": null
+    },
+    {
+      "id": "v098",
+      "ar": "مَدْرَسَة",
+      "gloss": "sekolah",
+      "alt": [],
+      "pos": "ism",
+      "gender": "f",
+      "fem": null,
+      "plural": "مَدَارِس",
+      "mudhari": null,
+      "root": "د ر س",
+      "root_note": null,
+      "cat": "makan",
+      "stage": 4,
+      "example": {
+        "ar": "الْمَدْرَسَةُ كَبِيرَةٌ.",
+        "gloss": "Sekolah itu besar."
+      },
+      "note": "Pola مَفْعَلَة = tempat; 'tempat belajar'. Seakar dengan دَرَسَ، دَرْس، مُدَرِّس."
+    },
+    {
+      "id": "v099",
+      "ar": "جَامِعَة",
+      "gloss": "universitas",
+      "alt": [
+        "perguruan tinggi",
+        "kampus"
+      ],
+      "pos": "ism",
+      "gender": "f",
+      "fem": null,
+      "plural": "جَامِعَات",
+      "mudhari": null,
+      "root": "ج م ع",
+      "root_note": null,
+      "cat": "makan",
+      "stage": 4,
+      "example": {
+        "ar": "أَدْرُسُ فِي الْجَامِعَةِ.",
+        "gloss": "Saya belajar di universitas."
+      },
+      "note": "Dari akar ج م ع (mengumpulkan). Bedakan dari جَامِع yang berarti masjid besar."
+    },
+    {
+      "id": "v100",
+      "ar": "سُوق",
+      "gloss": "pasar",
+      "alt": [
+        "pasar"
+      ],
+      "pos": "ism",
+      "gender": "m/f",
+      "fem": null,
+      "plural": "أَسْوَاق",
+      "mudhari": null,
+      "root": "س و ق",
+      "root_note": null,
+      "cat": "makan",
+      "stage": 4,
+      "example": {
+        "ar": "أُمِّي فِي السُّوقِ.",
+        "gloss": "Ibu saya ada di pasar."
+      },
+      "note": "Termasuk kata yang boleh diperlakukan mudzakkar maupun mu'annats; keduanya terpakai dalam bahasa baku."
+    },
+    {
+      "id": "v101",
+      "ar": "مَسْجِد",
+      "gloss": "masjid",
+      "alt": [],
+      "pos": "ism",
+      "gender": "m",
+      "fem": null,
+      "plural": "مَسَاجِد",
+      "mudhari": null,
+      "root": "س ج د",
+      "root_note": null,
+      "cat": "makan",
+      "stage": 4,
+      "example": {
+        "ar": "الْمَسْجِدُ قَرِيبٌ مِنْ بَيْتِي.",
+        "gloss": "Masjid itu dekat dari rumah saya."
+      },
+      "note": "Pola مَفْعِل (tempat), dari سَجَدَ: 'tempat bersujud'."
+    },
+    {
+      "id": "v102",
+      "ar": "مَدِينَة",
+      "gloss": "kota",
+      "alt": [],
+      "pos": "ism",
+      "gender": "f",
+      "fem": null,
+      "plural": "مُدُن",
+      "mudhari": null,
+      "root": "م د ن",
+      "root_note": null,
+      "cat": "makan",
+      "stage": 4,
+      "example": {
+        "ar": "هَذِهِ مَدِينَةٌ قَدِيمَةٌ.",
+        "gloss": "Ini kota yang tua."
+      },
+      "note": "Jamaknya مُدُن, bukan مَدِينَات."
+    },
+    {
+      "id": "v103",
+      "ar": "قَرْيَة",
+      "gloss": "desa, kampung",
+      "alt": [
+        "kampung",
+        "dusun"
+      ],
+      "pos": "ism",
+      "gender": "f",
+      "fem": null,
+      "plural": "قُرَى",
+      "mudhari": null,
+      "root": "ق ر ي",
+      "root_note": null,
+      "cat": "makan",
+      "stage": 4,
+      "example": {
+        "ar": "جَدِّي فِي الْقَرْيَةِ.",
+        "gloss": "Kakek saya ada di desa."
+      },
+      "note": "Jamaknya قُرَى berakhiran alif maqshurah."
+    },
+    {
+      "id": "v104",
+      "ar": "بَلَد",
+      "gloss": "negeri, negara",
+      "alt": [
+        "negara",
+        "negeri"
+      ],
+      "pos": "ism",
+      "gender": "m",
+      "fem": null,
+      "plural": "بِلَاد",
+      "mudhari": null,
+      "root": "ب ل د",
+      "root_note": null,
+      "cat": "makan",
+      "stage": 4,
+      "example": {
+        "ar": "بَلَدِي جَمِيلٌ.",
+        "gloss": "Negeri saya indah."
+      },
+      "note": "Jamak lain yang juga dipakai: بُلْدَان. Sebagian pemakaian memperlakukan بَلَد sebagai mu'annats; yang lazim mudzakkar."
+    },
+    {
+      "id": "v105",
+      "ar": "شَارِع",
+      "gloss": "jalan (raya)",
+      "alt": [
+        "jalan"
+      ],
+      "pos": "ism",
+      "gender": "m",
+      "fem": null,
+      "plural": "شَوَارِع",
+      "mudhari": null,
+      "root": "ش ر ع",
+      "root_note": null,
+      "cat": "makan",
+      "stage": 4,
+      "example": {
+        "ar": "الشَّارِعُ طَوِيلٌ.",
+        "gloss": "Jalan itu panjang."
+      },
+      "note": "Seakar dengan شَرِيعَة dan شَرْع — makna dasar akarnya berkaitan dengan 'jalan/aturan yang dilalui'."
+    },
+    {
+      "id": "v106",
+      "ar": "مَطْعَم",
+      "gloss": "restoran, rumah makan",
+      "alt": [
+        "restoran",
+        "warung"
+      ],
+      "pos": "ism",
+      "gender": "m",
+      "fem": null,
+      "plural": "مَطَاعِم",
+      "mudhari": null,
+      "root": "ط ع م",
+      "root_note": null,
+      "cat": "makan",
+      "stage": 4,
+      "example": {
+        "ar": "أَكَلْنَا فِي الْمَطْعَمِ.",
+        "gloss": "Kami makan di restoran."
+      },
+      "note": "Pola مَفْعَل (tempat) dari akar ط ع م: 'tempat makan'. Seakar dengan طَعَام."
+    },
+    {
+      "id": "v107",
+      "ar": "مَكْتَبَة",
+      "gloss": "perpustakaan, toko buku",
+      "alt": [
+        "perpustakaan",
+        "toko buku"
+      ],
+      "pos": "ism",
+      "gender": "f",
+      "fem": null,
+      "plural": "مَكْتَبَات",
+      "mudhari": null,
+      "root": "ك ت ب",
+      "root_note": null,
+      "cat": "makan",
+      "stage": 4,
+      "example": {
+        "ar": "فِي الْمَكْتَبَةِ كُتُبٌ كَثِيرَةٌ.",
+        "gloss": "Di perpustakaan itu ada banyak buku."
+      },
+      "note": "Satu kata untuk dua makna; konteks yang menentukan. Bandingkan مَكْتَب (kantor/meja)."
+    },
+    {
+      "id": "v108",
+      "ar": "مُسْتَشْفَى",
+      "gloss": "rumah sakit",
+      "alt": [
+        "hospital"
+      ],
+      "pos": "ism",
+      "gender": "m",
+      "fem": null,
+      "plural": "مُسْتَشْفَيَات",
+      "mudhari": null,
+      "root": "ش ف ي",
+      "root_note": null,
+      "cat": "makan",
+      "stage": 4,
+      "example": {
+        "ar": "الْمُسْتَشْفَى بَعِيدٌ.",
+        "gloss": "Rumah sakit itu jauh."
+      },
+      "note": "Dari wazan X (اِسْتَشْفَى = mencari kesembuhan). Termasuk isim maqshur: huruf akhirnya ى dan harakat i'rabnya tidak tampak."
+    },
+    {
+      "id": "v109",
+      "ar": "غُرْفَة",
+      "gloss": "kamar, ruangan",
+      "alt": [
+        "ruangan",
+        "ruang"
+      ],
+      "pos": "ism",
+      "gender": "f",
+      "fem": null,
+      "plural": "غُرَف",
+      "mudhari": null,
+      "root": "غ ر ف",
+      "root_note": null,
+      "cat": "makan",
+      "stage": 4,
+      "example": {
+        "ar": "غُرْفَتِي صَغِيرَةٌ.",
+        "gloss": "Kamar saya kecil."
+      },
+      "note": null
+    },
+    {
+      "id": "v110",
+      "ar": "مَطَار",
+      "gloss": "bandara",
+      "alt": [
+        "bandar udara",
+        "lapangan terbang"
+      ],
+      "pos": "ism",
+      "gender": "m",
+      "fem": null,
+      "plural": "مَطَارَات",
+      "mudhari": null,
+      "root": "ط ي ر",
+      "root_note": null,
+      "cat": "makan",
+      "stage": 4,
+      "example": {
+        "ar": "الْمَطَارُ بَعِيدٌ.",
+        "gloss": "Bandara itu jauh."
+      },
+      "note": "Dari akar ط ي ر (terbang). Seakar dengan طَائِرَة (pesawat) dan طَيْر (burung)."
+    },
+    {
+      "id": "v111",
+      "ar": "مَتْجَر",
+      "gloss": "toko",
+      "alt": [
+        "kedai",
+        "gerai"
+      ],
+      "pos": "ism",
+      "gender": "m",
+      "fem": null,
+      "plural": "مَتَاجِر",
+      "mudhari": null,
+      "root": "ت ج ر",
+      "root_note": null,
+      "cat": "makan",
+      "stage": 4,
+      "example": {
+        "ar": "هَذَا مَتْجَرٌ جَدِيدٌ.",
+        "gloss": "Ini toko baru."
+      },
+      "note": "Seakar dengan تَاجِر (pedagang) dan تِجَارَة (perdagangan). Kata lain yang umum: دُكَّان."
+    },
+    {
+      "id": "v112",
+      "ar": "مَطْبَخ",
+      "gloss": "dapur",
+      "alt": [],
+      "pos": "ism",
+      "gender": "m",
+      "fem": null,
+      "plural": "مَطَابِخ",
+      "mudhari": null,
+      "root": "ط ب خ",
+      "root_note": null,
+      "cat": "makan",
+      "stage": 4,
+      "example": {
+        "ar": "أُمِّي فِي الْمَطْبَخِ.",
+        "gloss": "Ibu saya ada di dapur."
+      },
+      "note": "Pola مَفْعَل (tempat) dari طَبَخَ (memasak)."
+    },
+    {
+      "id": "v113",
+      "ar": "حَدِيقَة",
+      "gloss": "taman, kebun",
+      "alt": [
+        "kebun",
+        "taman"
+      ],
+      "pos": "ism",
+      "gender": "f",
+      "fem": null,
+      "plural": "حَدَائِق",
+      "mudhari": null,
+      "root": "ح د ق",
+      "root_note": null,
+      "cat": "makan",
+      "stage": 4,
+      "example": {
+        "ar": "الْأَطْفَالُ فِي الْحَدِيقَةِ.",
+        "gloss": "Anak-anak itu ada di taman."
+      },
+      "note": null
+    },
+    {
+      "id": "v114",
+      "ar": "مَكَان",
+      "gloss": "tempat",
+      "alt": [
+        "lokasi"
+      ],
+      "pos": "ism",
+      "gender": "m",
+      "fem": null,
+      "plural": "أَمْكِنَة",
+      "mudhari": null,
+      "root": "ك و ن",
+      "root_note": "Dari akar ك و ن (kata kerja كَانَ); waw tidak tampak pada bentuk مَكَان.",
+      "cat": "makan",
+      "stage": 4,
+      "example": {
+        "ar": "هَذَا مَكَانٌ جَمِيلٌ.",
+        "gloss": "Ini tempat yang indah."
+      },
+      "note": "Jamak lain yang juga dipakai: أَمَاكِن."
+    },
+    {
+      "id": "v115",
+      "ar": "عَنْ",
+      "gloss": "tentang, dari",
+      "alt": [
+        "mengenai",
+        "perihal"
+      ],
+      "pos": "harf jar",
+      "gender": null,
+      "fem": null,
+      "plural": null,
+      "mudhari": null,
+      "root": null,
+      "root_note": null,
+      "cat": "huruf",
+      "stage": 4,
+      "example": {
+        "ar": "سَأَلْتُ عَنِ الدَّرْسِ.",
+        "gloss": "Saya bertanya tentang pelajaran itu."
+      },
+      "note": "Saat bertemu ال, nun berharakat kasrah: عَنِ الْ..."
+    },
+    {
+      "id": "v116",
+      "ar": "بَيْنَ",
+      "gloss": "antara, di antara",
+      "alt": [
+        "di antara"
+      ],
+      "pos": "zarf",
+      "gender": null,
+      "fem": null,
+      "plural": null,
+      "mudhari": null,
+      "root": "ب ي ن",
+      "root_note": "Seakar dengan بَانَ (jelas, terpisah) dan تَبَايُن (perbedaan).",
+      "cat": "huruf",
+      "stage": 4,
+      "example": {
+        "ar": "الْمَسْجِدُ بَيْنَ الْبَيْتِ وَالْمَدْرَسَةِ.",
+        "gloss": "Masjid itu berada di antara rumah dan sekolah."
+      },
+      "note": null
+    },
+    {
+      "id": "v117",
+      "ar": "أَمَامَ",
+      "gloss": "di depan",
+      "alt": [
+        "depan"
+      ],
+      "pos": "zarf",
+      "gender": null,
+      "fem": null,
+      "plural": null,
+      "mudhari": null,
+      "root": null,
+      "root_note": null,
+      "cat": "huruf",
+      "stage": 4,
+      "example": {
+        "ar": "السَّيَّارَةُ أَمَامَ الْبَيْتِ.",
+        "gloss": "Mobil itu ada di depan rumah."
+      },
+      "note": null
+    },
+    {
+      "id": "v118",
+      "ar": "خَلْفَ",
+      "gloss": "di belakang",
+      "alt": [
+        "belakang"
+      ],
+      "pos": "zarf",
+      "gender": null,
+      "fem": null,
+      "plural": null,
+      "mudhari": null,
+      "root": "خ ل ف",
+      "root_note": "Seakar dengan خَلَفَ (menggantikan) dan خَلِيفَة.",
+      "cat": "huruf",
+      "stage": 4,
+      "example": {
+        "ar": "الْحَدِيقَةُ خَلْفَ الْبَيْتِ.",
+        "gloss": "Taman itu ada di belakang rumah."
+      },
+      "note": "Kata lain dengan makna serupa: وَرَاءَ."
+    },
+    {
+      "id": "v119",
+      "ar": "تَحْتَ",
+      "gloss": "di bawah",
+      "alt": [
+        "bawah"
+      ],
+      "pos": "zarf",
+      "gender": null,
+      "fem": null,
+      "plural": null,
+      "mudhari": null,
+      "root": null,
+      "root_note": null,
+      "cat": "huruf",
+      "stage": 4,
+      "example": {
+        "ar": "الْحَقِيبَةُ تَحْتَ الْمَكْتَبِ.",
+        "gloss": "Tas itu ada di bawah meja."
+      },
+      "note": null
+    },
+    {
+      "id": "v120",
+      "ar": "فَوْقَ",
+      "gloss": "di atas",
+      "alt": [
+        "atas"
+      ],
+      "pos": "zarf",
+      "gender": null,
+      "fem": null,
+      "plural": null,
+      "mudhari": null,
+      "root": "ف و ق",
+      "root_note": "Seakar dengan تَفَوَّقَ (unggul).",
+      "cat": "huruf",
+      "stage": 4,
+      "example": {
+        "ar": "الْمِصْبَاحُ فَوْقَ الطَّاوِلَةِ.",
+        "gloss": "Lampu itu ada di atas meja."
+      },
+      "note": "Berbeda dari عَلَى: فَوْقَ lebih menekankan posisi 'di atas' tanpa harus menyentuh."
+    },
+    {
+      "id": "v121",
+      "ar": "قَبْلَ",
+      "gloss": "sebelum",
+      "alt": [
+        "sebelum"
+      ],
+      "pos": "zarf",
+      "gender": null,
+      "fem": null,
+      "plural": null,
+      "mudhari": null,
+      "root": "ق ب ل",
+      "root_note": null,
+      "cat": "huruf",
+      "stage": 4,
+      "example": {
+        "ar": "أَقْرَأُ قَبْلَ النَّوْمِ.",
+        "gloss": "Saya membaca sebelum tidur."
+      },
+      "note": null
+    },
+    {
+      "id": "v122",
+      "ar": "بَعْدَ",
+      "gloss": "sesudah, setelah",
+      "alt": [
+        "setelah",
+        "sesudah"
+      ],
+      "pos": "zarf",
+      "gender": null,
+      "fem": null,
+      "plural": null,
+      "mudhari": null,
+      "root": "ب ع د",
+      "root_note": null,
+      "cat": "huruf",
+      "stage": 4,
+      "example": {
+        "ar": "نَأْكُلُ بَعْدَ الدَّرْسِ.",
+        "gloss": "Kami makan setelah pelajaran."
+      },
+      "note": "Seakar dengan بَعِيد (jauh)."
+    },
+    {
+      "id": "v123",
+      "ar": "يَوْم",
+      "gloss": "hari",
+      "alt": [],
+      "pos": "ism",
+      "gender": "m",
+      "fem": null,
+      "plural": "أَيَّام",
+      "mudhari": null,
+      "root": "ي و م",
+      "root_note": null,
+      "cat": "zaman",
+      "stage": 5,
+      "example": {
+        "ar": "الْيَوْمُ طَوِيلٌ.",
+        "gloss": "Hari ini panjang."
+      },
+      "note": "Jamaknya أَيَّام (dengan ya' bersyaddah)."
+    },
+    {
+      "id": "v124",
+      "ar": "لَيْلَة",
+      "gloss": "satu malam",
+      "alt": [
+        "malam"
+      ],
+      "pos": "ism",
+      "gender": "f",
+      "fem": null,
+      "plural": "لَيَالٍ",
+      "mudhari": null,
+      "root": "ل ي ل",
+      "root_note": null,
+      "cat": "zaman",
+      "stage": 5,
+      "example": {
+        "ar": "هَذِهِ لَيْلَةٌ بَارِدَةٌ.",
+        "gloss": "Ini malam yang dingin."
+      },
+      "note": "لَيْلَة = satu malam (dapat dihitung); لَيْل = waktu malam secara umum. Jamaknya لَيَالٍ termasuk isim manqush."
+    },
+    {
+      "id": "v125",
+      "ar": "لَيْل",
+      "gloss": "malam (waktu malam)",
+      "alt": [
+        "malam"
+      ],
+      "pos": "ism",
+      "gender": "m",
+      "fem": null,
+      "plural": null,
+      "mudhari": null,
+      "root": "ل ي ل",
+      "root_note": null,
+      "cat": "zaman",
+      "stage": 5,
+      "example": {
+        "ar": "فِي اللَّيْلِ أَنَامُ.",
+        "gloss": "Pada waktu malam saya tidur."
+      },
+      "note": "Bentuk kolektif, lawannya نَهَار (waktu siang)."
+    },
+    {
+      "id": "v126",
+      "ar": "صَبَاح",
+      "gloss": "pagi",
+      "alt": [],
+      "pos": "ism",
+      "gender": "m",
+      "fem": null,
+      "plural": null,
+      "mudhari": null,
+      "root": "ص ب ح",
+      "root_note": null,
+      "cat": "zaman",
+      "stage": 5,
+      "example": {
+        "ar": "فِي الصَّبَاحِ أَشْرَبُ الْقَهْوَةَ.",
+        "gloss": "Pada pagi hari saya minum kopi."
+      },
+      "note": "Salam: صَبَاحَ الْخَيْرِ (selamat pagi). Bentuk jamaknya tidak dicantumkan karena belum dipastikan."
+    },
+    {
+      "id": "v127",
+      "ar": "مَسَاء",
+      "gloss": "sore, petang",
+      "alt": [
+        "senja",
+        "petang"
+      ],
+      "pos": "ism",
+      "gender": "m",
+      "fem": null,
+      "plural": null,
+      "mudhari": null,
+      "root": null,
+      "root_note": "Akarnya tidak dicantumkan karena belum diyakini sepenuhnya (berkaitan dengan أَمْسَى/يُمْسِي). Lihat data/NEEDS_REVIEW.md.",
+      "cat": "zaman",
+      "stage": 5,
+      "example": {
+        "ar": "فِي الْمَسَاءِ أَقْرَأُ.",
+        "gloss": "Pada sore hari saya membaca."
+      },
+      "note": "Salam: مَسَاءَ الْخَيْرِ (selamat sore/malam)."
+    },
+    {
+      "id": "v128",
+      "ar": "أُسْبُوع",
+      "gloss": "pekan, minggu",
+      "alt": [
+        "minggu",
+        "pekan"
+      ],
+      "pos": "ism",
+      "gender": "m",
+      "fem": null,
+      "plural": "أَسَابِيع",
+      "mudhari": null,
+      "root": "س ب ع",
+      "root_note": null,
+      "cat": "zaman",
+      "stage": 5,
+      "example": {
+        "ar": "فِي الْأُسْبُوعِ سَبْعَةُ أَيَّامٍ.",
+        "gloss": "Dalam satu pekan ada tujuh hari."
+      },
+      "note": "Dari akar س ب ع (tujuh) — 'satuan tujuh hari'."
+    },
+    {
+      "id": "v129",
+      "ar": "شَهْر",
+      "gloss": "bulan (kalender)",
+      "alt": [
+        "bulan"
+      ],
+      "pos": "ism",
+      "gender": "m",
+      "fem": null,
+      "plural": "شُهُور",
+      "mudhari": null,
+      "root": "ش ه ر",
+      "root_note": null,
+      "cat": "zaman",
+      "stage": 5,
+      "example": {
+        "ar": "هَذَا الشَّهْرُ قَصِيرٌ.",
+        "gloss": "Bulan ini pendek."
+      },
+      "note": "Jamak lain yang juga dipakai: أَشْهُر. Untuk bulan di langit dipakai قَمَر."
+    },
+    {
+      "id": "v130",
+      "ar": "سَنَة",
+      "gloss": "tahun",
+      "alt": [],
+      "pos": "ism",
+      "gender": "f",
+      "fem": null,
+      "plural": "سَنَوَات",
+      "mudhari": null,
+      "root": "س ن و",
+      "root_note": "Sebagian kamus mencatat س ن ه sebagai akar alternatif (bandingkan سُنَيْهَة).",
+      "cat": "zaman",
+      "stage": 5,
+      "example": {
+        "ar": "هَذِهِ سَنَةٌ جَدِيدَةٌ.",
+        "gloss": "Ini tahun yang baru."
+      },
+      "note": "Jamak lain: سِنُون / سِنِين."
+    },
+    {
+      "id": "v131",
+      "ar": "عَام",
+      "gloss": "tahun",
+      "alt": [],
+      "pos": "ism",
+      "gender": "m",
+      "fem": null,
+      "plural": "أَعْوَام",
+      "mudhari": null,
+      "root": "ع و م",
+      "root_note": null,
+      "cat": "zaman",
+      "stage": 5,
+      "example": {
+        "ar": "هَذَا عَامٌ جَدِيدٌ.",
+        "gloss": "Ini tahun yang baru."
+      },
+      "note": "Bersinonim dengan سَنَة. Para ahli bahasa mencatat nuansa pemakaian yang berbeda di antara keduanya, tetapi di sini keduanya diajarkan sebagai sinonim praktis."
+    },
+    {
+      "id": "v132",
+      "ar": "وَقْت",
+      "gloss": "waktu",
+      "alt": [],
+      "pos": "ism",
+      "gender": "m",
+      "fem": null,
+      "plural": "أَوْقَات",
+      "mudhari": null,
+      "root": "و ق ت",
+      "root_note": null,
+      "cat": "zaman",
+      "stage": 5,
+      "example": {
+        "ar": "هَذَا وَقْتُ الدَّرْسِ.",
+        "gloss": "Ini waktu pelajaran."
+      },
+      "note": "Untuk menanyakan jam, yang lazim dipakai كَمِ السَّاعَةُ الْآنَ؟, bukan مَا الْوَقْتُ؟"
+    },
+    {
+      "id": "v133",
+      "ar": "دَقِيقَة",
+      "gloss": "menit",
+      "alt": [],
+      "pos": "ism",
+      "gender": "f",
+      "fem": null,
+      "plural": "دَقَائِق",
+      "mudhari": null,
+      "root": "د ق ق",
+      "root_note": null,
+      "cat": "zaman",
+      "stage": 5,
+      "example": {
+        "ar": "فِي السَّاعَةِ سِتُّونَ دَقِيقَةً.",
+        "gloss": "Dalam satu jam ada enam puluh menit."
+      },
+      "note": "Seakar dengan دَقِيق (halus, tepat)."
+    },
+    {
+      "id": "v134",
+      "ar": "الْآن",
+      "gloss": "sekarang",
+      "alt": [
+        "kini",
+        "saat ini"
+      ],
+      "pos": "zarf",
+      "gender": null,
+      "fem": null,
+      "plural": null,
+      "mudhari": null,
+      "root": null,
+      "root_note": "Tidak diberi akar; bentuknya memang selalu memakai ال.",
+      "cat": "zaman",
+      "stage": 5,
+      "example": {
+        "ar": "أَنَا فِي الْبَيْتِ الْآنَ.",
+        "gloss": "Saya di rumah sekarang."
+      },
+      "note": "Selalu memakai ال dan umumnya manshub: الْآنَ."
+    },
+    {
+      "id": "v135",
+      "ar": "أَمْسِ",
+      "gloss": "kemarin",
+      "alt": [],
+      "pos": "zarf",
+      "gender": null,
+      "fem": null,
+      "plural": null,
+      "mudhari": null,
+      "root": null,
+      "root_note": null,
+      "cat": "zaman",
+      "stage": 5,
+      "example": {
+        "ar": "أَمْسِ ذَهَبْتُ إِلَى السُّوقِ.",
+        "gloss": "Kemarin saya pergi ke pasar."
+      },
+      "note": "Umumnya tetap berakhiran kasrah (mabni 'ala al-kasr) ketika bermakna 'kemarin' secara langsung."
+    },
+    {
+      "id": "v136",
+      "ar": "غَدًا",
+      "gloss": "besok",
+      "alt": [
+        "esok"
+      ],
+      "pos": "zarf",
+      "gender": null,
+      "fem": null,
+      "plural": null,
+      "mudhari": null,
+      "root": "غ د و",
+      "root_note": null,
+      "cat": "zaman",
+      "stage": 5,
+      "example": {
+        "ar": "غَدًا أَذْهَبُ إِلَى الْمَدْرَسَةِ.",
+        "gloss": "Besok saya pergi ke sekolah."
+      },
+      "note": "Bentuk dasarnya غَد; sebagai keterangan waktu hampir selalu manshub: غَدًا."
+    },
+    {
+      "id": "v137",
+      "ar": "الْيَوْم",
+      "gloss": "hari ini",
+      "alt": [
+        "hari ini"
+      ],
+      "pos": "zarf",
+      "gender": null,
+      "fem": null,
+      "plural": null,
+      "mudhari": null,
+      "root": "ي و م",
+      "root_note": null,
+      "cat": "zaman",
+      "stage": 5,
+      "example": {
+        "ar": "الْيَوْمَ أَدْرُسُ الْعَرَبِيَّةَ.",
+        "gloss": "Hari ini saya belajar bahasa Arab."
+      },
+      "note": "Kata yang sama (يَوْم) berarti 'hari'; dengan ال dan manshub (الْيَوْمَ) berarti 'hari ini'."
+    },
+    {
+      "id": "v138",
+      "ar": "بِ",
+      "gloss": "dengan, memakai",
+      "alt": [
+        "dengan"
+      ],
+      "pos": "harf jar",
+      "gender": null,
+      "fem": null,
+      "plural": null,
+      "mudhari": null,
+      "root": null,
+      "root_note": null,
+      "cat": "huruf",
+      "stage": 5,
+      "example": {
+        "ar": "كَتَبْتُ بِالْقَلَمِ.",
+        "gloss": "Saya menulis dengan pulpen."
+      },
+      "note": "Huruf jar yang selalu menempel pada kata sesudahnya."
+    },
+    {
+      "id": "v139",
+      "ar": "لِ",
+      "gloss": "untuk, milik",
+      "alt": [
+        "bagi",
+        "kepada"
+      ],
+      "pos": "harf jar",
+      "gender": null,
+      "fem": null,
+      "plural": null,
+      "mudhari": null,
+      "root": null,
+      "root_note": null,
+      "cat": "huruf",
+      "stage": 5,
+      "example": {
+        "ar": "هَذَا الْكِتَابُ لِأَخِي.",
+        "gloss": "Buku ini milik saudara lelaki saya."
+      },
+      "note": "Menyatakan kepemilikan atau tujuan."
+    },
+    {
+      "id": "v140",
+      "ar": "كَ",
+      "gloss": "seperti, sebagai",
+      "alt": [
+        "seperti"
+      ],
+      "pos": "harf jar",
+      "gender": null,
+      "fem": null,
+      "plural": null,
+      "mudhari": null,
+      "root": null,
+      "root_note": null,
+      "cat": "huruf",
+      "stage": 5,
+      "example": {
+        "ar": "بَيْتُهُ كَبَيْتِي.",
+        "gloss": "Rumahnya seperti rumah saya."
+      },
+      "note": "Bentuk yang lebih panjang dan sering dipakai: مِثْلَ."
+    },
+    {
+      "id": "v141",
+      "ar": "وَ",
+      "gloss": "dan",
+      "alt": [
+        "dan"
+      ],
+      "pos": "harf athf",
+      "gender": null,
+      "fem": null,
+      "plural": null,
+      "mudhari": null,
+      "root": null,
+      "root_note": null,
+      "cat": "huruf",
+      "stage": 5,
+      "example": {
+        "ar": "أَبِي وَأُمِّي فِي الْبَيْتِ.",
+        "gloss": "Ayah dan ibu saya ada di rumah."
+      },
+      "note": "Selalu ditulis menempel pada kata sesudahnya, tanpa spasi."
+    },
+    {
+      "id": "v142",
+      "ar": "لَا",
+      "gloss": "tidak (untuk kata kerja mudhari')",
+      "alt": [
+        "tidak"
+      ],
+      "pos": "harf nafi",
+      "gender": null,
+      "fem": null,
+      "plural": null,
+      "mudhari": null,
+      "root": null,
+      "root_note": null,
+      "cat": "huruf",
+      "stage": 5,
+      "example": {
+        "ar": "لَا أَفْهَمُ.",
+        "gloss": "Saya tidak paham."
+      },
+      "note": "Untuk menafikan kata kerja bentuk sekarang. Penafian bentuk lampau memakai مَا atau لَمْ — lihat Modul 2."
+    },
+    {
+      "id": "v143",
+      "ar": "كَتَبَ",
+      "gloss": "menulis",
+      "alt": [
+        "dia menulis",
+        "tulis"
+      ],
+      "pos": "fi'l",
+      "gender": null,
+      "fem": null,
+      "plural": null,
+      "mudhari": "يَكْتُبُ",
+      "root": "ك ت ب",
+      "root_note": null,
+      "cat": "fi'l",
+      "stage": 5,
+      "example": {
+        "ar": "كَتَبَ الطَّالِبُ الدَّرْسَ.",
+        "gloss": "Pelajar itu menulis pelajaran."
+      },
+      "note": "Wazan I. Bentuk kamus kata kerja Arab adalah madhi orang ketiga tunggal lelaki, jadi كَتَبَ secara harfiah berarti 'dia (lk) telah menulis'."
+    },
+    {
+      "id": "v144",
+      "ar": "قَرَأَ",
+      "gloss": "membaca",
+      "alt": [
+        "baca"
+      ],
+      "pos": "fi'l",
+      "gender": null,
+      "fem": null,
+      "plural": null,
+      "mudhari": "يَقْرَأُ",
+      "root": "ق ر أ",
+      "root_note": null,
+      "cat": "fi'l",
+      "stage": 5,
+      "example": {
+        "ar": "أَقْرَأُ كِتَابًا.",
+        "gloss": "Saya membaca sebuah buku."
+      },
+      "note": "Huruf ketiga akarnya adalah hamzah. Seakar dengan قِرَاءَة (bacaan) dan قَارِئ (pembaca)."
+    },
+    {
+      "id": "v145",
+      "ar": "ذَهَبَ",
+      "gloss": "pergi",
+      "alt": [
+        "berangkat"
+      ],
+      "pos": "fi'l",
+      "gender": null,
+      "fem": null,
+      "plural": null,
+      "mudhari": "يَذْهَبُ",
+      "root": "ذ ه ب",
+      "root_note": null,
+      "cat": "fi'l",
+      "stage": 5,
+      "example": {
+        "ar": "ذَهَبْتُ إِلَى الْمَسْجِدِ.",
+        "gloss": "Saya pergi ke masjid."
+      },
+      "note": "Biasanya diikuti إِلَى."
+    },
+    {
+      "id": "v146",
+      "ar": "أَكَلَ",
+      "gloss": "makan",
+      "alt": [
+        "memakan"
+      ],
+      "pos": "fi'l",
+      "gender": null,
+      "fem": null,
+      "plural": null,
+      "mudhari": "يَأْكُلُ",
+      "root": "أ ك ل",
+      "root_note": null,
+      "cat": "fi'l",
+      "stage": 5,
+      "example": {
+        "ar": "أَكَلَ الْوَلَدُ الْخُبْزَ.",
+        "gloss": "Anak itu memakan roti."
+      },
+      "note": "Huruf pertama akarnya hamzah, sehingga mudhari'-nya يَأْكُلُ dengan hamzah bersukun."
+    },
+    {
+      "id": "v147",
+      "ar": "شَرِبَ",
+      "gloss": "minum",
+      "alt": [
+        "meminum"
+      ],
+      "pos": "fi'l",
+      "gender": null,
+      "fem": null,
+      "plural": null,
+      "mudhari": "يَشْرَبُ",
+      "root": "ش ر ب",
+      "root_note": null,
+      "cat": "fi'l",
+      "stage": 5,
+      "example": {
+        "ar": "شَرِبْتُ الْمَاءَ.",
+        "gloss": "Saya meminum air itu."
+      },
+      "note": "Pola madhi-nya فَعِلَ (dengan kasrah), mudhari'-nya يَفْعَلُ (dengan fathah)."
+    },
+    {
+      "id": "v148",
+      "ar": "سَكَنَ",
+      "gloss": "tinggal, berdiam",
+      "alt": [
+        "bermukim",
+        "menetap"
+      ],
+      "pos": "fi'l",
+      "gender": null,
+      "fem": null,
+      "plural": null,
+      "mudhari": "يَسْكُنُ",
+      "root": "س ك ن",
+      "root_note": null,
+      "cat": "fi'l",
+      "stage": 5,
+      "example": {
+        "ar": "أَسْكُنُ فِي الْمَدِينَةِ.",
+        "gloss": "Saya tinggal di kota."
+      },
+      "note": "Seakar dengan سُكُون (diam) dan سَاكِن (penduduk; juga 'huruf bersukun')."
+    },
+    {
+      "id": "v149",
+      "ar": "دَرَسَ",
+      "gloss": "belajar, mempelajari",
+      "alt": [
+        "mempelajari",
+        "belajar"
+      ],
+      "pos": "fi'l",
+      "gender": null,
+      "fem": null,
+      "plural": null,
+      "mudhari": "يَدْرُسُ",
+      "root": "د ر س",
+      "root_note": null,
+      "cat": "fi'l",
+      "stage": 5,
+      "example": {
+        "ar": "دَرَسْتُ الْعَرَبِيَّةَ.",
+        "gloss": "Saya belajar bahasa Arab."
+      },
+      "note": "Wazan I = belajar. Wazan II دَرَّسَ = mengajar. Perhatikan bedanya hanya pada syaddah."
+    },
+    {
+      "id": "v150",
+      "ar": "فَتَحَ",
+      "gloss": "membuka",
+      "alt": [
+        "buka"
+      ],
+      "pos": "fi'l",
+      "gender": null,
+      "fem": null,
+      "plural": null,
+      "mudhari": "يَفْتَحُ",
+      "root": "ف ت ح",
+      "root_note": null,
+      "cat": "fi'l",
+      "stage": 5,
+      "example": {
+        "ar": "فَتَحَ الْبَابَ.",
+        "gloss": "Dia membuka pintu itu."
+      },
+      "note": "Seakar dengan مِفْتَاح (kunci) dan مَفْتُوح (terbuka)."
+    },
+    {
+      "id": "v151",
+      "ar": "جَلَسَ",
+      "gloss": "duduk",
+      "alt": [
+        "bersila",
+        "duduk"
+      ],
+      "pos": "fi'l",
+      "gender": null,
+      "fem": null,
+      "plural": null,
+      "mudhari": "يَجْلِسُ",
+      "root": "ج ل س",
+      "root_note": null,
+      "cat": "fi'l",
+      "stage": 5,
+      "example": {
+        "ar": "جَلَسْتُ عَلَى الْكُرْسِيِّ.",
+        "gloss": "Saya duduk di atas kursi."
+      },
+      "note": "Mudhari'-nya berharakat kasrah: يَجْلِسُ (bukan يَجْلُسُ)."
+    },
+    {
+      "id": "v152",
+      "ar": "نَظَرَ",
+      "gloss": "memandang, melihat ke",
+      "alt": [
+        "memandang",
+        "menatap"
+      ],
+      "pos": "fi'l",
+      "gender": null,
+      "fem": null,
+      "plural": null,
+      "mudhari": "يَنْظُرُ",
+      "root": "ن ظ ر",
+      "root_note": null,
+      "cat": "fi'l",
+      "stage": 5,
+      "example": {
+        "ar": "نَظَرْتُ إِلَى النَّافِذَةِ.",
+        "gloss": "Saya memandang ke jendela."
+      },
+      "note": "Memerlukan إِلَى untuk objeknya: نَظَرَ إِلَى. Bandingkan رَأَى yang langsung ke objek."
+    },
+    {
+      "id": "v153",
+      "ar": "عَمِلَ",
+      "gloss": "bekerja, melakukan",
+      "alt": [
+        "bekerja",
+        "mengerjakan"
+      ],
+      "pos": "fi'l",
+      "gender": null,
+      "fem": null,
+      "plural": null,
+      "mudhari": "يَعْمَلُ",
+      "root": "ع م ل",
+      "root_note": null,
+      "cat": "fi'l",
+      "stage": 5,
+      "example": {
+        "ar": "يَعْمَلُ أَبِي فِي الْمَكْتَبِ.",
+        "gloss": "Ayah saya bekerja di kantor."
+      },
+      "note": "Seakar dengan عَمَل (pekerjaan) dan عَامِل (pekerja)."
+    },
+    {
+      "id": "v154",
+      "ar": "سَمِعَ",
+      "gloss": "mendengar",
+      "alt": [
+        "dengar"
+      ],
+      "pos": "fi'l",
+      "gender": null,
+      "fem": null,
+      "plural": null,
+      "mudhari": "يَسْمَعُ",
+      "root": "س م ع",
+      "root_note": null,
+      "cat": "fi'l",
+      "stage": 5,
+      "example": {
+        "ar": "أَسْمَعُ الْمُدَرِّسَ.",
+        "gloss": "Saya mendengar guru itu."
+      },
+      "note": "سَمِعَ = mendengar (tanpa sengaja atau umum); اِسْتَمَعَ = menyimak dengan sengaja."
+    },
+    {
+      "id": "v155",
+      "ar": "فَهِمَ",
+      "gloss": "memahami, mengerti",
+      "alt": [
+        "mengerti",
+        "paham"
+      ],
+      "pos": "fi'l",
+      "gender": null,
+      "fem": null,
+      "plural": null,
+      "mudhari": "يَفْهَمُ",
+      "root": "ف ه م",
+      "root_note": null,
+      "cat": "fi'l",
+      "stage": 5,
+      "example": {
+        "ar": "فَهِمْتُ الدَّرْسَ.",
+        "gloss": "Saya memahami pelajaran itu."
+      },
+      "note": null
+    },
+    {
+      "id": "v156",
+      "ar": "خَرَجَ",
+      "gloss": "keluar",
+      "alt": [
+        "pergi keluar"
+      ],
+      "pos": "fi'l",
+      "gender": null,
+      "fem": null,
+      "plural": null,
+      "mudhari": "يَخْرُجُ",
+      "root": "خ ر ج",
+      "root_note": null,
+      "cat": "fi'l",
+      "stage": 6,
+      "example": {
+        "ar": "خَرَجَ مِنَ الْبَيْتِ.",
+        "gloss": "Dia keluar dari rumah."
+      },
+      "note": "Biasanya diikuti مِنْ. Lawannya دَخَلَ."
+    },
+    {
+      "id": "v157",
+      "ar": "دَخَلَ",
+      "gloss": "masuk",
+      "alt": [
+        "memasuki"
+      ],
+      "pos": "fi'l",
+      "gender": null,
+      "fem": null,
+      "plural": null,
+      "mudhari": "يَدْخُلُ",
+      "root": "د خ ل",
+      "root_note": null,
+      "cat": "fi'l",
+      "stage": 6,
+      "example": {
+        "ar": "دَخَلْتُ الْغُرْفَةَ.",
+        "gloss": "Saya memasuki kamar itu."
+      },
+      "note": "Dapat langsung diikuti objek (manshub) tanpa huruf jar, atau dengan فِي / إِلَى."
+    },
+    {
+      "id": "v158",
+      "ar": "سَأَلَ",
+      "gloss": "bertanya",
+      "alt": [
+        "menanyakan",
+        "tanya"
+      ],
+      "pos": "fi'l",
+      "gender": null,
+      "fem": null,
+      "plural": null,
+      "mudhari": "يَسْأَلُ",
+      "root": "س أ ل",
+      "root_note": null,
+      "cat": "fi'l",
+      "stage": 6,
+      "example": {
+        "ar": "سَأَلَ الطَّالِبُ الْمُدَرِّسَ.",
+        "gloss": "Pelajar itu bertanya kepada guru."
+      },
+      "note": "Hamzah menjadi huruf akar kedua. Seakar dengan سُؤَال (pertanyaan)."
+    },
+    {
+      "id": "v159",
+      "ar": "كَانَ",
+      "gloss": "adalah, dahulu adalah",
+      "alt": [
+        "adalah"
+      ],
+      "pos": "fi'l",
+      "gender": null,
+      "fem": null,
+      "plural": null,
+      "mudhari": "يَكُونُ",
+      "root": "ك و ن",
+      "root_note": "Waw akar tidak tampak pada bentuk كَانَ, tetapi muncul pada يَكُونُ dan كَوْن.",
+      "cat": "fi'l",
+      "stage": 6,
+      "example": {
+        "ar": "كَانَ الْبَيْتُ كَبِيرًا.",
+        "gloss": "Rumah itu dahulu besar."
+      },
+      "note": "كَانَ membuat khabar menjadi manshub: كَبِيرًا, bukan كَبِيرٌ. Lihat Modul 2."
+    },
+    {
+      "id": "v160",
+      "ar": "قَالَ",
+      "gloss": "berkata, mengatakan",
+      "alt": [
+        "mengatakan",
+        "berkata"
+      ],
+      "pos": "fi'l",
+      "gender": null,
+      "fem": null,
+      "plural": null,
+      "mudhari": "يَقُولُ",
+      "root": "ق و ل",
+      "root_note": "Akar lemah tengah (mu'tall al-'ain); waw muncul pada يَقُولُ dan قَوْل.",
+      "cat": "fi'l",
+      "stage": 6,
+      "example": {
+        "ar": "مَاذَا قَالَ أَبُوكَ؟",
+        "gloss": "Apa yang ayahmu katakan?"
+      },
+      "note": "Pada contoh ini أَب menjadi أَبُو karena berkedudukan marfu' dan disambung ke kata ganti (al-asma' al-khamsah)."
+    },
+    {
+      "id": "v161",
+      "ar": "رَأَى",
+      "gloss": "melihat",
+      "alt": [
+        "lihat",
+        "memandang"
+      ],
+      "pos": "fi'l",
+      "gender": null,
+      "fem": null,
+      "plural": null,
+      "mudhari": "يَرَى",
+      "root": "ر أ ي",
+      "root_note": "Akarnya mengandung hamzah dan ya'; pada يَرَى hamzah hilang dari tulisan dan bacaan.",
+      "cat": "fi'l",
+      "stage": 6,
+      "example": {
+        "ar": "رَأَيْتُ صَدِيقِي.",
+        "gloss": "Saya melihat teman saya."
+      },
+      "note": "Seakar dengan رَأْي (pendapat) dan مِرْآة (cermin)."
+    },
+    {
+      "id": "v162",
+      "ar": "أَخَذَ",
+      "gloss": "mengambil",
+      "alt": [
+        "ambil"
+      ],
+      "pos": "fi'l",
+      "gender": null,
+      "fem": null,
+      "plural": null,
+      "mudhari": "يَأْخُذُ",
+      "root": "أ خ ذ",
+      "root_note": null,
+      "cat": "fi'l",
+      "stage": 6,
+      "example": {
+        "ar": "أَخَذْتُ الْمِفْتَاحَ.",
+        "gloss": "Saya mengambil kunci itu."
+      },
+      "note": null
+    },
+    {
+      "id": "v163",
+      "ar": "وَجَدَ",
+      "gloss": "menemukan, mendapati",
+      "alt": [
+        "mendapati",
+        "menemukan"
+      ],
+      "pos": "fi'l",
+      "gender": null,
+      "fem": null,
+      "plural": null,
+      "mudhari": "يَجِدُ",
+      "root": "و ج د",
+      "root_note": "Waw di awal akar hilang pada bentuk mudhari': يَجِدُ, bukan يَوْجِدُ.",
+      "cat": "fi'l",
+      "stage": 6,
+      "example": {
+        "ar": "وَجَدْتُ الْقَلَمَ.",
+        "gloss": "Saya menemukan pulpen itu."
+      },
+      "note": "Contoh kata kerja mitsal (huruf akar pertamanya waw) yang waw-nya luruh di bentuk mudhari'."
+    },
+    {
+      "id": "v164",
+      "ar": "عَرَفَ",
+      "gloss": "mengetahui, mengenal",
+      "alt": [
+        "tahu",
+        "mengenal"
+      ],
+      "pos": "fi'l",
+      "gender": null,
+      "fem": null,
+      "plural": null,
+      "mudhari": "يَعْرِفُ",
+      "root": "ع ر ف",
+      "root_note": null,
+      "cat": "fi'l",
+      "stage": 6,
+      "example": {
+        "ar": "أَعْرِفُ هَذَا الرَّجُلَ.",
+        "gloss": "Saya mengenal lelaki ini."
+      },
+      "note": "Seakar dengan مَعْرِفَة (pengetahuan) dan مَعْرُوف (yang dikenal, kebaikan)."
+    },
+    {
+      "id": "v165",
+      "ar": "لَعِبَ",
+      "gloss": "bermain",
+      "alt": [
+        "main"
+      ],
+      "pos": "fi'l",
+      "gender": null,
+      "fem": null,
+      "plural": null,
+      "mudhari": "يَلْعَبُ",
+      "root": "ل ع ب",
+      "root_note": null,
+      "cat": "fi'l",
+      "stage": 6,
+      "example": {
+        "ar": "يَلْعَبُ الْأَطْفَالُ فِي الْحَدِيقَةِ.",
+        "gloss": "Anak-anak bermain di taman."
+      },
+      "note": "Seakar dengan لُعْبَة (permainan) dan مَلْعَب (lapangan)."
+    },
+    {
+      "id": "v166",
+      "ar": "نَامَ",
+      "gloss": "tidur",
+      "alt": [
+        "beristirahat"
+      ],
+      "pos": "fi'l",
+      "gender": null,
+      "fem": null,
+      "plural": null,
+      "mudhari": "يَنَامُ",
+      "root": "ن و م",
+      "root_note": "Akar lemah tengah; waw muncul pada نَوْم (tidur).",
+      "cat": "fi'l",
+      "stage": 6,
+      "example": {
+        "ar": "نَامَ الطِّفْلُ.",
+        "gloss": "Anak kecil itu tidur."
+      },
+      "note": null
+    },
+    {
+      "id": "v167",
+      "ar": "تَكَلَّمَ",
+      "gloss": "berbicara",
+      "alt": [
+        "bicara",
+        "berkata-kata"
+      ],
+      "pos": "fi'l",
+      "gender": null,
+      "fem": null,
+      "plural": null,
+      "mudhari": "يَتَكَلَّمُ",
+      "root": "ك ل م",
+      "root_note": null,
+      "cat": "fi'l",
+      "stage": 6,
+      "example": {
+        "ar": "أَتَكَلَّمُ الْعَرَبِيَّةَ قَلِيلًا.",
+        "gloss": "Saya berbicara bahasa Arab sedikit."
+      },
+      "note": "Wazan V (تَفَعَّلَ). Seakar dengan كَلِمَة (kata) dan كَلَام (ucapan)."
+    },
+    {
+      "id": "v168",
+      "ar": "اِسْتَمَعَ",
+      "gloss": "menyimak, mendengarkan",
+      "alt": [
+        "mendengarkan",
+        "menyimak"
+      ],
+      "pos": "fi'l",
+      "gender": null,
+      "fem": null,
+      "plural": null,
+      "mudhari": "يَسْتَمِعُ",
+      "root": "س م ع",
+      "root_note": null,
+      "cat": "fi'l",
+      "stage": 6,
+      "example": {
+        "ar": "اِسْتَمَعْتُ إِلَى الْمُدَرِّسِ.",
+        "gloss": "Saya menyimak guru itu."
+      },
+      "note": "Wazan VIII (اِفْتَعَلَ). Diikuti إِلَى. Bandingkan سَمِعَ (wazan I)."
+    },
+    {
+      "id": "v169",
+      "ar": "دَرَّسَ",
+      "gloss": "mengajar",
+      "alt": [
+        "mengajarkan"
+      ],
+      "pos": "fi'l",
+      "gender": null,
+      "fem": null,
+      "plural": null,
+      "mudhari": "يُدَرِّسُ",
+      "root": "د ر س",
+      "root_note": null,
+      "cat": "fi'l",
+      "stage": 6,
+      "example": {
+        "ar": "يُدَرِّسُ الْعَرَبِيَّةَ فِي الْجَامِعَةِ.",
+        "gloss": "Dia mengajar bahasa Arab di universitas."
+      },
+      "note": "Wazan II (فَعَّلَ): menggandakan huruf tengah sering mengubah makna menjadi 'membuat orang lain melakukan'. دَرَسَ (belajar) menjadi دَرَّسَ (mengajar). Perhatikan ya' berharakat dhammah pada يُدَرِّسُ."
+    },
+    {
+      "id": "v170",
+      "ar": "كَبِير",
+      "gloss": "besar, tua (usia)",
+      "alt": [
+        "besar"
+      ],
+      "pos": "sifah",
+      "gender": null,
+      "fem": "كَبِيرَة",
+      "plural": "كِبَار",
+      "mudhari": null,
+      "root": "ك ب ر",
+      "root_note": null,
+      "cat": "sifah",
+      "stage": 6,
+      "example": {
+        "ar": "الْبَيْتُ كَبِيرٌ.",
+        "gloss": "Rumah itu besar."
+      },
+      "note": "Pola فَعِيل, pola kata sifat yang sangat umum."
+    },
+    {
+      "id": "v171",
+      "ar": "صَغِير",
+      "gloss": "kecil, muda (usia)",
+      "alt": [
+        "kecil"
+      ],
+      "pos": "sifah",
+      "gender": null,
+      "fem": "صَغِيرَة",
+      "plural": "صِغَار",
+      "mudhari": null,
+      "root": "ص غ ر",
+      "root_note": null,
+      "cat": "sifah",
+      "stage": 6,
+      "example": {
+        "ar": "الْغُرْفَةُ صَغِيرَةٌ.",
+        "gloss": "Kamar itu kecil."
+      },
+      "note": null
+    },
+    {
+      "id": "v172",
+      "ar": "جَدِيد",
+      "gloss": "baru",
+      "alt": [],
+      "pos": "sifah",
+      "gender": null,
+      "fem": "جَدِيدَة",
+      "plural": "جُدُد",
+      "mudhari": null,
+      "root": "ج د د",
+      "root_note": null,
+      "cat": "sifah",
+      "stage": 6,
+      "example": {
+        "ar": "هَذَا قَلَمٌ جَدِيدٌ.",
+        "gloss": "Ini pulpen baru."
+      },
+      "note": "Jamak جُدُد dipakai untuk manusia. Untuk benda bukan manusia, jamaknya diperlakukan seperti mu'annats tunggal: كُتُبٌ جَدِيدَةٌ."
+    },
+    {
+      "id": "v173",
+      "ar": "قَدِيم",
+      "gloss": "lama, kuno",
+      "alt": [
+        "tua (barang)",
+        "kuno"
+      ],
+      "pos": "sifah",
+      "gender": null,
+      "fem": "قَدِيمَة",
+      "plural": "قُدَمَاء",
+      "mudhari": null,
+      "root": "ق د م",
+      "root_note": null,
+      "cat": "sifah",
+      "stage": 6,
+      "example": {
+        "ar": "الْمَدِينَةُ قَدِيمَةٌ.",
+        "gloss": "Kota itu tua."
+      },
+      "note": "Untuk benda dipakai قَدِيم; untuk orang yang tua usianya dipakai كَبِير (فِي السِّنّ), bukan قَدِيم."
+    },
+    {
+      "id": "v174",
+      "ar": "جَمِيل",
+      "gloss": "indah, cantik, bagus",
+      "alt": [
+        "cantik",
+        "indah"
+      ],
+      "pos": "sifah",
+      "gender": null,
+      "fem": "جَمِيلَة",
+      "plural": null,
+      "mudhari": null,
+      "root": "ج م ل",
+      "root_note": null,
+      "cat": "sifah",
+      "stage": 6,
+      "example": {
+        "ar": "الْحَدِيقَةُ جَمِيلَةٌ.",
+        "gloss": "Taman itu indah."
+      },
+      "note": "Seakar dengan جَمَال (keindahan)."
+    },
+    {
+      "id": "v175",
+      "ar": "طَوِيل",
+      "gloss": "panjang, tinggi",
+      "alt": [
+        "panjang",
+        "tinggi"
+      ],
+      "pos": "sifah",
+      "gender": null,
+      "fem": "طَوِيلَة",
+      "plural": "طِوَال",
+      "mudhari": null,
+      "root": "ط و ل",
+      "root_note": null,
+      "cat": "sifah",
+      "stage": 6,
+      "example": {
+        "ar": "الشَّارِعُ طَوِيلٌ.",
+        "gloss": "Jalan itu panjang."
+      },
+      "note": "Satu kata untuk 'panjang' (benda) dan 'tinggi' (orang)."
+    },
+    {
+      "id": "v176",
+      "ar": "قَصِير",
+      "gloss": "pendek",
+      "alt": [
+        "singkat",
+        "pendek"
+      ],
+      "pos": "sifah",
+      "gender": null,
+      "fem": "قَصِيرَة",
+      "plural": "قِصَار",
+      "mudhari": null,
+      "root": "ق ص ر",
+      "root_note": null,
+      "cat": "sifah",
+      "stage": 6,
+      "example": {
+        "ar": "هَذَا دَرْسٌ قَصِيرٌ.",
+        "gloss": "Ini pelajaran yang singkat."
+      },
+      "note": null
+    },
+    {
+      "id": "v177",
+      "ar": "سَهْل",
+      "gloss": "mudah",
+      "alt": [
+        "gampang",
+        "mudah"
+      ],
+      "pos": "sifah",
+      "gender": null,
+      "fem": "سَهْلَة",
+      "plural": null,
+      "mudhari": null,
+      "root": "س ه ل",
+      "root_note": null,
+      "cat": "sifah",
+      "stage": 6,
+      "example": {
+        "ar": "الدَّرْسُ سَهْلٌ.",
+        "gloss": "Pelajaran itu mudah."
+      },
+      "note": "Makna dasar akarnya 'datar/rata' (bandingkan سَهْل = dataran)."
+    },
+    {
+      "id": "v178",
+      "ar": "صَعْب",
+      "gloss": "sulit, sukar",
+      "alt": [
+        "susah",
+        "sukar"
+      ],
+      "pos": "sifah",
+      "gender": null,
+      "fem": "صَعْبَة",
+      "plural": null,
+      "mudhari": null,
+      "root": "ص ع ب",
+      "root_note": null,
+      "cat": "sifah",
+      "stage": 6,
+      "example": {
+        "ar": "الدَّرْسُ صَعْبٌ.",
+        "gloss": "Pelajaran itu sulit."
+      },
+      "note": null
+    },
+    {
+      "id": "v179",
+      "ar": "كَثِير",
+      "gloss": "banyak",
+      "alt": [
+        "banyak"
+      ],
+      "pos": "sifah",
+      "gender": null,
+      "fem": "كَثِيرَة",
+      "plural": null,
+      "mudhari": null,
+      "root": "ك ث ر",
+      "root_note": null,
+      "cat": "sifah",
+      "stage": 6,
+      "example": {
+        "ar": "فِي الْمَكْتَبَةِ كُتُبٌ كَثِيرَةٌ.",
+        "gloss": "Di perpustakaan itu ada banyak buku."
+      },
+      "note": "Perhatikan: كُتُب (jamak benda bukan manusia) disifati dengan كَثِيرَةٌ (mu'annats tunggal)."
+    },
+    {
+      "id": "v180",
+      "ar": "قَلِيل",
+      "gloss": "sedikit",
+      "alt": [
+        "sedikit"
+      ],
+      "pos": "sifah",
+      "gender": null,
+      "fem": "قَلِيلَة",
+      "plural": null,
+      "mudhari": null,
+      "root": "ق ل ل",
+      "root_note": null,
+      "cat": "sifah",
+      "stage": 6,
+      "example": {
+        "ar": "فِي الْكُوبِ مَاءٌ قَلِيلٌ.",
+        "gloss": "Di dalam gelas itu ada sedikit air."
+      },
+      "note": null
+    },
+    {
+      "id": "v181",
+      "ar": "بَعِيد",
+      "gloss": "jauh",
+      "alt": [
+        "jauh"
+      ],
+      "pos": "sifah",
+      "gender": null,
+      "fem": "بَعِيدَة",
+      "plural": null,
+      "mudhari": null,
+      "root": "ب ع د",
+      "root_note": null,
+      "cat": "sifah",
+      "stage": 6,
+      "example": {
+        "ar": "الْمَطَارُ بَعِيدٌ.",
+        "gloss": "Bandara itu jauh."
+      },
+      "note": "Seakar dengan بَعْدَ (sesudah)."
+    },
+    {
+      "id": "v182",
+      "ar": "قَرِيب",
+      "gloss": "dekat",
+      "alt": [
+        "dekat"
+      ],
+      "pos": "sifah",
+      "gender": null,
+      "fem": "قَرِيبَة",
+      "plural": null,
+      "mudhari": null,
+      "root": "ق ر ب",
+      "root_note": null,
+      "cat": "sifah",
+      "stage": 6,
+      "example": {
+        "ar": "الْمَسْجِدُ قَرِيبٌ.",
+        "gloss": "Masjid itu dekat."
+      },
+      "note": "Dipakai juga untuk 'kerabat': أَقْرِبَاء = kerabat."
+    },
+    {
+      "id": "v183",
+      "ar": "نَظِيف",
+      "gloss": "bersih",
+      "alt": [
+        "bersih"
+      ],
+      "pos": "sifah",
+      "gender": null,
+      "fem": "نَظِيفَة",
+      "plural": null,
+      "mudhari": null,
+      "root": "ن ظ ف",
+      "root_note": null,
+      "cat": "sifah",
+      "stage": 6,
+      "example": {
+        "ar": "الْغُرْفَةُ نَظِيفَةٌ.",
+        "gloss": "Kamar itu bersih."
+      },
+      "note": null
+    },
+    {
+      "id": "v184",
+      "ar": "سَرِيع",
+      "gloss": "cepat",
+      "alt": [
+        "cepat",
+        "laju"
+      ],
+      "pos": "sifah",
+      "gender": null,
+      "fem": "سَرِيعَة",
+      "plural": null,
+      "mudhari": null,
+      "root": "س ر ع",
+      "root_note": null,
+      "cat": "sifah",
+      "stage": 6,
+      "example": {
+        "ar": "السَّيَّارَةُ سَرِيعَةٌ.",
+        "gloss": "Mobil itu cepat."
+      },
+      "note": null
+    },
+    {
+      "id": "v185",
+      "ar": "جَيِّد",
+      "gloss": "baik, bagus",
+      "alt": [
+        "bagus",
+        "baik"
+      ],
+      "pos": "sifah",
+      "gender": null,
+      "fem": "جَيِّدَة",
+      "plural": null,
+      "mudhari": null,
+      "root": "ج و د",
+      "root_note": "Waw akar berubah menjadi ya' bersyaddah pada bentuk جَيِّد; bandingkan جَوْدَة (mutu).",
+      "cat": "sifah",
+      "stage": 6,
+      "example": {
+        "ar": "هَذَا كِتَابٌ جَيِّدٌ.",
+        "gloss": "Ini buku yang bagus."
+      },
+      "note": null
+    },
+    {
+      "id": "v186",
+      "ar": "بَارِد",
+      "gloss": "dingin, sejuk",
+      "alt": [
+        "dingin"
+      ],
+      "pos": "sifah",
+      "gender": null,
+      "fem": "بَارِدَة",
+      "plural": null,
+      "mudhari": null,
+      "root": "ب ر د",
+      "root_note": null,
+      "cat": "sifah",
+      "stage": 6,
+      "example": {
+        "ar": "الْمَاءُ بَارِدٌ.",
+        "gloss": "Airnya dingin."
+      },
+      "note": "Pola فَاعِل yang di sini bermakna sifat, bukan pelaku."
+    },
+    {
+      "id": "v187",
+      "ar": "حَارّ",
+      "gloss": "panas",
+      "alt": [
+        "panas"
+      ],
+      "pos": "sifah",
+      "gender": null,
+      "fem": "حَارَّة",
+      "plural": null,
+      "mudhari": null,
+      "root": "ح ر ر",
+      "root_note": null,
+      "cat": "sifah",
+      "stage": 6,
+      "example": {
+        "ar": "الْيَوْمُ حَارٌّ.",
+        "gloss": "Hari ini panas."
+      },
+      "note": "Akar mudha'af (huruf kedua dan ketiga sama), sehingga ra' bersyaddah: حَارّ. Seakar dengan حَرَارَة (suhu, panas)."
+    },
+    {
+      "id": "v188",
+      "ar": "مَشْغُول",
+      "gloss": "sibuk",
+      "alt": [
+        "sibuk",
+        "repot"
+      ],
+      "pos": "sifah",
+      "gender": null,
+      "fem": "مَشْغُولَة",
+      "plural": null,
+      "mudhari": null,
+      "root": "ش غ ل",
+      "root_note": null,
+      "cat": "sifah",
+      "stage": 6,
+      "example": {
+        "ar": "الْمُدِيرُ مَشْغُولٌ.",
+        "gloss": "Direktur itu sibuk."
+      },
+      "note": "Pola مَفْعُول (isim maf'ul): 'yang dikenai perbuatan'. Harfiah: 'yang disibukkan'."
+    }
+  ]
+}

@@ -1,0 +1,412 @@
+{
+  "module": 2,
+  "title": "Tata bahasa dasar",
+  "description": "Dua belas topik inti nahwu untuk tingkat A1-A2. Setiap topik berisi penjelasan, contoh berharakat penuh, catatan pengecualian, dan soal pilihan ganda dengan tepat satu jawaban benar.",
+  "schema": {
+    "id": "pengenal topik (g##)",
+    "stage": "tahap 1-6",
+    "explanation": "penjelasan dalam Bahasa Indonesia",
+    "caveats": "pengecualian, perbedaan pendapat, atau batas berlakunya aturan (bukan aturan mutlak)",
+    "examples": "contoh kalimat berharakat penuh termasuk i'rab",
+    "items": "soal; options_lang menandai bahasa pilihan jawaban (ar/id); answer adalah indeks jawaban benar"
+  },
+  "topics": [
+    {
+      "id": "g01",
+      "title": "Kalimat nominal: mubtada' dan khabar",
+      "stage": 1,
+      "explanation": "Kalimat nominal (jumlah ismiyyah) tersusun dari mubtada' (yang diberitakan) dan khabar (beritanya). Keduanya marfu' (berharakat dhammah atau tanwin dhammah). Bahasa Arab tidak memakai kata kerja 'adalah' untuk kalimat jenis ini. الْبَيْتُ كَبِيرٌ hanya tersusun dari dua kata, 'rumah itu' dan 'besar', lalu diterjemahkan 'Rumah itu besar'. Umumnya mubtada' definit (memakai ال, berupa nama orang, atau berupa kata ganti), sedangkan khabar indefinit (bertanwin).",
+      "caveats": [
+        "Khabar boleh mendahului mubtada' dalam keadaan tertentu, misalnya saat khabar berupa keterangan tempat: فِي الْبَيْتِ رَجُلٌ (Di rumah itu ada seorang lelaki).",
+        "Bila mubtada' dan khabar keduanya definit, maknanya bisa rancu dengan frasa sifat. Sebagian ahli nahwu menyarankan penambahan dhamir fashl (kata ganti pemisah): الْبَيْتُ هُوَ الْكَبِيرُ.",
+        "Istilah 'subjek' dan 'predikat' tidak sepadan persis dengan mubtada' dan khabar, sehingga sebaiknya Anda memakai istilah Arabnya."
+      ],
+      "examples": [
+        { "ar": "الْبَيْتُ كَبِيرٌ.", "gloss": "Rumah itu besar." },
+        { "ar": "الطَّالِبُ مَشْغُولٌ.", "gloss": "Pelajar itu sibuk." },
+        { "ar": "أَنَا مُدَرِّسٌ.", "gloss": "Saya seorang guru." },
+        { "ar": "فِي الْبَيْتِ رَجُلٌ.", "gloss": "Di rumah itu ada seorang lelaki." }
+      ],
+      "items": [
+        { "id": "g01-01", "type": "mcq", "prompt": "Mubtada' dan khabar pada kalimat nominal berada dalam keadaan i'rab apa?", "prompt_ar": null, "options_lang": "id",
+          "options": ["Keduanya marfu'", "Keduanya manshub", "Keduanya majrur", "Mubtada' marfu', khabar manshub"], "answer": 0,
+          "explain": "Keduanya marfu'. Khabar baru menjadi manshub bila didahului كَانَ atau لَيْسَ." },
+        { "id": "g01-02", "type": "cloze", "prompt": "Lengkapi kalimat yang berarti 'Rumah itu besar'.", "prompt_ar": "... كَبِيرٌ.", "options_lang": "ar",
+          "options": ["الْبَيْتُ", "الْبَيْتَ", "الْبَيْتِ", "بَيْتِ"], "answer": 0,
+          "explain": "Mubtada' marfu', jadi memakai dhammah: الْبَيْتُ." },
+        { "id": "g01-03", "type": "mcq", "prompt": "Apa arti الطَّالِبُ مَشْغُولٌ ?", "prompt_ar": "الطَّالِبُ مَشْغُولٌ.", "options_lang": "id",
+          "options": ["Pelajar itu sibuk", "Pelajar yang sibuk", "Seorang pelajar sibuk itu", "Sibuknya pelajar itu"], "answer": 0,
+          "explain": "Definit + indefinit = kalimat lengkap. 'Pelajar yang sibuk' adalah الطَّالِبُ الْمَشْغُولُ (keduanya definit), bukan kalimat." },
+        { "id": "g01-04", "type": "mcq", "prompt": "Mengapa bahasa Arab tidak memerlukan kata 'adalah' pada الْبَيْتُ كَبِيرٌ ?", "prompt_ar": null, "options_lang": "id",
+          "options": ["Karena hubungan mubtada'-khabar sudah menyatakan 'adalah'", "Karena kata 'adalah' dihapus untuk meringkas", "Karena كَانَ selalu tersembunyi", "Karena kalimatnya belum lengkap"], "answer": 0,
+          "explain": "Susunan mubtada'-khabar itu sendiri yang membawa makna 'adalah'. كَانَ dipakai bila ingin memindahkan kejadiannya ke masa lampau." },
+        { "id": "g01-05", "type": "cloze", "prompt": "Lengkapi kalimat yang berarti 'Di dalam kamar itu ada seorang pelajar'.", "prompt_ar": "فِي الْغُرْفَةِ ...", "options_lang": "ar",
+          "options": ["طَالِبٌ", "طَالِبًا", "طَالِبٍ", "الطَّالِبُ"], "answer": 0,
+          "explain": "Di sini khabar didahulukan, dan mubtada'-nya طَالِبٌ tetap marfu' serta indefinit." }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": "Definit (ال) dan indefinit (tanwin)",
+      "stage": 1,
+      "explanation": "Kata benda indefinit ('sebuah ...') ditandai dengan tanwin: كِتَابٌ. Kata benda definit ('... itu') ditandai dengan ال di depannya, dan tanwinnya hilang: الْكِتَابُ. Hamzah pada ال adalah hamzah washal: di tengah kalimat ia tidak dibaca, sehingga فِي الْبَيْتِ dibaca fil-bait. Lam pada ال dibaca jelas bila huruf sesudahnya adalah huruf qamariyah (الْكِتَابُ), dan melebur ke huruf sesudahnya bila huruf itu adalah huruf syamsiyah (الطَّالِبُ dibaca ath-thaalib, lam tidak terdengar).",
+      "caveats": [
+        "ال bukan satu-satunya penanda definit. Nama orang (مُحَمَّدٌ), kata ganti (هُوَ), kata tunjuk (هَذَا), dan mudhaf yang disandarkan kepada kata definit (بَابُ الْبَيْتِ) juga definit tanpa ال.",
+        "Sebagian kata benda tidak menerima tanwin sama sekali (mamnu' min ash-sharf), misalnya banyak pola jamak taksir seperti مَدَارِس dan مَفَاتِيح. Topik ini di luar jangkauan A1-A2 dan hanya perlu dikenali."
+      ],
+      "examples": [
+        { "ar": "هَذَا كِتَابٌ.", "gloss": "Ini sebuah buku." },
+        { "ar": "الْكِتَابُ جَدِيدٌ.", "gloss": "Buku itu baru." },
+        { "ar": "الطَّالِبُ فِي الْمَدْرَسَةِ.", "gloss": "Pelajar itu ada di sekolah." }
+      ],
+      "items": [
+        { "id": "g02-01", "type": "mcq", "prompt": "Mana yang berarti 'sebuah buku'?", "prompt_ar": null, "options_lang": "ar",
+          "options": ["كِتَابٌ", "الْكِتَابُ", "الْكُتُبُ", "كُتُبٌ"], "answer": 0,
+          "explain": "Tanwin menandai indefinit. الْكِتَابُ = buku itu, كُتُبٌ = buku-buku, الْكُتُبُ = buku-buku itu." },
+        { "id": "g02-02", "type": "mcq", "prompt": "Pada kata الطَّالِبُ, bagaimana lam pada ال dibaca?", "prompt_ar": "الطَّالِبُ", "options_lang": "id",
+          "options": ["Tidak terdengar, melebur ke huruf ط yang bersyaddah", "Dibaca jelas sebagai 'al'", "Dibaca panjang", "Dibaca dengan kasrah"], "answer": 0,
+          "explain": "ط adalah huruf syamsiyah, sehingga lam melebur: ath-thaalib. Tandanya adalah syaddah pada huruf sesudah lam." },
+        { "id": "g02-03", "type": "mcq", "prompt": "Apa yang terjadi pada tanwin ketika sebuah kata diberi ال ?", "prompt_ar": null, "options_lang": "id",
+          "options": ["Tanwin hilang, diganti harakat tunggal", "Tanwin tetap ada", "Tanwin berubah menjadi sukun", "Tanwin berpindah ke huruf pertama"], "answer": 0,
+          "explain": "كِتَابٌ menjadi الْكِتَابُ. Satu kata tidak memakai ال dan tanwin sekaligus." },
+        { "id": "g02-04", "type": "mcq", "prompt": "Mana yang BUKAN kata definit?", "prompt_ar": null, "options_lang": "ar",
+          "options": ["مَدْرَسَةٌ", "الْمَدْرَسَةُ", "هَذِهِ", "مَدْرَسَتِي"], "answer": 0,
+          "explain": "مَدْرَسَةٌ bertanwin, jadi indefinit. مَدْرَسَتِي definit karena disandarkan kepada kata ganti." },
+        { "id": "g02-05", "type": "mcq", "prompt": "Bagaimana فِي الْبَيْتِ dibaca?", "prompt_ar": "فِي الْبَيْتِ", "options_lang": "id",
+          "options": ["fil-baiti", "fii al-baiti", "fii il-baiti", "fi albaiti"], "answer": 0,
+          "explain": "Hamzah washal pada ال tidak dibaca di tengah kalimat, dan ya' pada فِي luruh dalam bacaan tersambung." }
+      ]
+    },
+    {
+      "id": "g03",
+      "title": "Mudzakkar, mu'annats, dan ta' marbuthah",
+      "stage": 2,
+      "explanation": "Setiap kata benda Arab bergender: mudzakkar atau mu'annats. Istilah ini bersifat tata bahasa dan tidak selalu berkaitan dengan jenis kelamin: بَيْت (rumah) mudzakkar, sedangkan مَدْرَسَة (sekolah) mu'annats. Penanda mu'annats yang paling umum adalah ta' marbuthah (ة) di akhir kata: مَدْرَسَةٌ، سَيَّارَةٌ، غُرْفَةٌ. Kata tanpa ة umumnya mudzakkar: بَيْتٌ، كِتَابٌ، قَلَمٌ. Gender ini menentukan bentuk kata sifat, kata tunjuk, dan kata kerja yang menyertainya.",
+      "caveats": [
+        "Ada kata mu'annats TANPA ta' marbuthah, dan jumlahnya tidak sedikit: أُمّ، بِنْت، شَمْس، أَرْض، يَد، عَيْن، نَفْس. Kelompok ini harus dihafal, bukan disimpulkan dari bentuknya.",
+        "Ada kata mudzakkar DENGAN ta' marbuthah, terutama nama orang lelaki: حَمْزَة، أُسَامَة، مُعَاوِيَة.",
+        "Sebagian kata boleh diperlakukan sebagai mudzakkar maupun mu'annats, misalnya سُوق dan طَرِيق. Kamus yang berbeda bisa mencatat kecenderungan yang berbeda."
+      ],
+      "examples": [
+        { "ar": "هَذَا بَيْتٌ كَبِيرٌ.", "gloss": "Ini rumah yang besar." },
+        { "ar": "هَذِهِ مَدْرَسَةٌ كَبِيرَةٌ.", "gloss": "Ini sekolah yang besar." },
+        { "ar": "أُمِّي مَشْغُولَةٌ.", "gloss": "Ibu saya sibuk." }
+      ],
+      "items": [
+        { "id": "g03-01", "type": "mcq", "prompt": "Apa penanda mu'annats yang paling umum pada kata benda?", "prompt_ar": null, "options_lang": "id",
+          "options": ["Ta' marbuthah (ة) di akhir kata", "Alif di akhir kata", "ال di awal kata", "Tanwin kasrah"], "answer": 0,
+          "explain": "Namun ada pengecualian dua arah: أُمّ mu'annats tanpa ة, dan حَمْزَة mudzakkar dengan ة." },
+        { "id": "g03-02", "type": "mcq", "prompt": "Mana kata yang mu'annats MESKIPUN tidak berakhiran ta' marbuthah?", "prompt_ar": null, "options_lang": "ar",
+          "options": ["بِنْت", "بَيْت", "كِتَاب", "قَلَم"], "answer": 0,
+          "explain": "بِنْت ditulis dengan ta' maftuhah (ت) dan tetap mu'annats. Termasuk kelompok yang harus dihafal." },
+        { "id": "g03-03", "type": "cloze", "prompt": "Lengkapi: 'Ini sekolah yang besar'.", "prompt_ar": "هَذِهِ مَدْرَسَةٌ ...", "options_lang": "ar",
+          "options": ["كَبِيرَةٌ", "كَبِيرٌ", "كِبَارٌ", "الْكَبِيرَةُ"], "answer": 0,
+          "explain": "مَدْرَسَة mu'annats, jadi sifatnya juga mu'annats dan indefinit: كَبِيرَةٌ." },
+        { "id": "g03-04", "type": "mcq", "prompt": "Mana kata tunjuk yang tepat untuk سَيَّارَة ?", "prompt_ar": null, "options_lang": "ar",
+          "options": ["هَذِهِ", "هَذَا", "هَؤُلَاءِ", "ذَلِكَ"], "answer": 0,
+          "explain": "سَيَّارَة mu'annats (berakhiran ة), jadi memakai هَذِهِ." },
+        { "id": "g03-05", "type": "mcq", "prompt": "حَمْزَة berakhiran ta' marbuthah. Apa gendernya?", "prompt_ar": "حَمْزَةُ", "options_lang": "id",
+          "options": ["Mudzakkar, karena ia nama orang lelaki", "Mu'annats, karena berakhiran ة", "Bisa keduanya", "Tidak bergender"], "answer": 0,
+          "explain": "Nama orang lelaki yang berakhiran ة tetap mudzakkar. Bentuk kata tidak selalu menentukan gender." }
+      ]
+    },
+    {
+      "id": "g04",
+      "title": "Kata ganti terpisah dan melekat",
+      "stage": 2,
+      "explanation": "Kata ganti Arab ada dua jenis. Dhamir munfashil (terpisah) berdiri sendiri sebagai mubtada': أَنَا، أَنْتَ، هُوَ، هِيَ، نَحْنُ. Dhamir muttashil (melekat) menempel pada kata lain: ـِي (saya), ـكَ (kamu lk), ـكِ (kamu pr), ـهُ (dia lk), ـهَا (dia pr), ـنَا (kami), ـكُمْ (kalian lk), ـهُمْ (mereka lk). Bila menempel pada kata benda ia menyatakan kepemilikan (كِتَابِي = buku saya); bila menempel pada kata kerja ia menjadi objek (فَهِمْتُهُ = saya memahaminya); bila menempel pada huruf jar ia menjadi majrur (لَهُ = untuknya).",
+      "caveats": [
+        "Kata benda yang disandarkan kepada dhamir muttashil menjadi definit dan kehilangan tanwinnya: كِتَابٌ menjadi كِتَابِي, bukan كِتَابٌي.",
+        "Harakat pada ـهُ berubah menjadi ـهِ setelah kasrah atau ya': بِهِ، فِيهِ، إِلَيْهِ.",
+        "Pada al-asma' al-khamsah (أَب، أَخ، dan beberapa kata lain), penyambungan mengubah bentuk kata: أَبِي، أَبُوكَ، أَبَاهُ."
+      ],
+      "examples": [
+        { "ar": "هَذَا كِتَابِي.", "gloss": "Ini buku saya." },
+        { "ar": "أَيْنَ حَقِيبَتُكَ؟", "gloss": "Di mana tasmu?" },
+        { "ar": "الْمُدِيرُ فِي مَكْتَبِهِ.", "gloss": "Direktur itu ada di kantornya." },
+        { "ar": "عِنْدِي قَلَمٌ.", "gloss": "Saya punya sebuah pulpen." }
+      ],
+      "items": [
+        { "id": "g04-01", "type": "mcq", "prompt": "Mana yang berarti 'bukumu' (kepada lelaki)?", "prompt_ar": null, "options_lang": "ar",
+          "options": ["كِتَابُكَ", "كِتَابُكِ", "كِتَابِي", "كِتَابُهُ"], "answer": 0,
+          "explain": "ـكَ (fathah) untuk lelaki, ـكِ (kasrah) untuk perempuan." },
+        { "id": "g04-02", "type": "mcq", "prompt": "Apa arti عِنْدِي ?", "prompt_ar": "عِنْدِي", "options_lang": "id",
+          "options": ["Saya punya", "Kamu punya", "Dia punya", "Kami punya"], "answer": 0,
+          "explain": "عِنْدَ + ـِي. Bahasa Arab tidak punya kata kerja 'memiliki'; dipakai عِنْدَ + kata ganti." },
+        { "id": "g04-03", "type": "mcq", "prompt": "Apa yang terjadi pada tanwin kata benda saat disambung ke kata ganti?", "prompt_ar": null, "options_lang": "id",
+          "options": ["Tanwin hilang karena kata menjadi definit", "Tanwin tetap", "Tanwin berubah menjadi sukun", "Kata ganti yang kehilangan harakat"], "answer": 0,
+          "explain": "كِتَابٌ menjadi كِتَابِي. Penyandaran kepada kata ganti sudah membuat kata itu definit." },
+        { "id": "g04-04", "type": "cloze", "prompt": "Lengkapi: 'Direktur itu ada di kantornya'.", "prompt_ar": "الْمُدِيرُ فِي ...", "options_lang": "ar",
+          "options": ["مَكْتَبِهِ", "مَكْتَبُهُ", "مَكْتَبَهُ", "مَكْتَبِهُ"], "answer": 0,
+          "explain": "Setelah huruf jar فِي kata menjadi majrur (kasrah), dan ـهُ berubah menjadi ـهِ karena didahului kasrah." },
+        { "id": "g04-05", "type": "mcq", "prompt": "Pada فَهِمْتُهُ, apa fungsi ـهُ di akhir?", "prompt_ar": "فَهِمْتُهُ", "options_lang": "id",
+          "options": ["Objek kata kerja: 'saya memahaminya'", "Pemilik: 'pemahamannya'", "Pelaku: 'dia memahami'", "Penegas tanpa arti"], "answer": 0,
+          "explain": "Dhamir muttashil pada kata kerja berfungsi sebagai objek. Pelakunya adalah ـتُ (saya)." }
+      ]
+    },
+    {
+      "id": "g05",
+      "title": "Idhafah (penyandaran)",
+      "stage": 3,
+      "explanation": "Idhafah adalah susunan dua kata benda untuk menyatakan kepemilikan atau keterkaitan: بَابُ الْبَيْتِ = pintu rumah itu. Kata pertama disebut mudhaf, kata kedua mudhaf ilaih. Aturannya: (1) mudhaf TIDAK memakai ال dan TIDAK bertanwin; (2) mudhaf ilaih selalu majrur; (3) i'rab mudhaf mengikuti kedudukannya dalam kalimat. Definit atau tidaknya seluruh susunan ditentukan oleh mudhaf ilaih: بَابُ بَيْتٍ = pintu sebuah rumah, بَابُ الْبَيْتِ = pintu rumah itu.",
+      "caveats": [
+        "Kata sifat untuk susunan idhafah diletakkan SETELAH mudhaf ilaih, bukan di antara keduanya: بَابُ الْبَيْتِ الْكَبِيرُ. Susunan seperti ini bisa rancu (yang besar itu pintunya atau rumahnya?), dan pembaca menentukannya dari kesesuaian i'rab serta gender.",
+        "Idhafah bisa berantai lebih dari dua kata: بَابُ بَيْتِ الْمُدِيرِ.",
+        "Tidak setiap hubungan 'milik' dinyatakan dengan idhafah; لِ juga dipakai: هَذَا الْكِتَابُ لِأَخِي."
+      ],
+      "examples": [
+        { "ar": "بَابُ الْبَيْتِ مَفْتُوحٌ.", "gloss": "Pintu rumah itu terbuka." },
+        { "ar": "سَيَّارَةُ أَبِي كَبِيرَةٌ.", "gloss": "Mobil ayah saya besar." },
+        { "ar": "مَكْتَبُ الْمُدِيرِ نَظِيفٌ.", "gloss": "Kantor direktur itu bersih." }
+      ],
+      "items": [
+        { "id": "g05-01", "type": "mcq", "prompt": "Mana susunan yang benar untuk 'pintu rumah itu'?", "prompt_ar": null, "options_lang": "ar",
+          "options": ["بَابُ الْبَيْتِ", "الْبَابُ الْبَيْتُ", "بَابٌ الْبَيْتِ", "الْبَابُ بَيْتٍ"], "answer": 0,
+          "explain": "Mudhaf (بَاب) tanpa ال dan tanpa tanwin; mudhaf ilaih (الْبَيْتِ) majrur." },
+        { "id": "g05-02", "type": "mcq", "prompt": "Apa yang TIDAK boleh ada pada mudhaf?", "prompt_ar": null, "options_lang": "id",
+          "options": ["ال dan tanwin", "Dhammah", "Kasrah", "Kata sifat"], "answer": 0,
+          "explain": "Mudhaf tidak boleh memakai ال dan tidak boleh bertanwin. Harakat i'rabnya tetap ada sesuai kedudukan kalimat." },
+        { "id": "g05-03", "type": "cloze", "prompt": "Lengkapi: 'Kantor direktur itu bersih'.", "prompt_ar": "مَكْتَبُ ... نَظِيفٌ.", "options_lang": "ar",
+          "options": ["الْمُدِيرِ", "الْمُدِيرُ", "الْمُدِيرَ", "مُدِيرٌ"], "answer": 0,
+          "explain": "Mudhaf ilaih selalu majrur: الْمُدِيرِ." },
+        { "id": "g05-04", "type": "mcq", "prompt": "Apa perbedaan بَابُ بَيْتٍ dan بَابُ الْبَيْتِ ?", "prompt_ar": null, "options_lang": "id",
+          "options": ["'pintu sebuah rumah' dan 'pintu rumah itu'", "'pintu rumah itu' dan 'pintu sebuah rumah'", "Tidak ada perbedaan makna", "Yang pertama salah secara tata bahasa"], "answer": 0,
+          "explain": "Definit-tidaknya seluruh susunan ditentukan oleh mudhaf ilaih." },
+        { "id": "g05-05", "type": "mcq", "prompt": "Di mana kata sifat diletakkan pada susunan idhafah?", "prompt_ar": null, "options_lang": "id",
+          "options": ["Setelah mudhaf ilaih", "Antara mudhaf dan mudhaf ilaih", "Sebelum mudhaf", "Tidak boleh ada kata sifat"], "answer": 0,
+          "explain": "بَابُ الْبَيْتِ الْكَبِيرُ. Susunan ini memang bisa rancu; kesesuaian i'rab dan gender yang menjadi petunjuk." }
+      ]
+    },
+    {
+      "id": "g06",
+      "title": "Kata sifat dan kesesuaiannya (na't)",
+      "stage": 3,
+      "explanation": "Kata sifat (na't/shifah) diletakkan SETELAH kata yang disifati (man'ut) dan harus sesuai dalam empat hal: gender, jumlah, definit atau indefinit, dan i'rab. كِتَابٌ جَدِيدٌ = sebuah buku baru; الْكِتَابُ الْجَدِيدُ = buku baru itu; الْكِتَابُ جَدِيدٌ = buku itu baru (ini kalimat, bukan frasa). Perhatikan: perbedaan ada-tidaknya ال pada kata sifat mengubah frasa menjadi kalimat.",
+      "caveats": [
+        "Jamak benda BUKAN manusia disifati dengan mu'annats tunggal: كُتُبٌ كَثِيرَةٌ (bukan كَثِيرُونَ), الْمَدَارِسُ كَبِيرَةٌ. Aturan ini kerap mengejutkan pemula.",
+        "Jamak manusia memakai jamak: مُدَرِّسُونَ جُدُدٌ، طَالِبَاتٌ جَدِيدَاتٌ.",
+        "Sebagian pola kata sifat tidak berubah bentuk untuk mu'annats, misalnya pola فَعُول dan فَعِيل dengan makna maf'ul. Rinciannya di luar jangkauan A1-A2."
+      ],
+      "examples": [
+        { "ar": "هَذَا كِتَابٌ جَدِيدٌ.", "gloss": "Ini sebuah buku baru." },
+        { "ar": "قَرَأْتُ الْكِتَابَ الْجَدِيدَ.", "gloss": "Saya membaca buku baru itu." },
+        { "ar": "فِي الْمَكْتَبَةِ كُتُبٌ كَثِيرَةٌ.", "gloss": "Di perpustakaan itu ada banyak buku." }
+      ],
+      "items": [
+        { "id": "g06-01", "type": "mcq", "prompt": "Mana yang berarti 'sebuah buku baru' (frasa, bukan kalimat)?", "prompt_ar": null, "options_lang": "ar",
+          "options": ["كِتَابٌ جَدِيدٌ", "الْكِتَابُ جَدِيدٌ", "كِتَابٌ الْجَدِيدُ", "كِتَابٌ جَدِيدَةٌ"], "answer": 0,
+          "explain": "Keduanya indefinit dan sesuai gender. الْكِتَابُ جَدِيدٌ berarti 'Buku itu baru' (kalimat)." },
+        { "id": "g06-02", "type": "mcq", "prompt": "Mana yang berarti 'Buku itu baru' (kalimat lengkap)?", "prompt_ar": null, "options_lang": "ar",
+          "options": ["الْكِتَابُ جَدِيدٌ", "الْكِتَابُ الْجَدِيدُ", "كِتَابٌ جَدِيدٌ", "الْكِتَابَ جَدِيدًا"], "answer": 0,
+          "explain": "Mubtada' definit + khabar indefinit = kalimat. الْكِتَابُ الْجَدِيدُ hanyalah frasa 'buku baru itu'." },
+        { "id": "g06-03", "type": "cloze", "prompt": "Lengkapi: 'Di perpustakaan itu ada banyak buku'.", "prompt_ar": "فِي الْمَكْتَبَةِ كُتُبٌ ...", "options_lang": "ar",
+          "options": ["كَثِيرَةٌ", "كَثِيرُونَ", "كَثِيرٌ", "كِبَارٌ"], "answer": 0,
+          "explain": "كُتُب adalah jamak benda bukan manusia, sehingga disifati dengan mu'annats tunggal: كَثِيرَةٌ." },
+        { "id": "g06-04", "type": "cloze", "prompt": "Lengkapi: 'Saya membaca buku baru itu'.", "prompt_ar": "قَرَأْتُ الْكِتَابَ ...", "options_lang": "ar",
+          "options": ["الْجَدِيدَ", "الْجَدِيدُ", "جَدِيدًا", "الْجَدِيدِ"], "answer": 0,
+          "explain": "Kata sifat mengikuti man'ut dalam i'rab juga. الْكِتَابَ manshub (objek), jadi sifatnya الْجَدِيدَ." },
+        { "id": "g06-05", "type": "mcq", "prompt": "Dalam berapa hal kata sifat harus sesuai dengan kata yang disifati?", "prompt_ar": null, "options_lang": "id",
+          "options": ["Empat: gender, jumlah, definit, i'rab", "Dua: gender dan jumlah", "Tiga: gender, jumlah, i'rab", "Satu: gender saja"], "answer": 0,
+          "explain": "Keempatnya sekaligus. Kelalaian pada salah satunya adalah kesalahan tata bahasa yang paling sering terjadi." }
+      ]
+    },
+    {
+      "id": "g07",
+      "title": "Kata tunjuk (isim isyarah)",
+      "stage": 3,
+      "explanation": "Kata tunjuk dekat: هَذَا (mudzakkar), هَذِهِ (mu'annats), هَؤُلَاءِ (jamak). Kata tunjuk jauh: ذَلِكَ، تِلْكَ، أُولَئِكَ. Yang menentukan artinya adalah ada-tidaknya ال pada kata sesudahnya: هَذَا كِتَابٌ = 'Ini sebuah buku' (kalimat), sedangkan هَذَا الْكِتَابُ = 'buku ini' (frasa, belum menjadi kalimat). Jadi 'Buku ini baru' adalah هَذَا الْكِتَابُ جَدِيدٌ.",
+      "caveats": [
+        "Untuk jamak benda BUKAN manusia, lazim dipakai kata tunjuk mu'annats tunggal: هَذِهِ الْكُتُبُ (buku-buku ini), bukan هَؤُلَاءِ الْكُتُبُ.",
+        "هَذَا dan ذَلِكَ ditulis tanpa alif panjang tetapi dibaca panjang (haadzaa, dzaalika). Waw pada أُولَئِكَ ditulis tetapi tidak dibaca."
+      ],
+      "examples": [
+        { "ar": "هَذَا كِتَابٌ.", "gloss": "Ini sebuah buku." },
+        { "ar": "هَذَا الْكِتَابُ جَدِيدٌ.", "gloss": "Buku ini baru." },
+        { "ar": "هَذِهِ الْمَدِينَةُ قَدِيمَةٌ.", "gloss": "Kota ini tua." }
+      ],
+      "items": [
+        { "id": "g07-01", "type": "mcq", "prompt": "Apa arti هَذَا كِتَابٌ ?", "prompt_ar": "هَذَا كِتَابٌ.", "options_lang": "id",
+          "options": ["Ini sebuah buku", "Buku ini", "Buku itu", "Ini buku itu"], "answer": 0,
+          "explain": "Tanpa ال pada kata sesudahnya, susunan ini sudah menjadi kalimat lengkap." },
+        { "id": "g07-02", "type": "mcq", "prompt": "Apa arti هَذَا الْكِتَابُ ?", "prompt_ar": "هَذَا الْكِتَابُ", "options_lang": "id",
+          "options": ["buku ini (belum menjadi kalimat)", "Ini sebuah buku", "Buku itu baru", "Ini bukunya"], "answer": 0,
+          "explain": "Dengan ال, susunan ini menjadi frasa. Untuk menjadi kalimat perlu khabar: هَذَا الْكِتَابُ جَدِيدٌ." },
+        { "id": "g07-03", "type": "cloze", "prompt": "Lengkapi: 'Kota ini tua'.", "prompt_ar": "... الْمَدِينَةُ قَدِيمَةٌ.", "options_lang": "ar",
+          "options": ["هَذِهِ", "هَذَا", "هَؤُلَاءِ", "ذَلِكَ"], "answer": 0,
+          "explain": "مَدِينَة mu'annats, jadi kata tunjuknya هَذِهِ." },
+        { "id": "g07-04", "type": "mcq", "prompt": "Kata tunjuk apa yang lazim dipakai untuk الْكُتُب (buku-buku, bukan manusia)?", "prompt_ar": null, "options_lang": "ar",
+          "options": ["هَذِهِ", "هَؤُلَاءِ", "هَذَا", "أُولَئِكَ"], "answer": 0,
+          "explain": "Jamak benda bukan manusia diperlakukan seperti mu'annats tunggal, sehingga هَذِهِ الْكُتُبُ." },
+        { "id": "g07-05", "type": "mcq", "prompt": "Mana yang berarti 'Mereka itu para guru'?", "prompt_ar": null, "options_lang": "ar",
+          "options": ["أُولَئِكَ مُدَرِّسُونَ", "هَؤُلَاءِ مُدَرِّسُونَ", "ذَلِكَ مُدَرِّسُونَ", "تِلْكَ مُدَرِّسُونَ"], "answer": 0,
+          "explain": "أُولَئِكَ adalah kata tunjuk jauh untuk jamak. هَؤُلَاءِ berarti 'mereka ini' (dekat)." }
+      ]
+    },
+    {
+      "id": "g08",
+      "title": "Huruf jar dan isim majrur",
+      "stage": 4,
+      "explanation": "Huruf jar membuat kata benda sesudahnya majrur, yaitu berharakat kasrah (atau tanwin kasrah bila indefinit). Huruf jar yang paling sering dipakai: فِي، مِنْ، إِلَى، عَلَى، عَنْ، بِ، لِ، كَ. Contoh: فِي الْبَيْتِ، مِنْ بَيْتٍ، بِالْقَلَمِ. Bila kata ganti disambungkan, bentuknya berubah: فِيهِ، مِنْهُ، إِلَيْهِ، عَلَيْهِ، لَهُ، بِهِ.",
+      "caveats": [
+        "مَعَ، عِنْدَ، أَمَامَ، خَلْفَ، تَحْتَ، فَوْقَ، قَبْلَ، بَعْدَ، بَيْنَ secara istilah adalah zharf (keterangan tempat/waktu) yang manshub, BUKAN huruf jar, meskipun kata sesudahnya juga majrur. Buku pelajaran pemula sering menggabungkan keduanya untuk menyederhanakan.",
+        "مِنْ dan عَنْ berubah harakat akhirnya saat bertemu ال karena hamzah washal: مِنَ الْبَيْتِ، عَنِ الدَّرْسِ."
+      ],
+      "examples": [
+        { "ar": "أَنَا فِي الْبَيْتِ.", "gloss": "Saya di rumah." },
+        { "ar": "خَرَجْتُ مِنَ الْمَدْرَسَةِ.", "gloss": "Saya keluar dari sekolah." },
+        { "ar": "كَتَبْتُ بِالْقَلَمِ.", "gloss": "Saya menulis dengan pulpen." }
+      ],
+      "items": [
+        { "id": "g08-01", "type": "mcq", "prompt": "Mengapa kata الْبَيْتِ pada فِي الْبَيْتِ berharakat kasrah?", "prompt_ar": "فِي الْبَيْتِ", "options_lang": "id",
+          "options": ["Karena didahului huruf jar sehingga menjadi majrur", "Karena ia mubtada'", "Karena ia objek kata kerja", "Karena ia mudhaf"], "answer": 0,
+          "explain": "Semua kata benda setelah huruf jar majrur." },
+        { "id": "g08-02", "type": "mcq", "prompt": "Mana kalimat yang benar?", "prompt_ar": null, "options_lang": "ar",
+          "options": ["ذَهَبْتُ إِلَى الْمَدْرَسَةِ.", "ذَهَبْتُ إِلَى الْمَدْرَسَةُ.", "ذَهَبْتُ إِلَى الْمَدْرَسَةَ.", "ذَهَبْتُ إِلَى مَدْرَسَةُ."], "answer": 0,
+          "explain": "Setelah إِلَى, kata harus majrur: الْمَدْرَسَةِ." },
+        { "id": "g08-03", "type": "mcq", "prompt": "Mengapa nun pada مِنَ الْبَيْتِ berharakat fathah, bukan sukun?", "prompt_ar": "مِنَ الْبَيْتِ", "options_lang": "id",
+          "options": ["Karena bertemu hamzah washal pada ال, dua sukun tidak boleh bertemu", "Karena مِنْ berubah menjadi kata kerja", "Karena الْبَيْتِ mu'annats", "Karena ada tanwin"], "answer": 0,
+          "explain": "Sukun pada nun bertemu sukun pada lam, sehingga nun diberi fathah sebagai penyelaras bacaan." },
+        { "id": "g08-04", "type": "mcq", "prompt": "Secara istilah nahwu, apa status مَعَ dan عِنْدَ ?", "prompt_ar": null, "options_lang": "id",
+          "options": ["Zharf (keterangan) manshub, bukan huruf jar", "Huruf jar", "Kata kerja", "Kata ganti"], "answer": 0,
+          "explain": "Pengaruhnya ke kata berikutnya memang sama (majrur), tetapi penggolongannya berbeda. Banyak buku pemula menyatukannya untuk menyederhanakan." },
+        { "id": "g08-05", "type": "cloze", "prompt": "Lengkapi: 'Saya menulis dengan pulpen'.", "prompt_ar": "كَتَبْتُ ...", "options_lang": "ar",
+          "options": ["بِالْقَلَمِ", "بِالْقَلَمُ", "بِالْقَلَمَ", "بِقَلَمُ"], "answer": 0,
+          "explain": "بِ adalah huruf jar, jadi الْقَلَم majrur: بِالْقَلَمِ." }
+      ]
+    },
+    {
+      "id": "g09",
+      "title": "Penafian: لا، ما، لم، ليس",
+      "stage": 4,
+      "explanation": "Cara menafikan bergantung pada apa yang ditafikan. (1) لَا + kata kerja mudhari' = tidak (sekarang): لَا أَفْهَمُ. (2) مَا + kata kerja madhi = tidak/belum (lampau): مَا فَهِمْتُ. (3) لَمْ + kata kerja mudhari' yang MAJZUM (huruf akhirnya bersukun) = tidak/belum (lampau): لَمْ أَفْهَمْ. (4) لَيْسَ untuk menafikan kalimat nominal; ia membuat khabar menjadi manshub: لَيْسَ الْبَيْتُ كَبِيرًا.",
+      "caveats": [
+        "مَا juga dipakai menafikan kata kerja mudhari' dalam bahasa Arab klasik dan fusha sastra (مَا أَفْهَمُ). Dalam MSA, yang lazim untuk makna 'sekarang' adalah لَا.",
+        "Khabar لَيْسَ boleh juga didahului بِ dan menjadi majrur: لَيْسَ الْبَيْتُ بِكَبِيرٍ. Keduanya sah; yang kedua terasa lebih klasik.",
+        "لَا + kata kerja mudhari' juga bisa bermakna larangan (لَا تَكْتُبْ = jangan menulis), yang dibedakan oleh bentuk majzum. Konteks dan harakat akhir yang menentukan."
+      ],
+      "examples": [
+        { "ar": "لَا أَفْهَمُ.", "gloss": "Saya tidak paham." },
+        { "ar": "مَا فَهِمْتُ الدَّرْسَ.", "gloss": "Saya tidak memahami pelajaran itu." },
+        { "ar": "لَمْ أَفْهَمْ.", "gloss": "Saya belum paham." },
+        { "ar": "لَيْسَ الْبَيْتُ كَبِيرًا.", "gloss": "Rumah itu tidak besar." }
+      ],
+      "items": [
+        { "id": "g09-01", "type": "mcq", "prompt": "Mana cara paling lazim di MSA untuk mengatakan 'Saya tidak paham' (sekarang)?", "prompt_ar": null, "options_lang": "ar",
+          "options": ["لَا أَفْهَمُ", "لَا فَهِمْتُ", "لَمْ أَفْهَمُ", "لَيْسَ أَفْهَمُ"], "answer": 0,
+          "explain": "لَا + mudhari'. لَا tidak dipakai dengan kata kerja madhi, dan لَمْ menuntut bentuk majzum (أَفْهَمْ)." },
+        { "id": "g09-02", "type": "mcq", "prompt": "Mana bentuk yang benar setelah لَمْ ?", "prompt_ar": null, "options_lang": "ar",
+          "options": ["لَمْ أَفْهَمْ", "لَمْ أَفْهَمُ", "لَمْ فَهِمْتُ", "لَمْ أَفْهَمَ"], "answer": 0,
+          "explain": "لَمْ menjazamkan kata kerja mudhari', sehingga huruf akhirnya bersukun: أَفْهَمْ." },
+        { "id": "g09-03", "type": "cloze", "prompt": "Lengkapi: 'Rumah itu tidak besar'.", "prompt_ar": "لَيْسَ الْبَيْتُ ...", "options_lang": "ar",
+          "options": ["كَبِيرًا", "كَبِيرٌ", "كَبِيرٍ", "الْكَبِيرُ"], "answer": 0,
+          "explain": "لَيْسَ membuat khabar manshub: كَبِيرًا. Bentuk لَيْسَ الْبَيْتُ بِكَبِيرٍ juga sah dan terasa lebih klasik." },
+        { "id": "g09-04", "type": "mcq", "prompt": "Apa arti مَا فَهِمْتُ ?", "prompt_ar": "مَا فَهِمْتُ", "options_lang": "id",
+          "options": ["Saya tidak paham (lampau)", "Apa yang saya pahami", "Saya tidak akan paham", "Jangan paham"], "answer": 0,
+          "explain": "مَا + madhi = penafian masa lampau. مَا memang juga bisa berarti 'apa', dan konteks yang membedakannya." },
+        { "id": "g09-05", "type": "mcq", "prompt": "Apa yang dilakukan لَيْسَ terhadap khabar?", "prompt_ar": null, "options_lang": "id",
+          "options": ["Menjadikannya manshub", "Menjadikannya marfu'", "Menjadikannya majrur", "Tidak mengubah apa pun"], "answer": 0,
+          "explain": "Sama seperti كَانَ: mubtada'-nya (isim لَيْسَ) tetap marfu', khabarnya menjadi manshub." }
+      ]
+    },
+    {
+      "id": "g10",
+      "title": "Jamak: salim dan taksir (pengenalan)",
+      "stage": 5,
+      "explanation": "Bahasa Arab punya tiga bilangan: tunggal (mufrad), dua (mutsanna), dan jamak (tiga atau lebih). Jamak ada dua jenis besar. (1) Jamak salim, yang hanya menambahkan akhiran dan tidak mengubah kata dasar: jamak mudzakkar salim ـُونَ / ـِينَ (مُدَرِّسُونَ) dan jamak mu'annats salim ـَات (طَالِبَاتٌ). (2) Jamak taksir, yang mengubah susunan huruf kata dasarnya dan harus dihafal satu per satu: كِتَاب menjadi كُتُب، بَيْت menjadi بُيُوت، مَدْرَسَة menjadi مَدَارِس. Bentuk mutsanna dibuat dengan akhiran ـَانِ / ـَيْنِ: كِتَابَانِ.",
+      "caveats": [
+        "Jamak taksir tidak bisa diramalkan dengan pasti dari bentuk tunggalnya. Polanya banyak dan sebagian kata punya lebih dari satu jamak yang sah (مُدُن dan مَدَائِن، طُلَّاب dan طَلَبَة).",
+        "Banyak pola jamak taksir tidak menerima tanwin (mamnu' min ash-sharf), misalnya مَدَارِس dan مَفَاتِيح. Hal ini hanya perlu dikenali di tingkat ini.",
+        "Jamak benda bukan manusia disifati dan ditunjuk dengan bentuk mu'annats tunggal; lihat topik g06 dan g07."
+      ],
+      "examples": [
+        { "ar": "الْمُدَرِّسُونَ فِي الْمَدْرَسَةِ.", "gloss": "Para guru itu ada di sekolah." },
+        { "ar": "الطَّالِبَاتُ فِي الْجَامِعَةِ.", "gloss": "Para pelajar perempuan itu ada di universitas." },
+        { "ar": "عَلَى الْمَكْتَبِ كُتُبٌ.", "gloss": "Di atas meja ada beberapa buku." }
+      ],
+      "items": [
+        { "id": "g10-01", "type": "mcq", "prompt": "Apa jamak dari مُدَرِّس ?", "prompt_ar": null, "options_lang": "ar",
+          "options": ["مُدَرِّسُونَ", "مُدَرِّسَاتٌ", "مَدَارِسُ", "مُدَرِّسَانِ"], "answer": 0,
+          "explain": "Jamak mudzakkar salim. مُدَرِّسَات adalah jamak untuk guru perempuan, مُدَرِّسَانِ adalah bentuk dua." },
+        { "id": "g10-02", "type": "mcq", "prompt": "Apa jamak dari طَالِبَة ?", "prompt_ar": null, "options_lang": "ar",
+          "options": ["طَالِبَاتٌ", "طُلَّابٌ", "طَالِبُونَ", "طَالِبَتَانِ"], "answer": 0,
+          "explain": "Jamak mu'annats salim dengan akhiran ـَات." },
+        { "id": "g10-03", "type": "mcq", "prompt": "Apa jamak dari كِتَاب ?", "prompt_ar": null, "options_lang": "ar",
+          "options": ["كُتُبٌ", "كِتَابُونَ", "كِتَابَاتٌ", "كِتَابَانِ"], "answer": 0,
+          "explain": "Jamak taksir: susunan harakat kata dasar berubah. Tidak ada aturan pasti; harus dihafal." },
+        { "id": "g10-04", "type": "mcq", "prompt": "Apa yang membedakan jamak taksir dari jamak salim?", "prompt_ar": null, "options_lang": "id",
+          "options": ["Jamak taksir mengubah susunan kata dasarnya", "Jamak taksir hanya untuk mu'annats", "Jamak taksir selalu bertanwin", "Jamak taksir hanya untuk manusia"], "answer": 0,
+          "explain": "Jamak salim hanya menambahkan akhiran; jamak taksir membongkar susunan huruf dan harakat kata dasarnya." },
+        { "id": "g10-05", "type": "cloze", "prompt": "Lengkapi: 'Sekolah-sekolah itu besar'.", "prompt_ar": "الْمَدَارِسُ ...", "options_lang": "ar",
+          "options": ["كَبِيرَةٌ", "كِبَارٌ", "كَبِيرُونَ", "كَبِيرٌ"], "answer": 0,
+          "explain": "مَدَارِس adalah jamak benda bukan manusia, sehingga disifati dengan mu'annats tunggal: كَبِيرَةٌ." }
+      ]
+    },
+    {
+      "id": "g11",
+      "title": "Kalimat verbal: fi'l madhi (lampau)",
+      "stage": 5,
+      "explanation": "Kalimat verbal (jumlah fi'liyyah) dimulai dengan kata kerja. Fi'l madhi menyatakan perbuatan yang sudah terjadi. Pelakunya ditandai akhiran: كَتَبَ (dia lk), كَتَبَتْ (dia pr), كَتَبْتَ (kamu lk), كَتَبْتِ (kamu pr), كَتَبْتُ (saya), كَتَبْنَا (kami), كَتَبُوا (mereka lk), كَتَبْنَ (mereka pr). Objeknya manshub: كَتَبَ الدَّرْسَ.",
+      "caveats": [
+        "Bila kata kerja MENDAHULUI pelaku yang jamak, kata kerjanya tetap tunggal: كَتَبَ الطُّلَّابُ (bukan كَتَبُوا الطُّلَّابُ). Bila pelaku didahulukan, kata kerjanya mengikuti jumlahnya: الطُّلَّابُ كَتَبُوا.",
+        "Urutan kata kerja-pelaku-objek adalah yang paling lazim, tetapi bukan satu-satunya yang sah. Mendahulukan bagian tertentu dipakai untuk penekanan.",
+        "Alif pada كَتَبُوا ditulis tetapi tidak dibaca."
+      ],
+      "examples": [
+        { "ar": "كَتَبَ الطَّالِبُ الدَّرْسَ.", "gloss": "Pelajar itu menulis pelajaran." },
+        { "ar": "كَتَبْتُ رِسَالَةً.", "gloss": "Saya menulis sebuah surat." },
+        { "ar": "كَتَبَ الطُّلَّابُ.", "gloss": "Para pelajar itu menulis." },
+        { "ar": "الطُّلَّابُ كَتَبُوا.", "gloss": "Para pelajar itu menulis." }
+      ],
+      "items": [
+        { "id": "g11-01", "type": "mcq", "prompt": "Apa arti كَتَبْتُ ?", "prompt_ar": "كَتَبْتُ", "options_lang": "id",
+          "options": ["Saya telah menulis", "Kamu telah menulis", "Dia telah menulis", "Kami telah menulis"], "answer": 0,
+          "explain": "Akhiran ـْتُ (dhammah) menandai pelaku 'saya'. ـْتَ = kamu (lk), ـْنَا = kami." },
+        { "id": "g11-02", "type": "mcq", "prompt": "Mana yang berarti 'Dia (perempuan) telah menulis'?", "prompt_ar": null, "options_lang": "ar",
+          "options": ["كَتَبَتْ", "كَتَبَ", "كَتَبْتِ", "كَتَبُوا"], "answer": 0,
+          "explain": "كَتَبَتْ dengan ta' bersukun. كَتَبْتِ (ta' berkasrah) berarti 'kamu (pr) telah menulis'." },
+        { "id": "g11-03", "type": "mcq", "prompt": "Mana kalimat yang benar untuk 'Para pelajar itu menulis'?", "prompt_ar": null, "options_lang": "ar",
+          "options": ["كَتَبَ الطُّلَّابُ.", "كَتَبُوا الطُّلَّابُ.", "كَتَبَتِ الطُّلَّابُ.", "الطُّلَّابُ كَتَبَ."], "answer": 0,
+          "explain": "Kata kerja yang mendahului pelaku jamak tetap tunggal. Bentuk الطُّلَّابُ كَتَبُوا juga benar, tetapi الطُّلَّابُ كَتَبَ tidak." },
+        { "id": "g11-04", "type": "cloze", "prompt": "Lengkapi: 'Pelajar itu menulis pelajaran'.", "prompt_ar": "كَتَبَ الطَّالِبُ ...", "options_lang": "ar",
+          "options": ["الدَّرْسَ", "الدَّرْسُ", "الدَّرْسِ", "دَرْسُ"], "answer": 0,
+          "explain": "Objek kata kerja (maf'ul bih) manshub: الدَّرْسَ. Pelakunya (الطَّالِبُ) marfu'." },
+        { "id": "g11-05", "type": "mcq", "prompt": "Mengapa bentuk kamus kata kerja Arab adalah كَتَبَ dan bukan 'menulis'?", "prompt_ar": null, "options_lang": "id",
+          "options": ["Karena kamus memakai madhi orang ketiga tunggal lelaki sebagai bentuk dasar", "Karena bahasa Arab tidak punya bentuk dasar", "Karena كَتَبَ berarti 'menulis' secara harfiah", "Karena bentuk mudhari' tidak dipakai"], "answer": 0,
+          "explain": "كَتَبَ secara harfiah berarti 'dia (lk) telah menulis'. Bentuk inilah yang dipilih kamus sebagai lema." }
+      ]
+    },
+    {
+      "id": "g12",
+      "title": "Kalimat verbal: fi'l mudhari' (sekarang)",
+      "stage": 6,
+      "explanation": "Fi'l mudhari' menyatakan perbuatan yang sedang atau biasa terjadi. Pelakunya ditandai HURUF DI DEPAN, bukan akhiran: أَكْتُبُ (saya), تَكْتُبُ (kamu lk / dia pr), تَكْتُبِينَ (kamu pr), يَكْتُبُ (dia lk), نَكْتُبُ (kami), تَكْتُبُونَ (kalian lk), يَكْتُبُونَ (mereka lk). Huruf akhirnya berharakat dhammah selama tidak ada yang mengubahnya.",
+      "caveats": [
+        "تَكْتُبُ bermakna ganda: 'kamu (lk) menulis' atau 'dia (pr) menulis'. Hanya konteks yang membedakan.",
+        "Mudhari' sendiri tidak membedakan 'sedang menulis' dan 'biasa menulis'. Bila perlu dipertegas, dipakai kata keterangan seperti الْآنَ atau دَائِمًا.",
+        "Huruf akhir mudhari' berubah bila didahului penanda tertentu: لَمْ dan لَا nahiyah (لَا larangan) menjazamkannya (أَكْتُبْ), أَنْ dan لَنْ menashabkannya (أَكْتُبَ). Rinciannya di luar jangkauan A1-A2."
+      ],
+      "examples": [
+        { "ar": "أَكْتُبُ الدَّرْسَ.", "gloss": "Saya menulis pelajaran itu." },
+        { "ar": "يَلْعَبُ الْأَطْفَالُ فِي الْحَدِيقَةِ.", "gloss": "Anak-anak bermain di taman." },
+        { "ar": "نَدْرُسُ فِي الْجَامِعَةِ.", "gloss": "Kami belajar di universitas." }
+      ],
+      "items": [
+        { "id": "g12-01", "type": "mcq", "prompt": "Mana yang berarti 'Saya menulis'?", "prompt_ar": null, "options_lang": "ar",
+          "options": ["أَكْتُبُ", "يَكْتُبُ", "تَكْتُبُ", "نَكْتُبُ"], "answer": 0,
+          "explain": "Pada mudhari', pelaku ditandai huruf di depan: أَ (saya), يَ (dia lk), تَ (kamu lk / dia pr), نَ (kami)." },
+        { "id": "g12-02", "type": "mcq", "prompt": "Mana yang berarti 'Mereka (lelaki) menulis'?", "prompt_ar": null, "options_lang": "ar",
+          "options": ["يَكْتُبُونَ", "يَكْتُبْنَ", "تَكْتُبُونَ", "كَتَبُوا"], "answer": 0,
+          "explain": "يَكْتُبْنَ = mereka (pr) menulis; تَكْتُبُونَ = kalian (lk) menulis; كَتَبُوا = mereka telah menulis (madhi)." },
+        { "id": "g12-03", "type": "mcq", "prompt": "Apa dua kemungkinan arti تَكْتُبُ ?", "prompt_ar": "تَكْتُبُ", "options_lang": "id",
+          "options": ["'kamu (lk) menulis' atau 'dia (pr) menulis'", "'saya menulis' atau 'kami menulis'", "'dia (lk) menulis' atau 'mereka menulis'", "Hanya satu arti: 'kamu menulis'"], "answer": 0,
+          "explain": "Keganda-artian ini nyata dan hanya diselesaikan oleh konteks atau dengan menyebut pelakunya." },
+        { "id": "g12-04", "type": "cloze", "prompt": "Lengkapi: 'Kami belajar di universitas'.", "prompt_ar": "... فِي الْجَامِعَةِ.", "options_lang": "ar",
+          "options": ["نَدْرُسُ", "أَدْرُسُ", "يَدْرُسُونَ", "تَدْرُسُ"], "answer": 0,
+          "explain": "Awalan نَ menandai pelaku 'kami'." },
+        { "id": "g12-05", "type": "mcq", "prompt": "Apa perbedaan pokok cara madhi dan mudhari' menandai pelakunya?", "prompt_ar": null, "options_lang": "id",
+          "options": ["Madhi dengan akhiran, mudhari' dengan huruf di depan", "Madhi dengan huruf di depan, mudhari' dengan akhiran", "Keduanya dengan akhiran", "Keduanya tidak menandai pelaku"], "answer": 0,
+          "explain": "كَتَبْتُ (akhiran ـْتُ) berbanding أَكْتُبُ (awalan أَ). Mudhari' juga memakai akhiran untuk sebagian pelaku, misalnya يَكْتُبُونَ." }
+      ]
+    }
+  ]
+}

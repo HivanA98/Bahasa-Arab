@@ -1,0 +1,1160 @@
+{
+  "module": 3,
+  "title": "Akar kata (jidr) dan pola (wazan)",
+  "description": "Hampir semua kata Arab dibangun dari akar tiga huruf yang dimasukkan ke dalam pola. Modul ini melatih dua arah: mengenali akar sebuah kata, dan menduga makna kata baru dari pola yang sudah dikenal.",
+  "schema": {
+    "families": "keluarga kata dari satu akar; members[].pattern adalah pola kata itu",
+    "patterns": "pola (wazan) yang umum beserta fungsinya",
+    "items": "soal tulisan tangan beserta tahapnya; soal 'akar dari kata ini' dan 'mana yang bukan sekeluarga' dibuat otomatis dari families"
+  },
+  "families": [
+    {
+      "id": "r01",
+      "root": "ك ت ب",
+      "meaning": "menulis",
+      "stage": 1,
+      "members": [
+        {
+          "ar": "كَتَبَ",
+          "gloss": "menulis",
+          "pattern": "فَعَلَ"
+        },
+        {
+          "ar": "كِتَاب",
+          "gloss": "buku",
+          "pattern": "فِعَال"
+        },
+        {
+          "ar": "كِتَابَة",
+          "gloss": "tulisan, penulisan",
+          "pattern": "فِعَالَة"
+        },
+        {
+          "ar": "كَاتِب",
+          "gloss": "penulis",
+          "pattern": "فَاعِل"
+        },
+        {
+          "ar": "مَكْتُوب",
+          "gloss": "yang tertulis",
+          "pattern": "مَفْعُول"
+        },
+        {
+          "ar": "مَكْتَب",
+          "gloss": "meja tulis, kantor",
+          "pattern": "مَفْعَل"
+        },
+        {
+          "ar": "مَكْتَبَة",
+          "gloss": "perpustakaan, toko buku",
+          "pattern": "مَفْعَلَة"
+        }
+      ],
+      "note": "Keluarga akar ini paling sering dipakai sebagai contoh pertama, karena semua anggotanya kata sehari-hari."
+    },
+    {
+      "id": "r02",
+      "root": "د ر س",
+      "meaning": "belajar, mengkaji",
+      "stage": 1,
+      "members": [
+        {
+          "ar": "دَرَسَ",
+          "gloss": "belajar",
+          "pattern": "فَعَلَ"
+        },
+        {
+          "ar": "دَرَّسَ",
+          "gloss": "mengajar",
+          "pattern": "فَعَّلَ"
+        },
+        {
+          "ar": "دَرْس",
+          "gloss": "pelajaran",
+          "pattern": "فَعْل"
+        },
+        {
+          "ar": "دِرَاسَة",
+          "gloss": "studi, pengkajian",
+          "pattern": "فِعَالَة"
+        },
+        {
+          "ar": "تَدْرِيس",
+          "gloss": "pengajaran",
+          "pattern": "تَفْعِيل"
+        },
+        {
+          "ar": "مَدْرَسَة",
+          "gloss": "sekolah",
+          "pattern": "مَفْعَلَة"
+        },
+        {
+          "ar": "مُدَرِّس",
+          "gloss": "guru, pengajar",
+          "pattern": "مُفَعِّل"
+        }
+      ],
+      "note": "Perhatikan pasangan دَرَسَ (belajar) dan دَرَّسَ (mengajar): satu syaddah mengubah arah perbuatan."
+    },
+    {
+      "id": "r03",
+      "root": "ع ل م",
+      "meaning": "mengetahui",
+      "stage": 2,
+      "members": [
+        {
+          "ar": "عَلِمَ",
+          "gloss": "mengetahui",
+          "pattern": "فَعِلَ"
+        },
+        {
+          "ar": "عَلَّمَ",
+          "gloss": "mengajarkan",
+          "pattern": "فَعَّلَ"
+        },
+        {
+          "ar": "عِلْم",
+          "gloss": "ilmu",
+          "pattern": "فِعْل"
+        },
+        {
+          "ar": "عَالِم",
+          "gloss": "orang berilmu, ilmuwan",
+          "pattern": "فَاعِل"
+        },
+        {
+          "ar": "عَالَم",
+          "gloss": "dunia, alam",
+          "pattern": "فَاعَل"
+        },
+        {
+          "ar": "مَعْلُوم",
+          "gloss": "yang diketahui",
+          "pattern": "مَفْعُول"
+        },
+        {
+          "ar": "مُعَلِّم",
+          "gloss": "pengajar",
+          "pattern": "مُفَعِّل"
+        },
+        {
+          "ar": "تَعْلِيم",
+          "gloss": "pendidikan, pengajaran",
+          "pattern": "تَفْعِيل"
+        }
+      ],
+      "note": "عَالِم (kasrah pada lam) berarti 'orang berilmu'; عَالَم (fathah pada lam) berarti 'dunia'. Perbedaannya hanya satu harakat, tetapi maknanya jauh berbeda. Inilah alasan mengapa membaca tanpa harakat menuntut konteks."
+    },
+    {
+      "id": "r04",
+      "root": "ف ت ح",
+      "meaning": "membuka",
+      "stage": 2,
+      "members": [
+        {
+          "ar": "فَتَحَ",
+          "gloss": "membuka",
+          "pattern": "فَعَلَ"
+        },
+        {
+          "ar": "فَتْح",
+          "gloss": "pembukaan, penaklukan",
+          "pattern": "فَعْل"
+        },
+        {
+          "ar": "فَاتِح",
+          "gloss": "pembuka",
+          "pattern": "فَاعِل"
+        },
+        {
+          "ar": "مَفْتُوح",
+          "gloss": "terbuka",
+          "pattern": "مَفْعُول"
+        },
+        {
+          "ar": "مِفْتَاح",
+          "gloss": "kunci",
+          "pattern": "مِفْعَال"
+        }
+      ],
+      "note": "مِفْتَاح berpola alat (مِفْعَال): 'benda untuk membuka'."
+    },
+    {
+      "id": "r05",
+      "root": "س ج د",
+      "meaning": "bersujud",
+      "stage": 2,
+      "members": [
+        {
+          "ar": "سَجَدَ",
+          "gloss": "bersujud",
+          "pattern": "فَعَلَ"
+        },
+        {
+          "ar": "سُجُود",
+          "gloss": "sujud",
+          "pattern": "فُعُول"
+        },
+        {
+          "ar": "سَاجِد",
+          "gloss": "orang yang bersujud",
+          "pattern": "فَاعِل"
+        },
+        {
+          "ar": "مَسْجِد",
+          "gloss": "masjid",
+          "pattern": "مَفْعِل"
+        }
+      ],
+      "note": "مَسْجِد berpola tempat dengan kasrah (مَفْعِل), bukan fathah. Beberapa isim makan memang memakai kasrah; ini termasuk yang harus dihafal."
+    },
+    {
+      "id": "r06",
+      "root": "ك ل م",
+      "meaning": "berkata, berbicara",
+      "stage": 3,
+      "members": [
+        {
+          "ar": "كَلَّمَ",
+          "gloss": "mengajak bicara",
+          "pattern": "فَعَّلَ"
+        },
+        {
+          "ar": "تَكَلَّمَ",
+          "gloss": "berbicara",
+          "pattern": "تَفَعَّلَ"
+        },
+        {
+          "ar": "كَلِمَة",
+          "gloss": "kata",
+          "pattern": "فَعِلَة"
+        },
+        {
+          "ar": "كَلَام",
+          "gloss": "ucapan, perkataan",
+          "pattern": "فَعَال"
+        },
+        {
+          "ar": "مُتَكَلِّم",
+          "gloss": "pembicara, penutur",
+          "pattern": "مُتَفَعِّل"
+        }
+      ],
+      "note": "Wazan I dari akar ini (كَلَمَ, bermakna 'melukai') jarang dipakai dalam MSA; yang hidup adalah wazan II dan V."
+    },
+    {
+      "id": "r07",
+      "root": "ج م ع",
+      "meaning": "mengumpulkan",
+      "stage": 3,
+      "members": [
+        {
+          "ar": "جَمَعَ",
+          "gloss": "mengumpulkan",
+          "pattern": "فَعَلَ"
+        },
+        {
+          "ar": "اِجْتَمَعَ",
+          "gloss": "berkumpul",
+          "pattern": "اِفْتَعَلَ"
+        },
+        {
+          "ar": "جَمْع",
+          "gloss": "pengumpulan, bentuk jamak",
+          "pattern": "فَعْل"
+        },
+        {
+          "ar": "جَامِع",
+          "gloss": "masjid besar; yang mengumpulkan",
+          "pattern": "فَاعِل"
+        },
+        {
+          "ar": "جَامِعَة",
+          "gloss": "universitas",
+          "pattern": "فَاعِلَة"
+        },
+        {
+          "ar": "مَجْمُوع",
+          "gloss": "jumlah, yang terkumpul",
+          "pattern": "مَفْعُول"
+        },
+        {
+          "ar": "اِجْتِمَاع",
+          "gloss": "pertemuan, rapat",
+          "pattern": "اِفْتِعَال"
+        },
+        {
+          "ar": "مُجْتَمَع",
+          "gloss": "masyarakat",
+          "pattern": "مُفْتَعَل"
+        }
+      ],
+      "note": "Satu akar bisa melahirkan kata yang jauh maknanya (universitas, rapat, masyarakat) tetapi semuanya berpangkal pada gagasan 'berkumpul'."
+    },
+    {
+      "id": "r08",
+      "root": "ع م ل",
+      "meaning": "bekerja, berbuat",
+      "stage": 4,
+      "members": [
+        {
+          "ar": "عَمِلَ",
+          "gloss": "bekerja, melakukan",
+          "pattern": "فَعِلَ"
+        },
+        {
+          "ar": "اِسْتَعْمَلَ",
+          "gloss": "memakai, menggunakan",
+          "pattern": "اِسْتَفْعَلَ"
+        },
+        {
+          "ar": "عَمَل",
+          "gloss": "pekerjaan, perbuatan",
+          "pattern": "فَعَل"
+        },
+        {
+          "ar": "عَامِل",
+          "gloss": "pekerja",
+          "pattern": "فَاعِل"
+        },
+        {
+          "ar": "مَعْمَل",
+          "gloss": "pabrik, laboratorium",
+          "pattern": "مَفْعَل"
+        },
+        {
+          "ar": "اِسْتِعْمَال",
+          "gloss": "pemakaian",
+          "pattern": "اِسْتِفْعَال"
+        }
+      ],
+      "note": "Wazan X mengubah makna 'bekerja' menjadi 'membuat sesuatu bekerja untuk kita', yaitu 'memakai'."
+    },
+    {
+      "id": "r09",
+      "root": "س م ع",
+      "meaning": "mendengar",
+      "stage": 4,
+      "members": [
+        {
+          "ar": "سَمِعَ",
+          "gloss": "mendengar",
+          "pattern": "فَعِلَ"
+        },
+        {
+          "ar": "اِسْتَمَعَ",
+          "gloss": "menyimak",
+          "pattern": "اِفْتَعَلَ"
+        },
+        {
+          "ar": "سَمْع",
+          "gloss": "pendengaran",
+          "pattern": "فَعْل"
+        },
+        {
+          "ar": "سَامِع",
+          "gloss": "pendengar",
+          "pattern": "فَاعِل"
+        },
+        {
+          "ar": "مَسْمُوع",
+          "gloss": "yang terdengar",
+          "pattern": "مَفْعُول"
+        },
+        {
+          "ar": "اِسْتِمَاع",
+          "gloss": "penyimakan",
+          "pattern": "اِفْتِعَال"
+        },
+        {
+          "ar": "سَمَّاعَة",
+          "gloss": "gagang telepon, headphone",
+          "pattern": "فَعَّالَة"
+        }
+      ],
+      "note": "سَمَّاعَة berpola فَعَّالَة. Dalam MSA pola ini sering dipakai untuk nama alat."
+    },
+    {
+      "id": "r10",
+      "root": "ل ع ب",
+      "meaning": "bermain",
+      "stage": 4,
+      "members": [
+        {
+          "ar": "لَعِبَ",
+          "gloss": "bermain",
+          "pattern": "فَعِلَ"
+        },
+        {
+          "ar": "لَعْب",
+          "gloss": "permainan (perbuatan)",
+          "pattern": "فَعْل"
+        },
+        {
+          "ar": "لُعْبَة",
+          "gloss": "mainan, permainan",
+          "pattern": "فُعْلَة"
+        },
+        {
+          "ar": "لَاعِب",
+          "gloss": "pemain",
+          "pattern": "فَاعِل"
+        },
+        {
+          "ar": "مَلْعَب",
+          "gloss": "lapangan, stadion",
+          "pattern": "مَفْعَل"
+        }
+      ],
+      "note": null
+    },
+    {
+      "id": "r11",
+      "root": "ق ر أ",
+      "meaning": "membaca",
+      "stage": 5,
+      "members": [
+        {
+          "ar": "قَرَأَ",
+          "gloss": "membaca",
+          "pattern": "فَعَلَ"
+        },
+        {
+          "ar": "قِرَاءَة",
+          "gloss": "bacaan, pembacaan",
+          "pattern": "فِعَالَة"
+        },
+        {
+          "ar": "قَارِئ",
+          "gloss": "pembaca",
+          "pattern": "فَاعِل"
+        },
+        {
+          "ar": "مَقْرُوء",
+          "gloss": "yang dibaca",
+          "pattern": "مَفْعُول"
+        }
+      ],
+      "note": "Huruf ketiga akar ini adalah hamzah, sehingga penulisan hamzahnya berpindah bentuk mengikuti harakat sekitarnya: قَرَأَ، قَارِئ، مَقْرُوء."
+    },
+    {
+      "id": "r12",
+      "root": "ح س ب",
+      "meaning": "menghitung",
+      "stage": 5,
+      "members": [
+        {
+          "ar": "حَسَبَ",
+          "gloss": "menghitung",
+          "pattern": "فَعَلَ"
+        },
+        {
+          "ar": "حِسَاب",
+          "gloss": "hitungan, rekening",
+          "pattern": "فِعَال"
+        },
+        {
+          "ar": "حَاسِب",
+          "gloss": "penghitung",
+          "pattern": "فَاعِل"
+        },
+        {
+          "ar": "حَاسُوب",
+          "gloss": "komputer",
+          "pattern": "فَاعُول"
+        },
+        {
+          "ar": "مُحَاسِب",
+          "gloss": "akuntan",
+          "pattern": "مُفَاعِل"
+        },
+        {
+          "ar": "مَحْسُوب",
+          "gloss": "yang terhitung",
+          "pattern": "مَفْعُول"
+        }
+      ],
+      "note": "حَاسُوب adalah kata buatan modern: pola lama dipakai untuk benda baru. Lihat Modul 5."
+    },
+    {
+      "id": "r13",
+      "root": "ط ع م",
+      "meaning": "makan, rasa",
+      "stage": 5,
+      "members": [
+        {
+          "ar": "طَعِمَ",
+          "gloss": "memakan, merasai",
+          "pattern": "فَعِلَ"
+        },
+        {
+          "ar": "أَطْعَمَ",
+          "gloss": "memberi makan",
+          "pattern": "أَفْعَلَ"
+        },
+        {
+          "ar": "طَعَام",
+          "gloss": "makanan",
+          "pattern": "فَعَال"
+        },
+        {
+          "ar": "طَعْم",
+          "gloss": "rasa",
+          "pattern": "فَعْل"
+        },
+        {
+          "ar": "مَطْعَم",
+          "gloss": "restoran",
+          "pattern": "مَفْعَل"
+        },
+        {
+          "ar": "إِطْعَام",
+          "gloss": "pemberian makan",
+          "pattern": "إِفْعَال"
+        }
+      ],
+      "note": "Dalam MSA, kata kerja sehari-hari untuk 'makan' adalah أَكَلَ (akar أ ك ل), bukan طَعِمَ."
+    },
+    {
+      "id": "r14",
+      "root": "ك ب ر",
+      "meaning": "besar",
+      "stage": 6,
+      "members": [
+        {
+          "ar": "كَبُرَ",
+          "gloss": "menjadi besar",
+          "pattern": "فَعُلَ"
+        },
+        {
+          "ar": "كَبَّرَ",
+          "gloss": "membesarkan",
+          "pattern": "فَعَّلَ"
+        },
+        {
+          "ar": "كَبِير",
+          "gloss": "besar",
+          "pattern": "فَعِيل"
+        },
+        {
+          "ar": "أَكْبَر",
+          "gloss": "lebih besar, terbesar",
+          "pattern": "أَفْعَل"
+        },
+        {
+          "ar": "كِبَر",
+          "gloss": "ketuaan, kebesaran usia",
+          "pattern": "فِعَل"
+        },
+        {
+          "ar": "تَكْبِير",
+          "gloss": "pembesaran",
+          "pattern": "تَفْعِيل"
+        },
+        {
+          "ar": "مُتَكَبِّر",
+          "gloss": "orang yang sombong",
+          "pattern": "مُتَفَعِّل"
+        }
+      ],
+      "note": "Pola أَفْعَل dipakai untuk perbandingan: أَكْبَر مِنْ = lebih besar daripada."
+    }
+  ],
+  "patterns": [
+    {
+      "id": "w01",
+      "pattern": "فَاعِل",
+      "variants": [],
+      "function": "isim fa'il: pelaku perbuatan",
+      "stage": 1,
+      "examples": [
+        {
+          "ar": "كَاتِب",
+          "gloss": "penulis",
+          "root": "ك ت ب"
+        },
+        {
+          "ar": "عَامِل",
+          "gloss": "pekerja",
+          "root": "ع م ل"
+        },
+        {
+          "ar": "لَاعِب",
+          "gloss": "pemain",
+          "root": "ل ع ب"
+        }
+      ],
+      "note": "Pola yang sama juga dipakai untuk sifat tanpa makna pelaku, misalnya بَارِد (dingin). Jadi pola memberi dugaan, bukan kepastian."
+    },
+    {
+      "id": "w02",
+      "pattern": "مَفْعُول",
+      "variants": [],
+      "function": "isim maf'ul: yang dikenai perbuatan",
+      "stage": 1,
+      "examples": [
+        {
+          "ar": "مَكْتُوب",
+          "gloss": "yang tertulis",
+          "root": "ك ت ب"
+        },
+        {
+          "ar": "مَفْتُوح",
+          "gloss": "terbuka",
+          "root": "ف ت ح"
+        },
+        {
+          "ar": "مَعْلُوم",
+          "gloss": "yang diketahui",
+          "root": "ع ل م"
+        }
+      ],
+      "note": "Sering sepadan dengan awalan 'ter-' atau 'di-' dalam Bahasa Indonesia."
+    },
+    {
+      "id": "w03",
+      "pattern": "مَفْعَل",
+      "variants": [
+        "مَفْعِل",
+        "مَفْعَلَة"
+      ],
+      "function": "isim makan: tempat terjadinya perbuatan",
+      "stage": 2,
+      "examples": [
+        {
+          "ar": "مَكْتَب",
+          "gloss": "kantor, meja tulis",
+          "root": "ك ت ب"
+        },
+        {
+          "ar": "مَلْعَب",
+          "gloss": "lapangan",
+          "root": "ل ع ب"
+        },
+        {
+          "ar": "مَسْجِد",
+          "gloss": "masjid",
+          "root": "س ج د"
+        },
+        {
+          "ar": "مَدْرَسَة",
+          "gloss": "sekolah",
+          "root": "د ر س"
+        }
+      ],
+      "note": "Sebagian memakai fathah (مَلْعَب) dan sebagian kasrah (مَسْجِد). Pilihan harakat ini tidak bisa diramalkan dari akarnya dan harus dihafal."
+    },
+    {
+      "id": "w04",
+      "pattern": "مِفْعَال",
+      "variants": [
+        "مِفْعَل",
+        "مِفْعَلَة"
+      ],
+      "function": "isim alat: benda untuk melakukan perbuatan",
+      "stage": 2,
+      "examples": [
+        {
+          "ar": "مِفْتَاح",
+          "gloss": "kunci",
+          "root": "ف ت ح"
+        },
+        {
+          "ar": "مِصْبَاح",
+          "gloss": "lampu",
+          "root": "ص ب ح"
+        }
+      ],
+      "note": "Bedakan dari isim makan: مِفْعَال memakai kasrah pada mim, مَفْعَل memakai fathah."
+    },
+    {
+      "id": "w05",
+      "pattern": "فَعِيل",
+      "variants": [],
+      "function": "sifat yang melekat (sifah musyabbahah)",
+      "stage": 2,
+      "examples": [
+        {
+          "ar": "كَبِير",
+          "gloss": "besar",
+          "root": "ك ب ر"
+        },
+        {
+          "ar": "جَدِيد",
+          "gloss": "baru",
+          "root": "ج د د"
+        },
+        {
+          "ar": "طَوِيل",
+          "gloss": "panjang, tinggi",
+          "root": "ط و ل"
+        }
+      ],
+      "note": "Pola kata sifat yang paling sering ditemui pada tingkat A1-A2."
+    },
+    {
+      "id": "w06",
+      "pattern": "أَفْعَل",
+      "variants": [],
+      "function": "isim tafdhil: lebih atau paling",
+      "stage": 3,
+      "examples": [
+        {
+          "ar": "أَكْبَر",
+          "gloss": "lebih besar, terbesar",
+          "root": "ك ب ر"
+        },
+        {
+          "ar": "أَصْغَر",
+          "gloss": "lebih kecil, terkecil",
+          "root": "ص غ ر"
+        },
+        {
+          "ar": "أَجْمَل",
+          "gloss": "lebih indah, terindah",
+          "root": "ج م ل"
+        }
+      ],
+      "note": "Bentuk tulisannya sama dengan kata kerja wazan IV (أَفْعَلَ) yang huruf akhirnya berfathah. Harakat akhir dan konteks yang membedakan."
+    },
+    {
+      "id": "w07",
+      "pattern": "فَعَّلَ",
+      "variants": [
+        "تَفْعِيل",
+        "مُفَعِّل"
+      ],
+      "function": "wazan II: membuat orang lain melakukan, atau menguatkan makna",
+      "stage": 3,
+      "examples": [
+        {
+          "ar": "دَرَّسَ",
+          "gloss": "mengajar (dari دَرَسَ = belajar)",
+          "root": "د ر س"
+        },
+        {
+          "ar": "عَلَّمَ",
+          "gloss": "mengajarkan (dari عَلِمَ = mengetahui)",
+          "root": "ع ل م"
+        }
+      ],
+      "note": "Mashdarnya berpola تَفْعِيل (تَدْرِيس، تَعْلِيم), pelakunya berpola مُفَعِّل (مُدَرِّس، مُعَلِّم)."
+    },
+    {
+      "id": "w08",
+      "pattern": "أَفْعَلَ",
+      "variants": [
+        "إِفْعَال",
+        "مُفْعِل"
+      ],
+      "function": "wazan IV: menjadikan atau menyebabkan",
+      "stage": 4,
+      "examples": [
+        {
+          "ar": "أَطْعَمَ",
+          "gloss": "memberi makan (dari طَعِمَ)",
+          "root": "ط ع م"
+        }
+      ],
+      "note": "Wazan II dan IV sering berdekatan maknanya, dan untuk akar tertentu hanya salah satunya yang lazim dipakai."
+    },
+    {
+      "id": "w09",
+      "pattern": "تَفَعَّلَ",
+      "variants": [
+        "تَفَعُّل",
+        "مُتَفَعِّل"
+      ],
+      "function": "wazan V: perbuatan yang kembali kepada pelakunya",
+      "stage": 4,
+      "examples": [
+        {
+          "ar": "تَكَلَّمَ",
+          "gloss": "berbicara",
+          "root": "ك ل م"
+        },
+        {
+          "ar": "مُتَكَلِّم",
+          "gloss": "pembicara, penutur",
+          "root": "ك ل م"
+        }
+      ],
+      "note": "Umumnya pasangan refleksif dari wazan II."
+    },
+    {
+      "id": "w10",
+      "pattern": "اِفْتَعَلَ",
+      "variants": [
+        "اِفْتِعَال",
+        "مُفْتَعِل"
+      ],
+      "function": "wazan VIII: perbuatan yang dialami sendiri atau bersama-sama",
+      "stage": 5,
+      "examples": [
+        {
+          "ar": "اِسْتَمَعَ",
+          "gloss": "menyimak",
+          "root": "س م ع"
+        },
+        {
+          "ar": "اِجْتَمَعَ",
+          "gloss": "berkumpul",
+          "root": "ج م ع"
+        },
+        {
+          "ar": "اِجْتِمَاع",
+          "gloss": "pertemuan, rapat",
+          "root": "ج م ع"
+        }
+      ],
+      "note": "Ta' pada pola ini berubah bentuk pada akar tertentu (misalnya menjadi ط atau د), yang disebut idgham/ibdal. Rinciannya di luar jangkauan A1-A2."
+    },
+    {
+      "id": "w11",
+      "pattern": "اِسْتَفْعَلَ",
+      "variants": [
+        "اِسْتِفْعَال",
+        "مُسْتَفْعِل"
+      ],
+      "function": "wazan X: meminta, mencari, atau menganggap",
+      "stage": 6,
+      "examples": [
+        {
+          "ar": "اِسْتَعْمَلَ",
+          "gloss": "memakai (membuat bekerja untuk diri)",
+          "root": "ع م ل"
+        },
+        {
+          "ar": "اِسْتِعْمَال",
+          "gloss": "pemakaian",
+          "root": "ع م ل"
+        }
+      ],
+      "note": "مُسْتَشْفَى (rumah sakit) berasal dari wazan ini: اِسْتَشْفَى = mencari kesembuhan."
+    },
+    {
+      "id": "w12",
+      "pattern": "فَعْل",
+      "variants": [
+        "فُعُول",
+        "فِعَالَة",
+        "فَعَال"
+      ],
+      "function": "mashdar wazan I: nama perbuatannya",
+      "stage": 6,
+      "examples": [
+        {
+          "ar": "دَرْس",
+          "gloss": "pelajaran",
+          "root": "د ر س"
+        },
+        {
+          "ar": "سُجُود",
+          "gloss": "sujud",
+          "root": "س ج د"
+        },
+        {
+          "ar": "قِرَاءَة",
+          "gloss": "bacaan",
+          "root": "ق ر أ"
+        },
+        {
+          "ar": "كَلَام",
+          "gloss": "ucapan",
+          "root": "ك ل م"
+        }
+      ],
+      "note": "Mashdar wazan I TIDAK punya satu pola tetap; polanya banyak dan harus dihafal per kata. Mashdar wazan II sampai X justru teratur."
+    }
+  ],
+  "items": [
+    {
+      "id": "r-q01",
+      "type": "mcq",
+      "stage": 2,
+      "prompt": "Kata مَكْتَب، مَلْعَب، dan مَطْعَم sama-sama berpola apa?",
+      "prompt_ar": null,
+      "options_lang": "id",
+      "options": [
+        "Isim makan (tempat terjadinya perbuatan)",
+        "Isim alat (benda untuk melakukan)",
+        "Isim fa'il (pelaku)",
+        "Isim maf'ul (yang dikenai)"
+      ],
+      "answer": 0,
+      "explain": "Pola مَفْعَل menandai tempat: tempat menulis, tempat bermain, tempat makan."
+    },
+    {
+      "id": "r-q02",
+      "type": "mcq",
+      "stage": 1,
+      "prompt": "Dari akar ك ت ب, mana yang berarti 'perpustakaan'?",
+      "prompt_ar": null,
+      "options_lang": "ar",
+      "options": [
+        "مَكْتَبَة",
+        "مَكْتَب",
+        "كِتَابَة",
+        "كَاتِب"
+      ],
+      "answer": 0,
+      "explain": "مَكْتَبَة (perpustakaan atau toko buku) berbanding مَكْتَب (kantor atau meja tulis). Keduanya pola tempat dengan dan tanpa ta' marbuthah."
+    },
+    {
+      "id": "r-q03",
+      "type": "mcq",
+      "stage": 2,
+      "prompt": "Apa perbedaan عَالِم dan عَالَم ?",
+      "prompt_ar": null,
+      "options_lang": "id",
+      "options": [
+        "عَالِم = orang berilmu, عَالَم = dunia",
+        "عَالِم = dunia, عَالَم = orang berilmu",
+        "Keduanya berarti 'ilmu'",
+        "Keduanya berbeda akar"
+      ],
+      "answer": 0,
+      "explain": "Hanya harakat pada lam yang berbeda (kasrah berbanding fathah), padahal keduanya berakar ع ل م. Contoh nyata mengapa teks tanpa harakat menuntut konteks."
+    },
+    {
+      "id": "r-q04",
+      "type": "mcq",
+      "stage": 4,
+      "prompt": "Mana kata yang BUKAN dari akar س م ع ?",
+      "prompt_ar": null,
+      "options_lang": "ar",
+      "options": [
+        "مَشْغُول",
+        "مَسْمُوع",
+        "اِسْتِمَاع",
+        "سَامِع"
+      ],
+      "answer": 0,
+      "explain": "مَشْغُول berakar ش غ ل (sibuk). Tiga lainnya berakar س م ع."
+    },
+    {
+      "id": "r-q05",
+      "type": "mcq",
+      "stage": 2,
+      "prompt": "Pola مِفْعَال menandai apa?",
+      "prompt_ar": null,
+      "options_lang": "id",
+      "options": [
+        "Alat untuk melakukan perbuatan",
+        "Tempat terjadinya perbuatan",
+        "Pelaku perbuatan",
+        "Nama perbuatan"
+      ],
+      "answer": 0,
+      "explain": "مِفْتَاح (alat pembuka) dan مِصْبَاح (alat penerang). Perhatikan kasrah pada mim, pembedanya dari مَفْعَل (tempat)."
+    },
+    {
+      "id": "r-q06",
+      "type": "mcq",
+      "stage": 3,
+      "prompt": "جَامِعَة (universitas) berasal dari akar apa?",
+      "prompt_ar": null,
+      "options_lang": "ar",
+      "options": [
+        "ج م ع",
+        "ج م ل",
+        "ج د د",
+        "ج ل س"
+      ],
+      "answer": 0,
+      "explain": "Akar ج م ع bermakna 'mengumpulkan'. Universitas adalah 'yang mengumpulkan' berbagai ilmu dan orang."
+    },
+    {
+      "id": "r-q07",
+      "type": "mcq",
+      "stage": 1,
+      "prompt": "Apa hubungan دَرَسَ dan دَرَّسَ ?",
+      "prompt_ar": null,
+      "options_lang": "id",
+      "options": [
+        "دَرَسَ = belajar, دَرَّسَ = mengajar (wazan II)",
+        "Keduanya berarti 'belajar'",
+        "دَرَسَ = mengajar, دَرَّسَ = belajar",
+        "دَرَّسَ adalah bentuk jamak dari دَرَسَ"
+      ],
+      "answer": 0,
+      "explain": "Menggandakan huruf tengah (wazan II) sering mengubah makna menjadi 'membuat orang lain melakukan'."
+    },
+    {
+      "id": "r-q08",
+      "type": "mcq",
+      "stage": 1,
+      "prompt": "Dari akar ف ت ح, kata apa yang berpola isim maf'ul (yang dikenai perbuatan)?",
+      "prompt_ar": null,
+      "options_lang": "ar",
+      "options": [
+        "مَفْتُوح",
+        "مِفْتَاح",
+        "فَاتِح",
+        "فَتْح"
+      ],
+      "answer": 0,
+      "explain": "Pola مَفْعُول. مِفْتَاح adalah alat, فَاتِح adalah pelaku, فَتْح adalah mashdar."
+    },
+    {
+      "id": "r-q09",
+      "type": "mcq",
+      "stage": 5,
+      "prompt": "حَاسُوب (komputer) dibentuk dari akar apa, dan mengapa?",
+      "prompt_ar": null,
+      "options_lang": "id",
+      "options": [
+        "ح س ب, karena akar itu bermakna 'menghitung'",
+        "ح و س, karena menyerap kata asing",
+        "ح س ن, karena bermakna 'baik'",
+        "Tidak berakar, kata serapan murni"
+      ],
+      "answer": 0,
+      "explain": "Kata buatan modern yang memakai akar lama. Seakar dengan حِسَاب (hitungan) dan مُحَاسِب (akuntan)."
+    },
+    {
+      "id": "r-q10",
+      "type": "mcq",
+      "stage": 3,
+      "prompt": "Mengapa pola kata hanya memberi DUGAAN makna, bukan kepastian?",
+      "prompt_ar": null,
+      "options_lang": "id",
+      "options": [
+        "Karena satu pola bisa punya beberapa fungsi, dan makna kata bisa menyimpang dari polanya",
+        "Karena pola hanya berlaku untuk kata kerja",
+        "Karena pola berubah setiap tahun",
+        "Karena pola tidak dipakai dalam MSA"
+      ],
+      "answer": 0,
+      "explain": "Contohnya pola فَاعِل: كَاتِب bermakna pelaku, tetapi بَارِد hanyalah sifat. Pola mempercepat pengenalan, kamus tetap diperlukan."
+    },
+    {
+      "id": "r-q11",
+      "type": "mcq",
+      "stage": 6,
+      "prompt": "مُسْتَشْفَى (rumah sakit) berasal dari wazan apa?",
+      "prompt_ar": null,
+      "options_lang": "ar",
+      "options": [
+        "اِسْتَفْعَلَ",
+        "اِفْتَعَلَ",
+        "تَفَعَّلَ",
+        "فَعَّلَ"
+      ],
+      "answer": 0,
+      "explain": "Dari اِسْتَشْفَى (mencari kesembuhan), akar ش ف ي. Wazan X sering bermakna 'meminta atau mencari'."
+    },
+    {
+      "id": "r-q12",
+      "type": "mcq",
+      "stage": 6,
+      "prompt": "Mana pernyataan yang benar tentang mashdar wazan I?",
+      "prompt_ar": null,
+      "options_lang": "id",
+      "options": [
+        "Polanya banyak dan harus dihafal per kata",
+        "Polanya selalu فَعْل",
+        "Polanya selalu تَفْعِيل",
+        "Wazan I tidak punya mashdar"
+      ],
+      "answer": 0,
+      "explain": "Bandingkan دَرْس، سُجُود، قِرَاءَة، كَلَام: semuanya mashdar wazan I dengan pola berbeda. Mashdar wazan II sampai X justru teratur."
+    },
+    {
+      "id": "r-q13",
+      "type": "mcq",
+      "stage": 3,
+      "prompt": "Apa pola mashdar untuk wazan II (فَعَّلَ) ?",
+      "prompt_ar": null,
+      "options_lang": "ar",
+      "options": [
+        "تَفْعِيل",
+        "إِفْعَال",
+        "اِفْتِعَال",
+        "اِسْتِفْعَال"
+      ],
+      "answer": 0,
+      "explain": "دَرَّسَ menjadi تَدْرِيس، عَلَّمَ menjadi تَعْلِيم. Pola lain pada pilihan adalah mashdar wazan IV, VIII, dan X."
+    },
+    {
+      "id": "r-q14",
+      "type": "mcq",
+      "stage": 3,
+      "prompt": "أَكْبَر dan أَفْعَلَ ditulis dengan pola yang mirip. Apa pembedanya?",
+      "prompt_ar": null,
+      "options_lang": "id",
+      "options": [
+        "Harakat huruf akhir dan konteks: أَكْبَر kata sifat, أَفْعَلَ kata kerja",
+        "Jumlah hurufnya",
+        "Yang pertama memakai ال",
+        "Tidak ada pembedanya"
+      ],
+      "answer": 0,
+      "explain": "Dua pola berbeda yang kebetulan berangka huruf sama. Inilah salah satu alasan harakat penting."
+    },
+    {
+      "id": "r-q15",
+      "type": "mcq",
+      "stage": 1,
+      "prompt": "Mana kata yang BUKAN dari akar ك ت ب ?",
+      "prompt_ar": null,
+      "options_lang": "ar",
+      "options": [
+        "كَبِير",
+        "مَكْتُوب",
+        "كِتَابَة",
+        "مَكْتَبَة"
+      ],
+      "answer": 0,
+      "explain": "كَبِير berakar ك ب ر. Kesamaan huruf pertama saja tidak berarti seakar."
+    },
+    {
+      "id": "r-q16",
+      "type": "mcq",
+      "stage": 1,
+      "prompt": "Berapa huruf akar kata Arab pada umumnya?",
+      "prompt_ar": null,
+      "options_lang": "id",
+      "options": [
+        "Tiga, meski ada yang empat",
+        "Selalu tiga tanpa kecuali",
+        "Selalu empat",
+        "Dua atau tiga"
+      ],
+      "answer": 0,
+      "explain": "Mayoritas akar berhuruf tiga. Ada juga akar berhuruf empat seperti ه ن د س pada مُهَنْدِس dan ت ر ج م pada تَرْجَمَة."
+    },
+    {
+      "id": "r-q17",
+      "type": "mcq",
+      "stage": 3,
+      "prompt": "مُجْتَمَع berarti 'masyarakat'. Apa hubungannya dengan akarnya?",
+      "prompt_ar": null,
+      "options_lang": "id",
+      "options": [
+        "Akar ج م ع bermakna 'berkumpul'; masyarakat adalah 'tempat berkumpul'",
+        "Akarnya ج م ل yang bermakna 'indah'",
+        "Tidak ada hubungan, kata serapan",
+        "Akarnya م ج ت yang bermakna 'bersama'"
+      ],
+      "answer": 0,
+      "explain": "Pola مُفْتَعَل dari wazan VIII اِجْتَمَعَ (berkumpul)."
+    },
+    {
+      "id": "r-q18",
+      "type": "mcq",
+      "stage": 1,
+      "prompt": "Mengapa mengenal akar kata mempercepat belajar kosakata?",
+      "prompt_ar": null,
+      "options_lang": "id",
+      "options": [
+        "Karena satu akar menurunkan banyak kata yang maknanya saling terkait",
+        "Karena semua kata seakar artinya sama",
+        "Karena akar menggantikan kamus",
+        "Karena akar menentukan harakat i'rab"
+      ],
+      "answer": 0,
+      "explain": "Menghafal ك ت ب sekali membuat كِتَاب، كَاتِب، مَكْتَب، مَكْتَبَة، مَكْتُوب، كِتَابَة lebih mudah diingat sebagai satu kelompok."
+    }
+  ]
+}

@@ -95,12 +95,10 @@ body {
   max-width: 880px;
   margin: 14px auto 0;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 6px;
-  overflow-x: auto;
-  scrollbar-width: none;
-  padding-bottom: 4px;
 }
-.tabs::-webkit-scrollbar { height: 0; }
 .tabs button {
   flex: 0 0 auto;
   background: transparent;

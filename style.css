@@ -435,18 +435,6 @@ body {
 }
 
 /* ---------- kaki & tema ---------- */
-.foot {
-  max-width: 880px;
-  margin: 40px auto 0;
-  padding-top: 16px;
-  border-top: 1px solid var(--line);
-  color: var(--ink-faint);
-  font-size: .78rem;
-}
-.foot p { margin: 0 0 8px; }
-.foot a { color: var(--accent); }
-.foot code { font-size: .95em; }
-
 .theme-switcher {
   display: flex;
   justify-content: center;
